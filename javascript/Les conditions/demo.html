@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <script>
+        var marc = {
+            nom: 'Marc',
+            age:18,
+            moyenne: 15
+        }
+
+        if (marc.age >= 18 && marc.age < 25 || marc.age > 60) {
+            console.log('Vous avez droit a une reduction')
+        } 
+        
+        else if (marc.age === 30) {
+            console.log('Vous avez 30 ans');
+        }
+
+        else {
+           console.log('Vous n\'avez pas a une reduction')
+        }
+
+        switch (marc.age) {
+            case 18:
+            console.log('Bravo tu as 18ans');
+            break
+            case 25:
+            console.log('Bravo tu as 25ans');
+            break
+            default:
+                console.log('Bon annive');
+        }
+
+
+    </script>
+    <style>
+        body {
+            background: rgb(97, 88, 88);
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
