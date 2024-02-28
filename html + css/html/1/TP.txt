@@ -1,0 +1,14 @@
+menu pour sauter d'une page a l'autre
+
+- page d'accueil
+	petit txt c'est quoi notre restau
+- menu
+	un tableau av 2 colonnes - les noms de plats             (a droit)  les prix
+				 	les ingrédient
+entree , plats principal , dessert
+
+- contact
+	formulaires de contact :
+			- nom, message et email,
+widget google maps, adresse du restau
+

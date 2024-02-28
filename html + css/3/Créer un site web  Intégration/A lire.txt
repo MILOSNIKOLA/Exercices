@@ -1,0 +1,79 @@
+     .r                                                                                            .&&
+      &B&r                                                                                       .&BB.
+      .OB&Yr                                                                                  .rYY&Or
+       .&YYr&r.                                                                             .r&rrrYY
+        rrYrrYYYr                                                                         .Y&rYrYrY
+         rYrYYYrY&r                                                                     .&&YrYrYYY.
+          &rYrrYr&YY                                                                   r&r&rYrYrYr
+          .&rYYYY&rr&.                                                                YYrrOY&rYYY
+           .&YY&&&YYrYr                                                             .&rrYYr&&&&&
+            rOYrYrrrYrrY.                                                          r&rrYrrr&rY&
+             .&rrYrrrYrrYr                                                        YYrrYrrYYrYr
+               &rrrYrrYYrYY                          .r&Y         .rr&.         .&rrYYrr&rrYr
+                r&rrYrrr&rr&.                      .&B&Yr      rYrr.Y&         r&rrYrrr&rr&.
+                 .&rrYYrr&rrYr                    rO&r.rr    .Yr..r&&         YYrr&rrYYrrY
+                   YYrrYrrrYrrY.                 &&r.r.rr   rr..r.&&        .&rrYYrrYYr&r
+                    r&rrYrrr&rrYr               &Y.r...rY .rr.r..r&        r&rrYrrr&rrY.
+                     .&rrYYrrYYrYY             &r...r.r.&rrr...r.&.       YYrrYrrYYrrY
+                       YYrrYrrrYrr&.          &r.r.r...rrOr..r..r&rYYYYYY&&&&&rr&rrYr
+                        .&rrYrrr&rrYr        r&r..r..r...r.r..r.YOYr.r.rr&&OO&&&rr&.
+                         .&rrrYrrYYrrY.   rYrOr.r..r.r.r.r..r.r.r..rrrYOO&&rrYYrrY
+                           r&rrYrrrYrr&r&Y&&Yrr.r.r..r.r..r.r..r.rrrr&BYYYrrYYr&r
+                            .&rrYYrr&rr&Brr.r.r.r.r.r.r.r.r.r.r.r.rr&BO&&&&OYr&.
+                     ..r.r.. .YrrrYrr&Orrr.r.r.r.r.r.r.r.r.r.rrr.rrYB&YrrYY&YY         ..Y&&OOOOO&Yr.
+               .rY&OOBBBBBBBBB&O&rr&&&&rr.r.r.r.r.r.r.r.Yr.r.rYYrrrYBYrrrY&OOY.    .r&OBBBBBBBBBBBBBBO&.
+            rYOBBBBBBBBBBBBBBBBBBBB&rrr.r.r.r.r.r.r.r.r.r&rrrrO&&&YYBOYrrrrYY&OOrYOBBBBBBBBBBBBBBBBBBBBBOY.
+         r&BBBBBBBBBBBBBBBBBBBBBBBBBrr.r.r.r.r.r.r.r.r.rrY&rr&&.rr&OBB&rrrrrrrYBBBBBBBBBBBBBBBBBBBBBBBBBBBB&
+        OBBBBBBBBBBBBBBBBBBBBBBBBBOrr.rrr.rrr.rrr.rrr.rr.rr&YOrrrr.rr&Brrr.rrrYOBBBBBBBBBBBBBBBBBBBBBBBBBBBB.
+      .&BBBBBBBBBBBBBBBBBBBBBBBBBOr.rr.r.rr.rr.r.rr.rr.rr.rrBrrr.rrrr.rr.rrrrrrYOBBBBBBBBBBBBBBBBBBBBOOOO&OB&
+     rBBO&&&&YYYYYY&&&&&OBBBBBBBBrrr.rrrr.rr.rrrr.rr.rr.rrrrrr.rr.r.rrrrr.r.rrrY&BBBBBBBBBBBBOO&&&&YYYYYYY&.Yr
+     .&YYrrrrrrrrrYrYYYYYY&&BBBBrrrrrr.rrrrrrr.rrrrrrrrrr.r.rrrrrrrrr.r.rrrrrrrrYOBBBBBBBBO&&&&&YYYYYYYYY&
+      r&rrrrrrrrrrrrrrrY&Y&&&&BYr.r.rrrr.r.r.rrr.r.r.r.rrrrrr.r.r.r.rrrrr.rrrrrrrYBBBBBO&&&&&Y&YY&YYYYY&&
+       YYrrrrrrrrrrrrrrrrYYY&&&rrrrrrr.rrrrrrrrrrrrrrrrrr.rrrrrrrrrrrrr.rrr.rrrrYY&BBO&&&&&&Y&Y&YYYYY&OY
+        &rrrrrrrrrrrrrrrrrrYYOrrrrrr.rrrrrrrr.rr&OO&rrrrrrr&OO&rrrrr.rrrrrrrrrrrrY&O&&&&&&&&&Y&YY&Y&&Or
+        .&rrrrrrrrrrrrrrrrrr&&rrrr.rrrrrrr.rrrrOBBBBBYrrrYBBBBB&rr.rrrrrrrrrrrrrrYYB&&&&&&&Y&&Y&Y&Y&O.
+         .YrrrrrrrrrrrrrrrrrOrrrrrrrrrrrrrrrrrB&rrYBBOrrrOBBYrrOOrrrrrrrrrrrrrrrrrY&B&&&&&&&&Y&Y&&O&
+          .YrrrrrrrrrrrrrrrYOrrrrrrrrrrrrrrrYBY    .BBrrrBB.    &BYrrrrrrrrrrrrrrYY&B&&&&&&&&&&&&Or
+           .&rrrrrrrrrrrrrr&&rrrrrrrrrrrrrr&Br      OBrrrBO      rB&rrrrrrrrrrrrrrYYB&&&&&&&Y&&OY
+            .&YrrrrrrrrrrrYOrrrrrrrrrrrrrr&B.       BBrrrBO       rB&rrrrrrrrrrrrrYYO&&&&&&&&&&.
+              r&rrrrrrrrrr&&rrrrrrrrrrrrr&O.    .&&YOBrrrBBY&&     .B&rrrrrrrrrrrYr&B&&&&&&&&r
+               .&&rrrrrrrr&Yrrrrrrrrrrrr&B.     &BOBBOrrrOBBOB&     .B&rrrrrrrrrYrY&BB&&&&Or
+                 r&YrrrrrrBrrrrrrrrrrrr&B.      OO.BBBrrrBBB.OO      rB&rrrrrrrrrYY&O&&OO&.
+                   .&&Yrr&&rrrrrrrrrrr&Br       &BBBBOrrrOBBBB&       rBYrrrrrrrYrY&BBBBB&&r.
+                   .r&BO&OYrrrrrrrrrrYOY         Y&YBOrrrOBY&Y         YBYrrrrrrrYY&&YYYYY&r
+                  YB&YrrrrrrrrrrrrrrrB&             BOrrr&B             &OrrrrrrrYYYrYYY&Y
+                .O&rrrrrrrrrrrrrrrrr&Br            .B&rrr&B.            rBOrrrrrrYrYYYYOr
+                OOYYrrrrrrrrrrrrrrrrBB&.        ..r&B&rrr&B&r..        .&BBrrrrrrYYrYr&Orr
+               ..  .rOYrrrrrrrrrrrrr&BBBBBBBBBBBBBBBOYrrrYOBBBBBBBBBBBBBBBOrrrrrrYYYYY&&&Yr
+                   .&rrrrrrrrrrrrrrrr&&&&&&&&&&&&YYrrY&O&YrrYY&&&&&&&&&&&YrrrrrrrrrYrYY&&.
+                  .&rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrOBO &rrrrrrrrrrrrrrrrrrrrrrrYYYYYYY&&
+                  &&rr&&rrrrrrrrrrrrrrrrrrrrrrrrrrrrrOBBBOrrrrrrrrrrrrrrrrrrrrrrYrYYOOO&&&.
+                  r  rOYrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr&O&YrrrrrrrrrrrrrrrrrrrrrYY&&&Y&.rYO.
+                     O&rr&&rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrYYY&BO&OOr
+                    rBYr.rOrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrYYYOB&&r ..
+                    Y&. rO&&OOYrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrYY&BO&&YY&.
+                    Y  YY&&&YrO&Yrrrrrrrrrrrrrrrrrrrrr&B&rrrrrrrrrrrrrrrrrY&BB&YY&&Yr&r
+                     .&rr&Yrr&&&O&YrrrrrrrrrrrrrrrrrrrY&YrrrrrrrrrrrrrrY&OBOOY&&YrY&Yr&Y
+                    rYrrYrrr&Yr&Y.Y&&rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrY&OB&r .&Yr&&rY&&YY&.
+                   Yrrr&rrY&rr&r    .Y&&&YrrrrrrrrrrrrrrrrrrrrrrrrY&OBOY.    .YYYY&YrY&YY&r
+                 .&rrYYrrYYrr&.         .r&&O&&YYrrrrrrrrrrrrrY&&BO&r.         r&rY&YYY&YYY&.
+                rYrrYrrr&rrYY                .rrYY&&&&&&&&&&&&Yr..              .&Yr&&rY&&YY&r
+               YrrrYrrr&rr&r                                                      Y&rY&YrY&YY&Y
+             .&rrYYrr&Yrr&.                                                        r&Yr&&YY&&YY&.
+            rYrrYrrr&rrYY                                                           .&YYY&YYY&YY&r
+          .Yrrr&rrY&rr&r                                                              Y&YY&YYY&YY&&.
+         .&rr&YrrYYrr&.                                                                r&YY&&YY&&Y&&&
+        &&&Y&rrr&rrYY                                                                   .YYYY&YY&&Y&&r
+       r&&Y&&rY&rr&r                                                                      r&YY&&&Y&rrrr
+      .YrrY&Y&&rr&.                                                                        .&Y&&YYrrrrY
+      rYrrrrYYYY&                                                                            &&r&....&.
+       &r...rYYY                                                                              &&r..r&r
+        rYr.rr..                                                                                .rYY.
+          rr.           
+
+Vous venez de télécharger ce fichier sur www.jojoratonlaveur.fr:
+
+                            (¯` •.¸¸.->   Conditions d'utilisation  <-.¸¸.•´¯)
+
+Les sources fournies par le site sont à usage personnel seulement. Elles ne peuvent être en aucun cas
+utilisées à des fins commerciales.

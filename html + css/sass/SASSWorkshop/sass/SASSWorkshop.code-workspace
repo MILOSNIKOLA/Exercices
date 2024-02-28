@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\ex\\EX1"
+		}
+	],
+	"settings": {
+		"workbench.settings.openDefaultSettings": true,
+		"workbench.settings.openDefaultKeybindings": true,
+		"editor.stickyTabStops": true,
+		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+		"typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+		"typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+		"files.autoSave": "onWindowChange",
+		"editor.tabSize": 4,
+		"editor.accessibilityPageSize": 10,
+		"editor.codeLensFontSize": 0,
+		"editor.inlayHints.fontSize": 0,
+		"editor.lineHeight": 0,
+		"editor.padding.top": 0,
+		"editor.scrollbar.verticalScrollbarSize": 12,
+		"editor.scrollbar.horizontalScrollbarSize": 12
+	}
+}

@@ -1,0 +1,183 @@
+$medium: 500px; 
+$base-font-size: 14px;
+
+@import "libs/fonctions.scss";
+@import "libs/mixins.scss"; // from mixins
+@import "libs/reset.scss";
+@import "libs/responsive.scss";
+
+//$primary:rgb(105, 143, 214);//la couleur du Var
+$primary:rgb(77, 77, 77);
+$padding: 20px;
+
+html, body {
+    font-size: $base-font-size;
+}
+
+body {
+    padding: $padding;
+   background: #b3b0b0;
+   font-family: sans-serif;
+}
+
+p {
+   margin: 1rem;
+}
+
+//-------------------------  l'imbrication -----------
+
+.table{
+    width: 100%;
+
+    td {
+        border: 1px solid #ccc;
+    }
+
+    thead {
+        background: {
+            color: #000;
+            repeat: no-repeat;
+        }
+
+        color: #fff;
+    }  
+    
+    @media only screen and (max-width: 1200px) {
+       width: 90%;
+    }
+}
+
+%btn {    //  faux-selecteur
+    padding: em(5) em(12);
+    border-radius: 3px;
+}
+
+.btn {
+    @extend %btn;
+    text-decoration: none;
+    background: $primary;  //valNom
+    @debug lightness($primary) > 50%;//ako pisemo ex. > 50%,onda cekamo false / true  // en console se vidi koliko je tamna / osvetljenost
+    @if (lightness($primary) > 50%) {  //if = ako si , lumniosite
+        color: #000;
+    } @else {
+        color: #fff ;
+    }
+
+//   @if (2 > 1) {
+//        color: #000;
+//    }
+//     @else {
+//        color: #fff;
+//     }
+
+    &:hover {
+        background: darken($primary, 20);
+    }
+}
+
+.big {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+//------------------- L'Heritage  ------------------
+
+.btn-danger {
+    @extend .btn;
+
+    background: rgb(179, 77, 77);
+    &:hover {
+        background: rgb(116, 33, 33);
+    }
+}
+
+%shadow {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    @extend %shadow;
+    padding: 10px;
+    border-radius: 3px;
+    position: relative;
+    background: #fff;
+    @include triangle($color: #fff);
+}
+
+.card-action {
+    @extend .btn;
+}
+
+.card-cancel {
+    @extend .btn-danger;
+}
+
+.card-actions {
+    display: flex;
+}
+
+@for $i from 1 through 4 {  // for boucle
+    .m-#{$i} {
+        margin:0 ($i * .25rem);
+    }
+}
+
+$animals: bear, lion, camel;  // each = chaque
+
+@each $animal in $animals {
+    
+    .icon-#{$animal} {
+        background: url(img/#{animal}.png);
+    }
+ }
+
+$categories: 
+    chien #ff0000,
+    chat #00ff00,
+    poisson #0000ff;
+
+@each $category in $categories {
+    .#{nth($category, 1)} {
+        background: nth($category, 2);
+        
+            @if (lightness(nth($category,2)) > 50%) {  //if = ako si , lumniosite
+        color: #000;
+    }       @else {
+        color: #fff ;
+    }
+    }
+}
+
+//--------------------  Les Variables  -------------
+
+// Variables => $nomDuVal et la valeur
+// en selecteur #{$val} a utiliser la syntaxe avec '#'
+// darken ili lighten ($var , 10) asombrir ili éclaircir
+//varDucoleur(si la coleur est en '#', on peut
+// la convertir en rgba($var, 0.5) 
+// val(} par defaut qui peut ecrase par un css qui importerait
+// ce css
+
+@media #{$medium-up} { //Val ds 1 selector il fo #{} 
+    .card-actions {
+        display: block;
+    }    
+
+    .btn {
+        width: 100%;
+    }
+}   
+
+//--------------------  Les Mixins  ----------------------
+
+// mixins se ubaci tako sto se napise @include
+// !!! mixins se repetira u codu
+
+/*
+    - moze bez style.css.map jer je beskoristan
+
+    - script, .bat : ./dart-sass/sass sass/style.scss style.css --style=compressed --no-source-map 
+    kad je spremno da se objevi.
+
+    - en .bat on pe watch
+*/

@@ -1,0 +1,189 @@
+/*
+		    CSS par Le Raton Laveur
+				www.jojoratonlaveur.fr
+*/
+
+body{
+	background:url(theme/fond.jpg) no-repeat top center #1d88c5;
+	margin:0;
+	padding:0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:9px;
+}
+.droite{
+	text-align:right;
+}
+.clear{
+	clear:both;
+}
+a{
+	color:#0fafcf;
+	text-decoration:none;
+}
+a:hover{
+	color:#000;
+}
+/*/////////////////////////////////////
+		    Le Header
+/////////////////////////////////////*/
+#top{
+	background:url(theme/top.png) no-repeat transparent top center;
+	margin:50px 0 40px 0;
+	height:50px;
+	font-size:24px;
+	line-height:55px;
+	color:#FFF;
+	text-align:center;
+}
+#top .petit{
+	font-size:14px;
+}
+
+/*/////////////////////////////////////
+		    Le conteneur
+/////////////////////////////////////*/
+#conteneur{
+	width:538px;
+	margin:0 auto;
+	}
+
+
+/*/////////////////////////////////////
+		    Le menu
+/////////////////////////////////////*/
+#menu {
+	background:url(theme/contenu_h.png) no-repeat bottom left;
+	height:55px;
+}
+
+#menu ul li{
+	float:left;
+	padding:0;
+	list-style:none;
+}
+
+#menu ul li a{
+	height:43px;
+	width:107px;
+	font-size:14px;
+	line-height:53px;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	color:#FFF;
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+#menu ul li a:hover{
+	height:43px;
+	width:107px;
+	line-height:43px;
+	text-decoration:none;
+	text-align:center;
+	color:#FFF;
+	background-repeat:no-repeat;
+	background-position:bottom left;
+}
+/* Les différentes couleurs des menu */
+#menu ul li a.orange{
+	background-image:url(theme/btn_orange.png);
+}
+#menu ul li a.bleu{
+	background-image:url(theme/btn_bleu.png);
+}
+#menu ul li a.vert{
+	background-image:url(theme/btn_vert.png);
+}
+#menu ul li a.rouge{
+	background-image:url(theme/btn_rouge.png);
+}
+
+/*/////////////////////////////////////
+		    Le contenu
+/////////////////////////////////////*/
+#contenu{
+	background:url(theme/contenu.png) repeat-y left;
+	padding:0 20px;
+}
+
+/* Les news */
+#news{
+	float:left;
+	width:300px;
+}
+#news h1{
+	padding:0 10px;
+	margin:0;
+	display: block;
+	height:27px;
+	line-height:27px;
+	width:282px;
+	background:url(theme/news_h1.jpg);
+	font-size:1em;
+	font-weight:bold;
+}
+#news p{
+	padding:0 15px;
+	color:#bababa;
+}
+
+/* La navigation */
+#navigation{
+	float:right;
+}
+.bloc{
+	width:160px;
+	margin:10px 0 0 0;
+	padding:10px 0 0 10px;
+	background:url(theme/nav.jpg) no-repeat top left;
+}
+.finbloc{
+	background:url(theme/nav_b.jpg) no-repeat top left;
+	width:170px;
+	margin:0;
+	height:15px;
+}
+#navigation h1{
+	padding:0 0 0 19px;
+	margin:0;
+	color:#FFF;
+	display: block;
+	height:34px;
+	line-height:30px;
+	width:133px;
+	background:url(theme/nav_h1.jpg) no-repeat;
+	font-size:1em;
+	font-weight:bold;
+}
+#navigation ul{
+	list-style-image:url(theme/nav_li.jpg);
+	color:#959595;
+	margin:0;
+}
+#navigation ul li a{
+	list-style-image:url(theme/nav_li.jpg);
+	color:#959595;
+}
+#navigation ul li a:hover{
+	color:#000000;
+}
+/*/////////////////////////////////////
+		    Le footer
+/////////////////////////////////////*/
+#bas{
+	margin:0 auto;
+	padding:0 0 16px 40px ;
+	background:url(theme/bas.png) no-repeat;
+	width:517px;
+	height:25px;
+	color:#FFF;
+	line-height:25px;
+}
+#bas a{
+	font-weight:bold;
+	color:#CCC;
+}
+#bas a:hover{
+	font-weight:bold;
+	color:#FFF;
+}

@@ -1,0 +1,20 @@
+body {
+    background: fixed;
+    background-color: #000000;
+}
+
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+    font: 3em 'times', serif;
+}
+
+.li {
+    color: blanchedalmond;
+}
+
+li {
+    display: flex;
+    width: 1000px;
+    padding: 0 auto;
+}

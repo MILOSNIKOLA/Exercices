@@ -1,0 +1,21 @@
+body {
+    background:url(./theme/fond.jpg) no-repeat top center #1d88c5;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: 9px;
+}
+
+#top{
+    height: 72px;
+    background: url(./theme/top.png) no-repeat top center;
+    font-size: 24px;
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+    margin: 50px 0 40px 0;
+}
+
+.petit {
+    font-style:14px;
+}

@@ -1,0 +1,89 @@
+@import "libs/reset.scss";
+@import "libs/resp.scss";
+@import "libs/mixins.scss";
+@import "libs/functions.scss";
+
+$padding: 15px;
+$bojaplava: rgb(105, 143, 214);
+
+body {
+    background:grey;
+    margin:50px 50%;
+    width: 50%;
+    font-family: sans-serif;
+    font-size: 50px;
+    padding: $padding;
+}
+
+p {
+    margin: 1rem;
+}
+
+%btn {
+    border-radius: 10px;
+    padding: 0;
+}
+
+.btn {
+    @extend %btn;
+    border-radius: 3px;
+    text-decoration: none;
+    background: $bojaplava;
+    color: #fff;
+
+    &:hover {
+        background: rgb(67, 98, 155);
+    }
+}
+
+.card-action {
+    @extend .btn;
+}
+
+.card-cancel {
+    @extend .btn-danger;
+    /*width: 200px;*/
+
+    &:hover {
+        background: rgb(255, 14, 14)!important;
+        color:rgb(255, 255, 255);
+    }
+}
+
+.btn-danger {
+    border-radius: 10px;
+    padding:  $padding 12px;
+    background: rgb(80, 6, 6);
+    color:#000;
+    text-decoration: none;
+
+    &:hover {
+        background: green;
+        color:#fff;
+    }
+}
+
+.card {
+    box-shadow: 0 1px 5px rgb(198, 231, 12);
+    padding:10px;
+    width: 300px;
+
+    &:hover {
+        background: rgb(208, 255, 1);
+    }
+}
+
+.card-action {
+    width: 200px;
+}
+
+.card-actions {
+    display: flex;
+}
+
+@media #{$med-up} {
+    .card-cancel{
+        background:#ffffff;
+    }
+}
+
