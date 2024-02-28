@@ -1,0 +1,814 @@
+html, body,span, applet, object, iframe,
+blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background: url("./img/pigs.jpg") center/cover fixed;
+    width: 100%;
+    
+}
+/******************** TITRE  **********************************************/
+h1{
+    color: #000000!important;
+    text-align: center;
+    padding:0 10px;
+    margin: 0 10px;
+    margin-bottom: 15px;
+    font-family: 'Delius Swash Caps', cursive;
+    border: #000000 2px solid;
+    border-radius: 10px;
+    margin: 0 400px;
+    background-color: olivedrab;
+    transition: all 3s ease-in-out;
+    transition: all 3s ease-in;
+}
+h1:hover {
+     margin:0 200px;
+     padding: 0;
+     background-color: rgb(138, 180, 53);
+    
+}
+/***********************************************************************************/
+
+/*************************************** Navbar  ********************************/
+
+#wrap {
+    width: 850px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    z-index: 99;
+    position: relative;
+    background-color: #444444;
+  }
+  
+  a.acc {
+    text-transform: uppercase;
+   }
+
+  a.acc:hover {
+   font-size: 20px;
+   transition: 1s ease;
+   
+  }
+
+  a.bcc:hover, {
+    border-radius: 10px;
+    transition: 1s ease;
+  }
+
+  .navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+  .navbar li {
+    height: auto;
+    width: 140px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #444444;
+  }
+  .navbar a {
+    font-size: 10px;
+    padding: 18px 0;
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  .navbar li:hover,
+  a:hover {
+    background-color: #444444;
+  }
+  .navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li:hover ul {
+    display: block;
+  }
+  .navbar li ul li {
+    background-color: #444444;
+  }
+  .navbar li ul li a {
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 1px solid #c9d4d8;
+    border-bottom: 1px solid #444444;
+    
+  }
+  .navbar li ul li a:hover {
+    background-color: #a3a1a1;
+  }
+
+
+
+/**************************************************************************************/
+
+
+h2 {
+    text-align: center;
+    padding:0 10px;
+    font-weight: 200;
+    font-family: 'Delius Swash Caps', cursive;
+    border: #000000 2px solid;
+    border-radius: 10px;
+    color: #c9d4d8;
+    margin: 10px 10px 10px ;
+    background-color: olivedrab;
+    position: relative;
+    font-size: 50px;
+    /* letter-spacing:10px; */
+    font-family: sans-serif;
+    display:table;
+    margin:10px auto;
+    cursor:pointer;
+    transition:.6s;
+}
+
+h2:hover {
+  border-radius: 30px;
+  transition: 2s;
+}
+
+h2:before,
+h2:after {
+  content:attr(data-text);
+  transition:.6s;
+  
+}
+h2:before {
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index:-1;
+  text-shadow:
+   0px 0px,
+   0px 0px,
+   0px 0px,
+   0px 0px,
+   0px 0px,
+   0px 0px,
+   0px 0px,
+   0px 0px,
+   0px 0px,
+   0px 0px;
+  -webkit-mask:repeating-linear-gradient(45deg, transparent 0 3px, rgba(0,0,0,0.5) 0 6px);
+          mask:repeating-linear-gradient(45deg, transparent 0 3px, rgba(0,0,0,0.5) 0 6px);
+}
+h2:hover {
+  transform:translate(-10px,-10px);
+}   
+h2:hover:before {
+  text-shadow:
+   1px 1px,
+   2px 2px,
+   3px 3px,
+   4px 4px,
+   5px 5px,
+   6px 6px,
+   7px 7px,
+   8px 8px,
+   9px 9px,
+   10px 10px;
+}
+
+
+.intro {
+    text-align: justify;
+    font-size: 20px;
+    border: solid;
+    
+    background: #00000080;
+    color: rgb(145, 182, 165);
+}
+
+.intro:hover {
+  border-radius: 40px;
+  transition: 2s;
+  color: rgb(255, 255, 255);
+}
+
+.intro {
+  height: 536px;
+  
+  font-size: 16px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: none;
+  float: left;
+  border:1px solid #000000;
+  margin-left: 15px;
+  overflow-y: scroll;
+}
+
+.intro,.intro1 {
+  
+}
+
+.intro, .intro1 {
+  height: 536px;
+  max-width: 48%; 
+  max-width: 45%;
+  padding: 5px;
+  min-width: 5%;
+  
+ 
+}
+
+.intro1 {
+ 
+  
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: none;
+  float: right;
+  text-align: justify;
+  font-size: 16px;
+  border: solid;
+  margin-right: 15px;
+  
+  background: #00000080;
+  color: rgb(98, 143, 122);
+  
+  overflow-y: scroll;
+  
+}
+
+.intro1:hover {
+  border-radius: 40px;
+  transition: 2s;
+  
+  color: #ffffff;
+  background: #38050580;
+}
+
+
+h1 {
+  
+  text-transform: uppercase;
+  font-family: 'Gambetta', serif; 
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  color: PaleGoldenRod;
+  /* outline: none; */
+  text-align: center;
+}
+
+h1:hover {
+  font-variation-settings: "wght" 582; 
+  letter-spacing: 5px;
+}
+
+/*******************  IMG  ****************************************/
+
+
+
+.logo img {
+  background-image: url("./img/pigg.jpg") ;
+  min-width:48%;
+  width: 100%;
+  height: 600px;
+  
+  display: inherit;
+}
+
+
+
+h2.h22 {
+  
+    text-align: center;
+    min-width: 50%;
+    display: flex;
+    font-weight: 200;
+    font-family: 'Delius Swash Caps', cursive;
+    border: #000000 2px solid;
+    border-radius: 10px;
+    color: #c9d4d8;
+    background-color: olivedrab;
+    justify-content: center;
+    font-size: 50px;
+    letter-spacing:10px;
+}
+.h22:hover{
+  color: chartreuse;
+}
+
+aside ,.aa{
+  display: flex;
+  max-width: 99.5%;
+  margin: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.aaa {
+  text-align:  justify center;
+  background: #1c3805a2;
+  color: #fff;
+  padding:5px 15px;
+  margin: 10px 10rem;
+  max-width: 50rem;
+  width: 50rem;
+}
+
+.aaa:hover {
+  text-decoration: underline;
+}
+
+.aa {
+  /* text-align: justify;
+  margin: 10px 400px;
+   width: 35%; 
+  padding:15px 15px; */
+  background: #22888fcb;
+  color: #fff;
+  margin: 10px 10rem;
+  max-width: 50rem;
+  width: 50rem;
+}
+
+.aa:hover {
+  border-radius: 20px;
+  transition: 2s ease;
+}
+
+/***************** Decouvrez nos produits   ****************************/
+
+
+.produit p {
+    text-align: left;
+    margin-left:0 ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c9d4d8;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+
+/********************************  produits   *****************************/
+
+.produit {
+  background-color: #96242479;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.produit:hover {
+  background-color: #00000075;
+  transition: 1.5s ease-in;
+}
+
+
+.colis ,.retrait{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin-top: auto !important;
+  margin-left: 400px !important;
+  margin-right: 300px !important;
+  margin-bottom: auto !important;
+  line-height: 1.5;
+  max-width: 1000px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.colis:hover,.retrait:hover{
+  background-color: #00000070;
+  border-radius: 1px solid rgb(0, 0, 0);
+}
+
+.slike{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-wrap: break-word;
+  margin-top: 10px;
+}
+
+/* img.a .b .c{
+  display: flex;
+  width: 350px;
+  height: 350px;
+  margin: 5px;
+} */
+
+img.a ,.ab , .c{
+  display: flex;
+  width: 350px;
+  height: 350px;
+}
+
+.ph {
+  /* text-align: center !important; */
+  min-width: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 100px;
+}
+
+
+/********************  Es-tu prêt à commander?  *****************************/
+
+.foot {
+  min-width: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 30px;
+  border: 1px solid #a3a1a1;
+  border-radius: 20px;
+  background-color: #ffffff71;
+  text-align: justify;
+}
+
+/**********************  Voir tous les produits  *******************************/
+
+.produitss {
+  display: flex;
+  justify-content: center;
+  padding: 0 100px;
+  text-decoration: underline;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/***      *******    *****  *****/
+
+ .barrr {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  border-left: 1px solid #ccc9c9;
+  text-decoration: none;
+  color: white;
+  padding:0 15px;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.barrr a{
+  color: #fff;
+  margin: 0 10px;
+}
+
+.barrr a {
+  
+padding:0 25px;
+}
+.barrr:hover,.produitss:hover {
+  transition: 1s ease-in-out;
+  border:1px #000000 ;
+  background-color: #0000006b;
+}
+/********** legales  **********************/
+
+.legales {
+  font-style: 16px;
+  margin: 10px;
+  text-align: center;
+}
+
+
+
+/***************** Responsive Design  *****************************/
+
+
+@media screen and (max-width: 1200px) {
+
+ header h1 {
+    margin: 0 300px !important;
+  }
+
+.intro{
+  
+  float: left;
+  margin-left:  10px!important;
+}
+
+.intro1 {
+  
+  
+  
+}
+
+.intro,.intro1 {
+  /* width: 46%;
+  padding:0 15px !important;
+  max-width: 40%;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: normal;
+  text-align: justify;
+  font-size: 14px;
+  border: solid;
+  background: #00000080;
+  color: rgb(98, 143, 122);
+  overflow-y: scroll; */
+  display: flex;
+
+
+}
+
+p.aa {
+  max-width: 380px;
+  
+}
+
+}
+
+/* 
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin:0 20px !important;
+  }
+
+
+} */
+
+@media screen and (max-width: 1000px) {
+  
+ .produit > .retrait, .colis{
+    margin: 0 260px;
+    padding: 0 !important;
+    width: 500px;
+    text-align:justify center;
+    
+    
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+  body {
+    background: url("./img/pigs.jpg") center/cover fixed;
+    width: 850px;
+  }
+  
+  header {
+    margin: 10px;
+  }
+
+  header h1 {
+    text-align: center;
+    
+    font-weight: 22;
+    font-family: 'Delius Swash Caps', cursive;
+    border: #000000 2px solid;
+    border-radius: 10px;
+    color: #c9d4d8;
+    margin: 10px 10px 10px !important;
+    background-color: olivedrab;
+    position: relative;
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  #wrap {
+    width: 400px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    
+  }
+  
+  a.acc {
+    text-transform: uppercase;
+   }
+
+  a.acc:hover {
+   font-size: 20px;
+   transition: 1s ease;
+   
+  }
+
+  a.bcc:hover, {
+    border-radius: 10px;
+    transition: 1s ease;
+  }
+
+  .navbar {
+    height: 50px;
+    
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+  .navbar li {
+    height: auto;
+    width: 133.3px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #444444;
+  }
+
+
+
+ .dern{
+    text-align: right;
+    margin-right: 10px ;
+  }
+
+  
+
+  .navbar a {
+    font-size: 10px;
+    padding: 18px 0;
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none;
+    color: white;
+    display: block;
+    
+  }
+  .navbar li:hover,
+  a:hover {
+    background-color: #444444;
+  }
+  .navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li:hover ul {
+    display: block;
+  }
+  .navbar li ul li {
+    background-color: #444444;
+    
+  }
+  .navbar li ul li a {
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 1px solid #c9d4d8;
+    border-bottom: 1px solid #444444;
+    
+  }
+  .navbar li ul li a:hover {
+    background-color: #a3a1a1;
+  }
+
+  .ph {
+    font-size: 14px !important;
+  }
+
+.intro,.intro1 {
+ 
+}
+
+
+
+  .colis, .retrait{
+    margin: 20px 200px !important;
+
+  }
+}
+
+@media screen and (max-width: 810px) {
+  p.intro1 {
+    margin:15px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  html,body {
+    background: url("./img/pigs.jpg") cover fixed !important;
+    
+  }
+  h1 {
+    text-align: center;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  html {
+    width: 768px;
+  }
+  .colis {
+    margin: 20px 145px !important;
+  }
+
+  p.retrait {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 145px !important;
+    margin-right: 145px !important;
+    max-width: 500px ;
+  }
+
+  /* .barrr {
+    display: flex;
+    
+    font-size: 20px;
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none;
+    color: white;
+    padding:0 15px;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  .barrr a {
+  
+    padding:25px;
+    } */
+
+}

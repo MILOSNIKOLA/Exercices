@@ -1,0 +1,404 @@
+body {
+    /* background: #151a; */
+    background: url(./ours.jpg) fixed right/cover; /*fixed image bouge pas mais on peut scroller */
+    height: 500vh;
+    overflow: hidden;   /*no scroll sur l'image en arriere plan*/
+}
+
+/* les font , les polices , les texts s'expriment en REM  , 1REM = 16px */
+
+
+@font-face{
+    font-family: "font-1";
+    src: url(./font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+
+h1 {  
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.5rem;
+    font-family: 'Playfair';
+    text-align: center;
+    color: rgb(12, 5, 107);
+    text-shadow: 6px 6px 17px #fff;
+}
+
+main {
+    background: #493fa03b;
+    width: 85%;
+    min-height: 00px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 4px 2px 20px 10px #fff;
+}
+
+.positioning,
+.flexbox,
+.grid {
+    border: 2px solid skyblue;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+   
+}
+/**************** Positioning  ************/
+
+.positioning {
+    position: relative;
+}
+
+
+h2 {
+    margin: 0;
+}
+
+#circle {
+    height: 30px;
+    width: 30px;
+    background: rgba(135, 207, 235, 0.322);
+    padding: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    
+    /* right: -10px; */
+    right: 0;
+    box-shadow: 0 2px 12px 5px rgba(51, 51, 51, 0.13);
+    z-index: 1;
+}
+
+#rectangle {
+    height: 15px;
+    width: 25%;
+    background: rgba(105, 90, 205, 0.377);
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/**************** Flexbox  ***********************/
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    font-style: 0.7rem;
+    height: 160px;
+    width: 160px;
+    max-width: 100%;
+    background: rgba(64, 224, 208, 0.644);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 20px;
+}
+
+
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "i1 i2"
+    "ta ta"
+    "bt bt";
+}
+
+input,
+textarea {
+    margin: 5px;
+    height: 45px;
+    border: 1px solid darkblue;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: "font-1";
+}
+
+#firstname {
+    grid-area: i1;
+}
+
+#surname {
+    grid-area: i2;
+}
+
+textarea {
+    grid-area: ta;
+    resize: none;
+}
+
+input[type="submit"] {
+    grid-area: bt;
+    cursor: pointer;
+    background: cyan;
+    
+}
+
+input[type="submit"]:hover {
+    transition: 0.4s;
+    background: rgb(21, 184, 184);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    margin: 0 100px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 976px) {
+    .img {
+        min-width: 50%;
+        max-width:100%;
+       
+    }
+    
+    img {
+        width: 170px;
+        height: 180px;
+    }
+}
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 850px) {
+    .grid-container {
+        position: relative;
+    }
+    
+    input,
+    textarea {
+        margin: 5px;
+        height: 45px;
+        border: 1px solid darkblue;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        font-family: "font-1";
+    }
+    
+    #firstname,
+    #surname,
+    textarea,
+    input{ 
+        min-width: 50%;
+        max-width:100%;
+    }
+
+
+
+
+    .img {
+        max-width: 70%;
+        min-width: 50%;
+        
+    }
+
+
+     
+ }
+
+@media screen and (max-width: 820px) {
+    
+    .img {
+        min-width: 50%;
+        max-width:100%;
+       
+    }
+    
+    img {
+        width: 150px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    
+    .img {
+        min-width: 50%;
+        max-width:100%;
+       
+    }
+    
+    img {
+        width: 120px;
+        height: 130px;
+    }
+}
+
+
+ @media screen and (max-width: 620px) {
+    body {
+        overflow: visible;
+        height: auto;
+    }
+
+
+form {
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+        
+}
+
+
+    #firstname,
+    #surname,
+    textarea{
+        display: flex;
+        width: 300px;
+    }
+
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li{
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        padding: 0;
+        margin: 0;
+        max-width: 130px;
+    }
+    
+        
+        /* right: -10px; */
+    
+    #rectangle {
+        height: 15px;
+        width: 25%;
+        background: rgba(105, 90, 205, 0.377);
+        padding: 20px;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translate(-30%, -50%);
+    
+    }
+ }
+
+
+
+
+ 
+ @media screen and (max-width: 600px) {
+    #circle {
+        right: 0;
+    }
+
+    #rectangle {
+        
+        left: 60%;
+        transform: translate(-60%, -50%);
+    }
+
+    img {
+        height: 80px;
+        width: 80px;
+    }
+
+    
+    ul {
+        
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    li {
+        margin: 20px 0;
+    }
+    
+ }
+
+ @media screen and (max-width: 500px) {
+    
+
+    div.img {
+        height: 0;
+    }
+
+    img{
+        margin: 7px 0 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    form {
+        margin:0;
+        
+    }
+
+    
+ }
+
+ @media screen and (max-width: 414px) {
+    
+    #rectangle {
+        height: 10px;
+        width: 15%;
+        background: rgba(105, 90, 205, 0.377);
+        padding: 20px;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translate(-10%, -50%);
+    
+    }
+
+    #firstname,
+    #surname,
+    textarea,
+    input{
+        display: flex;
+        max-width: 216px;
+    }
+
+ }
+
+ @media screen and (max-width: 350px) {
+    img {
+        margin: 7px 0 0;
+        display: block;
+    }
+    form {
+       position: relative;
+       left: 0;
+    }
+ }
+
+
