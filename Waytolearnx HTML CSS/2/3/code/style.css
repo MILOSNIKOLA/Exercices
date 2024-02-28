@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "OldLondon";
+  src: url("../assets/OldLondon.ttf"); 
+}
+
+body {
+  background-color: #7a838181;
+}
+/************************* Nav barr  ****************************/
+
+.navbar {
+  position: relative;
+  margin:0 99px;
+
+ 
+}
+.nav-links {
+  margin: 0 600px;
+}
+
+.nav-links a{
+margin: 0 20px;
+}
+
+.nav-links ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+   
+}
+
+.nav-links ul li a {
+  margin-bottom: 20px;
+  display: flex;
+  
+}
+
+ul , h1 {
+  margin:0 185px;
+}
+
+ul {
+  margin:0 100px;
+  width: 60%;
+}
+
+ul li {
+ display: flex;
+ justify-content: center;
+ 
+}
+
+ul li a {
+  color: white;
+  padding:0 20px;
+  margin: 0 30px;
+  
+}
+
+a {
+  padding-top: -50px;
+  text-decoration: none;
+  /* margin: 20px 0; */
+}
+
+
+
+/************************* Logo  ********************************/
+
+.loge {
+ background-color: #429ed8;
+ width: 50%;
+ float: left;
+}
+
+div.logo1 {
+   background-color: #427c2b;
+   width: 50%; 
+   float: right;
+}
+
+img {
+  
+  margin: 0 108px;
+  margin-bottom: -17px;
+  
+ 
+  
+}
+
+/************************  Search ********************************/
+
+.formm {
+  
+  width: 400px;
+  margin:15px auto;
+  display: flex;
+}
+input {
+  padding: 4px 10px;
+  border: 0;
+  font-size: 16px;
+}
+.search {
+  width: 75%;
+  border: 2px solid #00aa;
+  
+}
+.submit {
+  width: 70px;
+  background-color: #1c87c9;
+  color: #ffffff;
+}
+
+.search .submit {
+  display: flex;
+
+}
+/*****************  H1  ***********************************/
+
+
+/****************  Shadows  *******************************/
+
+div.shadow {
+  background-color: #000000d2;
+  padding: 0;
+  margin:0;
+  
+
+  
+}
+
+/**********************************************************/
+
+h1 {
+  font-family: "OldLondon";
+  text-align: center;
+  font-weight: 900;
+  font-size: 100px;
+  letter-spacing: 15px;
+  word-spacing: 10px;
+
+  background: #fff;
+  margin: 2rem 13rem;
+  box-shadow: -1px 3px 20px 0px red;
+  text-shadow: rgb(175, 15, 15) 15px 7px 5px;
+}
+
+h2 {
+  margin: 0 205px;
+  padding: 20px 0;
+}
+/************** txt  ********************************************/
+
+p {
+  text-align: justify;
+
+  margin: 0 205px;
+  padding-bottom: 20px;
+}
+
+.AdolfHitler{
+  margin: 40px auto 0;
+}
+
+.AdolfHitlerP {
+  margin: 60px auto;
+  text-align: center;
+}
+
+div.img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.a1939,
+.a1940,
+.a1941,
+.a1942,
+.a1943,
+.a1944,
+.a1945 {
+  height: 400px;
+  margin: 20px auto 0;
+}
+
+.column1,
+.column2,
+.column3,
+.column4,
+.column5,
+.column6{
+  margin: 3px 3px;
+}
+
+.column7 {
+  margin: 53px auto 0;
+}
+.t1939,
+.t1940,
+.t1941,
+.t1942,
+.t1943,
+.t1944{
+  text-align: center;
+}
+
+
+
+.t1945 {
+  text-align: center;
+  margin: 50px auto 2 0px;
+}
+
+form {
+  text-align: center;
+}
+
+.datess {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto 10px auto;
+}
+
+.fait {
+  display: block;
+	text-align: center;
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  list-style-type: none;
+  
+}
+p.ah  {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+ 
+}
+
+div.restes {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  width: 100% - calc(50%);
+}
+
+/* https://www.youtube.com/watch?v=8YJTOse5nCc&ab_channel=AmirKhan */
+
+/* https://www.youtube.com/watch?v=mIZDZIqdR7Y&ab_channel=EasyHTMLLearner */
+
+/* https://www.youtube.com/watch?v=LNqBKTeeiWo&ab_channel=Grafikart.fr */
+
+/* https://www.youtube.com/watch?v=0SktamdLLAQ&ab_channel=WebZone  */
+
+/****************************  media queries   *********************************/

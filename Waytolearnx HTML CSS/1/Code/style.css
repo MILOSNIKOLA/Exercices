@@ -1,0 +1,616 @@
+
+body {
+    /* background: url('../asset/body2.jpg')no-repeat center/cover; */
+    background-color: rgb(121, 121, 80);
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+	padding: 0;
+      
+}
+
+/* ----------------------------- NAV-BAR ------------------------*/
+
+h1{
+    font-size: large;
+    margin: 10px ;
+    padding: 10px ;
+    font-family: 'Anuphan', sans-serif;
+    width: 250px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0);
+    text-align: center;
+}
+/*****************************   LOGO *********************************************/
+.logo div{
+    background: url('../asset/cactus.png')no-repeat center/cover;
+    width: 80px;
+    height: 80px;
+    
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: -3.4%;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0,0.7);
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+/********************************* LIST ITEM *******************************/
+
+nav {
+    position: relative;
+}
+
+.menu {
+    height: 60px;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top:6px;
+}
+
+ul.menu {
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+    
+}
+
+.menu li {
+    float: left;
+    width: 169px;
+    font-size: large;
+    margin: 0 auto;
+}
+
+.menu li a:link, .menu li a:visited{             /**/
+    display: block;
+    color: #000000;
+    background: rgb(0, 0, 0,0.15);
+    padding: 6px 0;
+    border-radius: 3px solid #000000;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 0;
+
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+.menu li a::link{
+    background-color: #199BD2;
+}
+.menu li a::hover {background-color: #199BD2;}
+/* .menu li a:active {background-color:  rgb(121, 121, 80);;} */
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+ .menu .sousmenu li a:link, .menu li /*a:visited*/ { 
+    display: block;
+    color:black;
+    text-decoration: none;
+    background-color: rgba(121, 121, 80, 0.3);
+    font-size: large;
+    
+}
+
+.menu .sousmenu li a:hover {
+    background-color:  rgb(121, 121, 80, 0.5);
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
+
+
+/************************** barriere ***********************************/
+
+div.barriere {
+   
+    padding: 0 0 20px 0;
+}   
+
+.slika .barriere{
+    display: inherit;
+    background: url('../asset/body3.jpg')no-repeat center/cover;
+    margin: 20px 0;
+    height: 50vh;
+    width: 100%;
+    border: 3px solid black;
+    
+}
+
+.barriere:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    transform: scale(1.05);
+  }
+
+/****************************************************************/
+
+/* https://www.youtube.com/watch?v=Kg3ckggYcPc&ab_channel=RAFHERMEZ */
+
+
+/**************************** H2 *******************************/
+
+ .end,h2{
+    font-size: large;
+    margin: 10px ;
+    padding: 10px 10px;
+    font-family: 'Anuphan', sans-serif;
+    width: 250px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0);
+    text-align: center;
+    border: 2px solid #000;
+    box-shadow:  0px 1px 20px 11px rgba(0, 0, 0,0.5);
+ }
+ .end {
+    margin: 10px;
+    padding: 10px;
+ }
+/******************************* aside *************************/
+
+
+.div {
+    display: flex;
+    text-align: justify;
+    margin:0 10px;
+    font-family: 'Anuphan', sans-serif;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.pre-text {
+    text-align: justify;
+    width: 60%;
+    margin: 10px 10px;  
+}
+
+p.pre-text1{
+    display: flex;
+}
+
+p.pre-text2 {
+    display: flex;
+}
+
+/****** ***** *****                   PHOTOS/TXT 01              ***** ******  *******/
+
+.pre-text{
+    width: 60%;
+    border: 2px solid #000;
+    box-shadow:  0px 1px 20px 11px rgba(0, 0, 0,0.5);
+    padding:15px;
+    m0
+    border-radius: 15px;
+}
+
+.c1 {
+    float: right;
+    background: url('../asset/c1.jpg')no-repeat center/cover;
+    height: 20vh;
+    width: 270px;
+    margin: 10px 60px 0;
+    border: 2px solid #000;
+    
+}
+
+div.c1{
+
+}
+
+div.c1:hover{
+    transform: scale(1.1);
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}
+.divphoto1 {
+    position: relative;
+}
+
+i.i {
+    position: absolute;
+    right: 125px;
+    top: 220px;
+    width: 200px;
+    
+}
+
+.c2 {
+    float: right;
+    background: url('../asset/c2.jpg')no-repeat center/cover;
+    height: 20vh;
+    width: 270px;
+    margin: 10px 0 0;
+    text-align: left;
+    top: 100px;
+    border: 2px solid #000;
+}
+
+.c2:hover {
+    transform: scale3d(1.3, 1.3, 1.3)
+    /* cursor: -webkit-zoom-in;
+    cursor: zoom-in; */
+}
+
+.divphoto2 {
+    position: relative;
+}
+
+.ii {
+    position: absolute;
+    top:210px;
+    right: 125px;
+    
+}
+
+.c1, .c2 {
+    border-radius: 10px;
+}
+
+/****** ***** *****                   PHOTOS/TXT 02              ***** ******  *******/
+
+.div {
+    position: relative;
+}
+
+p.pre-text1 {
+    position: absolute;
+    border: 2px solid #000;
+    box-shadow:  0px 1px 20px 11px rgba(0, 0, 0,0.5);
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    width: 900px;
+    margin: 300px 950px;
+}
+
+.c3 {
+    
+}
+
+.divphoto3{
+    background: url('../asset/c4.png') no-repeat center/cover;
+    height: 20vh;
+    width: 270px;
+}
+.divphoto3:hover {
+    transform: scale3d(1.3, 1.3, 1.3)
+}
+
+i.iii {
+    
+}
+    
+.divphoto4 {
+    background: url('../asset/c5.png') no-repeat center/cover;
+    height: 20vh;
+    width: 270px;
+}
+
+.divphoto4:hover{
+    transform: scale3d(1.2, 1.2, 1.2)
+}
+
+.divphoto5 {
+    background: url('../asset/c6.png') no-repeat center/cover;
+    height: 20vh;
+    width: 270px;
+    
+}
+
+.divphoto5:hover {
+    transform: scale3d(1.1, 1.1, 1.1)
+}
+
+.divphoto3,.divphoto4,.divphoto5 {
+    margin: 100px 0;
+    padding:0 40px;
+}
+
+
+/****** ***** *****                   PHOTOS/TXT 03              ***** ******  *******/
+
+.pre-text2 {
+    width: 60%;
+    border: 2px solid #000;
+    box-shadow:  0px 1px 20px 11px rgba(0, 0, 0,0.5);
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px 10px ;
+    text-align: justify;
+}
+
+.c8 {
+    position: relative;
+}
+
+.divphoto6 {
+    position: absolute;
+    float: right;
+    background: url('../asset/c7.jpg')no-repeat center/cover;
+    height: 28vh;
+    width: 688px;
+    margin:0 10px -500px;
+    right: 0;
+    bottom: -230px;
+    border: 2px solid #000;
+}
+
+.divphoto6:hover {
+    transform: scale3d(1.1, 1.1, 1.1)
+}
+
+
+/***************************** FOOTER ****************************/
+
+
+
+ul {
+    list-style-type: none;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px 0 0 0;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    margin:0 20px 0 0;
+    
+}
+
+/****************************************** Social *****************************/
+
+.facebook {
+    display: block;
+    background: url('../asset/facebook.png')no-repeat center/cover;
+    height: 50px;
+    width: 50px;
+}
+
+.facebook:hover {
+    transform: scale(1.1);
+}
+
+.messanger {
+    display: block;
+    background: url('../asset/messanger.png')no-repeat center/cover;
+    height: 50px;
+    width: 50px;
+}
+
+.messanger:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp {
+    display: block;
+    background: url('../asset/whatsapp.png')no-repeat center/cover;
+    height: 50px;
+    width: 50px;
+}
+
+.whatsapp:hover {
+    transform: scale(1.1);
+}
+
+.twitter {
+    display: block;
+    background: url('../asset/Twitter.png')no-repeat center/cover;
+    height: 50px;
+    width: 50px;
+}
+
+.twitter:hover {
+    transform: scale(1.1);
+}
+
+/*************************************   NewLetter   ***********************/
+
+.email-box{
+    height: 40px;
+    justify-content: center;
+    display: flex; /*its better to use inline-flex*/
+    padding: 20px 0;
+  }
+  .email-box i{
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 40px;
+    line-height: 40px;
+  }
+  .tbox,.btn{
+    border: none;
+    outline: none;
+  }
+  .tbox{
+    width: 0px;
+    transition: 0.6s;
+  }
+  .email-box:hover > .tbox,.tbox:focus{
+    width: 260px;
+    padding: 0 10px;
+  }
+  .btn{
+    background-color: rgba(0, 0, 0, 0.15);
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+ 
+  /*************************************   No Tel / Fax ***********************/
+.adre {
+    position: relative;
+    text-align: right;
+    
+}
+
+address {
+   position: absolute;
+    right: 0;
+    top: -140px;
+    width: 200px;
+  } 
+
+.p {
+    position: absolute;
+    right: 0;
+    top: -115px;
+    width: 240px;
+}
+
+a[href^='mailto']::before {
+    content: '📧 ';
+    
+}
+
+a[href^='tel']::before {
+    content: '📞 ';
+    
+}
+
+
+
+@media only screen and (max-width : 1866px) {
+    
+    .menu {
+        padding:0 -200px 0 0;
+        text-align: center;
+    }
+    .menu li a{
+        display: flex;
+        float: left;
+        width: 100px;
+        font-size: small;
+        margin: 0;
+        padding:0;
+        text-align: center;
+    }
+    .aaaa a,.aaa{
+        text-align: center;
+    }
+    .menu li a:link, .menu li a:visited{             /**/
+        display: flex;
+        color: #000000;
+        background: rgb(0, 0, 0,0.15);
+        padding: 6px 0;
+        border-radius: 3px solid #000000;
+        
+        text-decoration: none;
+        margin: 0;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    .menu li a::link{
+        background-color: #199BD2;
+        text-align: center;
+    }
+    .menu li a::hover {background-color: #199BD2;}
+    /* .menu li a:active {background-color:  rgb(121, 121, 80);;} */
+    
+    .menu .sousmenu {
+        list-style-type: none;
+        display: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        text-align: center;
+    }
+    
+    .menu .sousmenu li {
+        float: none;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid transparent;
+        border-right: 1px solid transparent;
+        text-align: center;
+    }
+    
+     .menu .sousmenu li a:link, .menu li /*a:visited*/ { 
+        display: block;
+        color:black;
+        text-decoration: none;
+        background-color: rgba(121, 121, 80, 0.3);
+        font-size: small;
+        text-align: center;
+        
+    }
+    
+    .menu .sousmenu li a:hover {
+        background-color:  rgb(121, 121, 80, 0.5);
+    }
+    
+    .menu li:hover .sousmenu {
+        display: block;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 1865px) {
+    .menu li{
+        display: none;
+    }
+    .menu .aaaa {
+        display: block;
+    }
+    .aaaa {
+        text-align: center ;
+    }
+}
+
+
+
+
+/* <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script> */
+
+
+   /* https://www.youtube.com/watch?v=HQopEEurQYE&ab_channel=LiveCode */
+
+

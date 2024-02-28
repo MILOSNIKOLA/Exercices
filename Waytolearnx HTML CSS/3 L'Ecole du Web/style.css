@@ -1,0 +1,122 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    background: #f1f1f1;
+    border-radius: 5px;
+    font-size: 45px;
+}
+
+/* 1. Flex */
+
+.b1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 2. Absolute / Relative / Variante */
+
+.b2 {
+    position: relative;
+}
+/* .b2 p {
+    position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+
+    /* Variante avec -margin */
+    /* margin-top: -30px;
+    margin-left: -30px;
+} */
+
+.b2 p {
+    position: relative;
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 3. Grid */
+
+.b3 {
+    display: grid;
+    /* justify-content: center;
+    align-content: center; */
+
+    align-items: center;
+    justify-items: center;
+}
+
+/* 4. text-align + line-height */
+
+.b4 {
+    text-align: center;
+}
+.b4 p {
+    line-height: 300px;
+}
+
+/* 5. Flex ou grid + margin: auto */
+
+.b5 {
+    /* display: flex; */
+    display: grid;
+}
+.b5 p {
+    margin: auto;
+}
+
+/* 6. Display table */
+
+.b6 {
+    display: table;
+    text-align: center;
+}
+.b6 p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* 7. padding / margin */
+
+.b7 {
+    height: auto;
+    text-align: center;
+    /* pour margin */
+    padding: 1px;
+}
+.b7 p {
+    /* padding: 120px 0; */
+    margin: 120px 0;
+}
+
+/* 8. Absolute + transform */
+
+.b8 p {
+    position: absolute;
+    transform: translate(calc(150px - 50%), calc(150px - 50%))
+}
+
+/* 9. Fixed */
+
+.b9 {
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

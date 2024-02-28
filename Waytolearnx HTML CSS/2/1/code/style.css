@@ -1,0 +1,1222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Wix Madefor Text', sans-serif;
+    border-radius: 5px;
+}
+@font-face {
+    font-family: 'scratchy_regularregular';
+    src: url('./font/scratchy-webfont.woff') format('woff2'),
+         url('./font/scratchy-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-image: url('../ass/drvo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover/center;
+    
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+.navbar {
+    position: absolute;
+    padding:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(10, 10, 90, 0.154);
+}
+
+
+/******************************************* navbar  ****************************/
+.navbar {
+    background-color: rgba(38, 22, 133, 0.255);
+    
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.navbar a:hover {
+    transition: ease-in-out 0.7s;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+    
+    
+}
+
+.navbar .logo:hover {
+   
+    transform: scale(1.2);
+}
+
+
+
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+    
+}
+
+.navbar .nav-links ul li:hover {
+    /* font-size: larger; */
+    background: rgb(26, 27, 54);    /**************************/        
+    /* padding: 10px; */
+    /* border-radius: 10px; */
+    
+}
+
+.navbar .nav-links ul li a:hover {
+    color: rgb(253, 53, 22);
+}
+.navbar .nav-links ul li.active a{
+    color: red;
+    
+}
+
+img.menu {
+    display: none;
+    position: absolute;
+    top:50px;
+    right: 50px;
+    width: 40px;
+    height: 30px;
+} 
+
+/*************************** contant *******************************/
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    
+    aside p {
+        font-size: 10px;
+        text-align:justify;
+        background: scroll;
+        
+        width: 280px;
+    }
+
+    span {
+       margin: 0 0 0 -15px;
+    }
+}
+
+
+
+@media screen and (max-width: 861px) {
+    header {
+        
+        background-image: url('../ass/drvo.jpg') center/cover no-repeat;
+        
+    }
+
+    aside p {
+        font-size: 10px;
+        text-align:justify;
+        background: scroll;
+        
+        width: 280px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 856px) {
+    header {
+        
+        background-image: url('../ass/drvo.jpg') center/cover no-repeat;
+        
+    }
+    .navbar {
+        padding: 0;
+       }
+       
+        img.menu {
+            display: flex;
+            position: absolute;
+            top: 54px;
+            right: 10px;
+            width: 35px;
+            height: 25px;
+    
+        }
+        .navbar .logo {
+            position: absolute;
+            top:40px;
+            right: 30px;
+    
+        }
+       .nav-links {
+           top: 0;
+           left:0;
+           position: absolute;
+           background-color: rgba(172, 103, 103, 0.394);
+           backdrop-filter: blur(7px);
+           width: 100%;
+           height: 100vh;
+           display: flex;
+           justify-content: center;
+           margin-left: -100%;
+           transition: all 0.5s ease;
+        }
+    
+        .nav-links ul {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .mobile-menu {
+            margin-left: 0;
+        }
+        
+        .navbar .nav-links ul li{
+            margin: 25px 0;
+            font-style: 1.3em;
+        }   
+            
+        .navbar .logo {
+            position: absolute;
+            top:50px;
+            left:10px;
+        }
+         
+           
+    }
+
+
+@media screen and (max-width: 425px) {
+   
+    .navbar {
+    padding: 0;
+   }
+   
+    img.menu {
+        display: flex;
+        position: absolute;
+        top: 54px;
+        right: 10px;
+        width: 35px;
+        height: 25px;
+
+    }
+    .navbar .logo {
+        position: absolute;
+        top:40px;
+        right: 30px;
+
+    }
+   .nav-links {
+       top: 0;
+       left:0;
+       position: absolute;
+       background-color: rgba(172, 103, 103, 0.394);
+       backdrop-filter: blur(7px);
+       width: 100%;
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       margin-left: -100%;
+       transition: all 0.5s ease;
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-menu {
+        margin-left: 0;
+    }
+    
+    .navbar .nav-links ul li{
+        margin: 25px 0;
+        font-style: 1.3em;
+    }   
+        
+    .navbar .logo {
+        position: absolute;
+        top:50px;
+        left:10px;
+    }
+     
+       
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+   
+    .navbar {
+    padding: 0;
+   }
+   
+    img.menu {
+        display: flex;
+        position: absolute;
+        top: 54px;
+        right: 10px;
+        width: 35px;
+        height: 25px;
+
+    }
+
+    .navbar .logo {
+        position: absolute;
+        top:40px;
+        right: 30px;
+
+    }
+   .nav-links {
+       top: 0;
+       left:0;
+       position: absolute;
+       background-color: rgba(172, 103, 103, 0.394);
+       backdrop-filter: blur(7px);
+       width: 100%;
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       margin-left: -100%;
+       transition: all 0.5s ease;
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-menu {
+        margin-left: 0;
+    }
+    
+    .navbar .nav-links ul li{
+        margin: 25px 0;
+        font-style: 1.3em;
+    }   
+        
+    .navbar .logo {
+        position: absolute;
+        top:50px;
+        left:10px;
+    }
+     
+       
+}
+
+/************************************ TEXTS **************************************/
+
+
+h1 {
+    position: absolute;
+    top: 14%;
+    left: 0;
+    padding-left: 30px;
+    font-family: 'scratchy_regularregular', sans-serif;
+    box-shadow: blanchedalmond 3px 3px 20px 0px;
+    margin: 0 0 0 15px;
+    border: 1px solid rgba(255, 255, 255, 0.067);
+    color: #fff;
+    width: 27%;   
+}
+
+
+.loin {
+    position: absolute;
+    top: 22%;
+    left: 0;
+    width: 27%;
+    padding-left: 30px;
+    font-size: x-large;
+    margin: 0 0 0 15px;
+    text-align: left;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    box-shadow: blanchedalmond 3px 3px 20px 0px;
+    text-align: left;
+    padding: 15px;
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+    color: #ffffff;
+    text-align: justify;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1722px) {
+    h1 {
+        width: 27%;
+        font-size: large;
+        padding: 10px;
+        
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    h1 {
+        position: absolute;
+        top: 15%;
+        left: 0;
+        width: 27%;
+        padding-left: 30px;
+        font-size: 2rem;
+        margin: 0 0 0 15px;
+        text-align: left;
+        font-family: 'scratchy_regularregular';
+        box-shadow: blanchedalmond 3px 3px 20px 0px;
+        text-align: left;
+        padding: 5px;
+        letter-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 1123px) {
+    h1 {
+        position: absolute;
+        top: 15%;
+        left: 0;
+        min-width: 27%;
+        padding-left: 30px;
+        font-size: 1.5rem;
+        margin: 0 0 0 15px;
+        text-align: left;
+        font-family: 'scratchy_regularregular';
+        box-shadow: blanchedalmond 3px 3px 20px 0px;
+        text-align: left;
+        padding: 5px;
+        letter-spacing: 3px;
+    }
+    .loin {
+        position: absolute;
+        top: 22%;
+        left: 0;
+        min-width: 7%;
+        
+        font-size: xx-large;
+        margin: 0 0 0 15px;
+        
+        font-family: 'scratchy_regularregular';
+        box-shadow: blanchedalmond 3px 3px 20px 0px;
+        
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    h1 {
+        position: absolute;
+        top: 15%;
+        left: 0;
+        max-width: 27%;
+        padding-left: 30px;
+        font-size: 1.5rem;
+        margin: 0 0 0 15px;
+        text-align: left;
+        font-family: 'scratchy_regularregular';
+        box-shadow: blanchedalmond 3px 3px 20px 0px;
+        text-align: left;
+        padding: 5px;
+        letter-spacing: 3px;
+    }
+    .loin {
+        position: absolute;
+        
+        top: 22%;
+        left: 0;
+        min-width: 370px;
+        
+        font-size: xx-large;
+        margin: auto 35px;
+        font-family: 'scratchy_regularregular';
+        box-shadow: blanchedalmond 3px 3px 20px 0px;
+        padding: 5px;
+        text-align: justify;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+        position: absolute;
+        top: 15%;
+        left: 0;
+        min-width: 370px;
+        padding: 5px;
+        font-size: 1.5rem;
+        margin: auto 35px;
+        text-align: left;
+        font-family: 'scratchy_regularregular';
+        box-shadow: blanchedalmond 3px 3px 20px 0px;
+        text-align: justify;
+        
+        letter-spacing: 3px;
+    }
+    .loin {
+        position: absolute;
+        
+        top: 22%;
+        left: 0;
+        min-width: 370px;
+        
+        font-size: xx-large;
+        margin: auto 35px;
+        font-family: 'scratchy_regularregular';
+        box-shadow: blanchedalmond 3px 3px 20px 0px;
+        padding: 5px;
+        text-align: justify;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    h1 {
+        position: absolute;
+        top: 15%;
+        left: 0;
+        min-width: 320px;
+        padding: 5px;
+        font-size: 1.5rem;
+        margin: auto 35px;
+        text-align: left;
+        font-family: 'scratchy_regularregular';
+        box-shadow: blanchedalmond 3px 3px 20px 0px;
+        text-align: justify;
+        
+        letter-spacing: 3px;
+    }
+    .loin {
+        position: absolute;
+        
+        top: 22%;
+        left: 0;
+        min-width: 320px;
+        
+        font-size: xx-large;
+        margin: auto 35px;
+        font-family: 'scratchy_regularregular';
+        box-shadow: blanchedalmond 3px 3px 20px 0px;
+        padding: 5px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        position: absolute;
+        top: 15%;
+        left: 0;
+        min-width: 260px;
+        padding: 5px;
+        font-size: 1.5rem;
+        margin: auto 35px;
+        text-align: left;
+        font-family: 'scratchy_regularregular';
+        box-shadow: blanchedalmond 3px 3px 20px 0px;
+        text-align: justify;
+        
+        letter-spacing: 2px;
+    }
+    .loin {
+        position: absolute;
+        
+        top: 22%;
+        left: 0;
+        min-width: 260px;
+        letter-spacing: 1.5px;
+        font: 32px;
+        margin: auto 35px;
+        font-family: 'scratchy_regularregular';
+        box-shadow: blanchedalmond 3px 3px 20px 0px;
+        padding: 5px;
+        text-align: justify;
+    }
+}
+
+/******************************** partir *********************************/
+
+.services {
+    
+}
+.h2 ,.hoho {
+    position: absolute;
+    font-family: 'scratchy_regularregular', sans-serif;
+    left: 0;
+    padding: 5px;
+    margin:0 15px -50px 15px;
+}
+.h2{
+    top: 65%;
+    left: 0;
+    width: 27%;
+    /* padding-left: 30px; */
+    font-size: 2rem;
+    
+    text-align: left;
+    font-family: 'scratchy_regularregular','sans-serif';
+    box-shadow: blanchedalmond 3px 3px 20px 0px;
+    text-align: left;
+    
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.hoho {
+    top: 72%;
+    width: 27%;
+    padding: 0 0 50px 0;
+    font-size: 2rem;
+    margin: 0 0 50px 15px;
+    text-align: left;
+    font-family: 'scratchy_regularregular','sans-serif';
+    box-shadow: blanchedalmond 3px 3px 20px 0px;
+    padding: 5px;
+    letter-spacing: 0.5px;
+}
+
+.usluge1 {
+   
+}
+
+.usluge1 a:hover {
+    transition: ease-in-out 0.7s;
+    color: rgb(51, 9, 91);
+}
+
+.usluge2 a:hover {
+    transition: ease-in-out 0.7s;
+    color: rgb(51, 9, 91);
+}
+
+.usluge3 a:hover {
+    transition: ease-in-out 0.7s;
+    color: rgb(51, 9, 91);
+}
+
+.usluge4 a:hover {
+    transition: ease-in-out 0.7s;
+    color:rgb(63, 11, 113);
+}
+
+.usluge5 a:hover {
+    transition: ease-in-out 0.7s;
+    color: rgb(63, 11, 113);
+}
+
+@media screen and (max-width: 1441px) {
+    h1 .loin{
+        
+        min-width: 480px;
+        
+      
+    }
+    .loin {
+        margin: 15px 0 0 15px;
+        height: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+    .h2 {
+        margin: -20px 0 0 15px;
+    }
+    .hoho {
+        position: absolute;
+        top:71%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h1, .loin, .h2, .hoho{
+        
+        min-width: 480px;
+        
+      
+    }
+    .loin {
+        margin: 15px 0 0 15px;
+        height: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    h1, .loin, .h2, .hoho{
+        
+        min-width: 480px;
+        
+      
+    }
+    h1 {
+        margin: 0 0 0 15px;
+    }
+    .loin {
+       
+        height: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+    h1, .loin, .h2, .hoho{
+        
+        min-width: 400px;
+        
+      
+    }
+    .loin {
+        margin: 15px 0 0 15px;
+        height: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+    h1, .loin, .h2, .hoho{
+        
+        min-width: 350px;
+        
+      
+    }
+    .loin {
+        margin: 15px 0 0 15px;
+        height: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+    .hoho {
+       font-size: 30px;
+    }
+    
+}
+
+
+@media screen and (max-width: 320px) {
+    h1, .loin, .h2, .hoho{
+        
+        min-width: 290px;
+        
+      
+    }
+    .loin {
+        margin: 15px 0 0 15px;
+        height: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .hoho {
+        font-size: 23px;
+     }
+}
+
+
+/*********************************** ANIMATION ******************************/
+
+ 
+.container{  padding-top: 20px;
+    padding-bottom: 20px;}
+  
+  
+ 
+  .content h2{ 
+    font-size:19px;
+}
+.content h2:hover {
+    color:#9b33fb;
+    transition: ease-in-out 0.7s;
+} 
+  .box{
+    position: absolute;
+    top: 29.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    background: #111845a6;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(23, 32, 90, 0.237);
+    border: 2px solid #2a3bad34;
+    color: white;
+    padding: 20px;
+  }
+  
+  .box:before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100%;
+    background: rgba(255,255,255,0.1);
+    transition:0.5s;
+    pointer-events: none;
+  }
+  
+  .box:hover:before{
+    left:-50%;
+    transform: skewX(-5deg);
+  }
+  
+  
+  .box .content{
+    position:absolute;
+    top:15px;
+    left:15px;
+    right:15px;
+    bottom:15px;
+    border:1px solid #f0a591;
+    padding:20px;
+    text-align:center;
+    box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+    
+  }
+  
+  .box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    
+  }
+  
+  .box span:nth-child(1)
+  {
+    transform:rotate(0deg);
+  }
+  
+  .box span:nth-child(2)
+  {
+    transform:rotate(90deg);
+  }
+  
+  .box span:nth-child(3)
+  {
+    transform:rotate(180deg);
+  }
+  
+  .box span:nth-child(4)
+  {
+    transform:rotate(270deg);
+  }
+  
+  .box span:before
+  {
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 2px;
+    background: #50dfdb;
+    animation: animate 4s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+    transform:scaleX(0);
+    transform-origin: left;
+    }
+    50%
+    {
+      transform:scaleX(1);
+    transform-origin: left;
+    }
+    50.1%
+    {
+      transform:scaleX(1);
+    transform-origin: right;
+      
+    }
+    
+    100%
+    {
+      transform:scaleX(0);
+    transform-origin: right;
+     
+    }
+    
+    
+  } 
+  
+  @media screen and (max-width: 1440px) {
+    
+    .box{
+        position: absolute;
+        top: 29%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 250px;
+        height: 250px;
+        background: #111845a6;
+        box-sizing: border-box;
+        overflow: hidden;
+        box-shadow: 0 20px 50px rgba(23, 32, 90, 0.237);
+        border: 2px solid #2a3bad34;
+        color: white;
+        padding: 20px;
+      }
+ } 
+   
+ @media screen and (max-width: 1024px) {
+    .box{
+        position: absolute;
+        top: 29.5%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        width: 250px;
+        height: 250px;
+        background: #111845a6;
+        box-sizing: border-box;
+        overflow: hidden;
+        box-shadow: 0 20px 50px rgba(23, 32, 90, 0.237);
+        border: 2px solid #2a3bad34;
+        color: white;
+        padding: 20px;
+      }
+ } 
+   
+
+ @media screen and (max-width: 768px) {
+    .box{
+        
+        position: absolute;
+        top: 29.5%;
+        left: 82.5%;
+        transform: translate(-50%, -50%);
+        width: 250px;
+        height: 250px;
+        background: #111845a6;
+        box-sizing: border-box;
+        overflow: hidden;
+        box-shadow: 0 20px 50px rgba(23, 32, 90, 0.237);
+        border: 2px solid #2a3bad34;
+        color: white;
+        padding: 20px;
+      }
+      .menu {
+        
+        position: absolute;
+        top: 54px;
+        right: 10px;
+        width: 35px;
+        height: 25px;
+    }
+    body {
+        background-image: url('../ass/drvo.jpg');
+        background-repeat: no-repeat;
+        background-size: left;
+        
+    }
+    content > h2{
+        padding: 30px;
+        padding-top: 20px;
+    }
+ } 
+   
+
+ 
+ @media screen and (max-width: 425px) { 
+        h1, .loin, .h2, .hoho{
+                
+            min-width: 380px;
+            
+        
+        }
+        .loin {
+            margin: 15px 0 0 15px;
+            height: 300px;
+            overflow: hidden;
+            overflow-y: scroll;
+        }
+
+        
+        .box{
+            
+            position: absolute;
+            top: 115%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            /* height: 300px; */
+            background: #111845a6;
+            box-sizing: border-box;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(23, 32, 90, 0.237);
+            border: 2px solid #2a3bad34;
+            color: none;
+            padding: 20px;
+          }
+          
+       img.menu {
+            display: flex;
+            position: absolute;
+            top: 54px;
+            right: 27px;
+            width: 35px;
+            height: 25px;
+    
+        }
+       }
+        
+     
+
+
+       @media screen and (max-width: 375px) { 
+        h1, .loin, .h2, .hoho{
+                
+            min-width: 350px;
+            
+        
+        }
+        .loin {
+            margin: 15px 0 0 15px;
+            height: 300px;
+            overflow: hidden;
+            overflow-y: scroll;
+        }
+
+        
+        .box{
+            
+            position: absolute;
+            top: 115%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 400px;
+            background: #111845a6;
+            box-sizing: border-box;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(23, 32, 90, 0.237);
+            border: 2px solid #2a3bad34;
+            color: none;
+            padding: 20px;
+          }
+          
+       img.menu {
+            
+            position: absolute;
+            top: 54px;
+            right: 10px;
+            width: 35px;
+            height: 25px;
+    
+        }
+        .hoho {
+            font-size: 29px;
+          }
+       
+       }
+        
+     
+
+
+
+       @media screen and (max-width: 320px) { 
+        h1, .loin, .h2, .hoho{
+                
+            min-width: 300px;
+            
+        
+        }
+        .loin {
+            margin: 15px 0 0 15px;
+            height: 300px;
+            overflow: hidden;
+            overflow-y: scroll;
+        }
+
+        
+        .box{
+            
+            position: absolute;
+            top: 107%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            /* height: 300px; */
+            background: #111845a6;
+            box-sizing: border-box;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(23, 32, 90, 0.237);
+            border: 2px solid #2a3bad34;
+            color: none;
+            padding: 20px;
+            margin: 3px;
+          }
+          .hoho {
+            font-size: 25px;
+          }
+       
+          img.menu {
+            
+            position: absolute;
+            top: 54px;
+            right: 7px;
+            width: 35px;
+            height: 25px;
+    
+        }
+
+        } 
+
+
+
+/********************************************   A Propos  ****************************************/
+
+
+.one {
+    position: relative;
+}
+
+.a_propos {
+    
+        position: absolute;
+        top: 97px;
+        right: 0;
+        width: 30%;
+        padding:5px;
+        margin:0 35px;
+        padding-left: 20px;
+        font-size: 2rem;
+        text-align: left;
+        font-family: 'scratchy_regularregular','sans-serif';
+        box-shadow: blanchedalmond 3px 3px 20px 0px;
+        letter-spacing: 4px;
+        font-weight: 800;
+        color: #fff;      
+    
+}
+
+
+.a1 {
+        position: absolute;
+        top: 150px;
+        right: 0;
+        width: 30%;
+        padding:15px;
+        padding-left: 20px;
+        
+        /* padding-bottom: 30px; */
+        margin:0;
+        
+        box-shadow: blanchedalmond 3px 3px 20px 0px;
+        font: 32px;
+        margin: 30px 35px;
+        font-family: 'scratchy_regularregular';
+        color: white;
+        overflow: hidden scroll;
+        text-align: justify;
+        height: 400px;
+        overflow: hidden scroll;
+}
+
+.nous{
+    display: flex;
+    
+    top: 55rem;
+
+}
+
+
+a.li11{
+    color: rgb(214, 82, 82);
+}
+
+.a1 a.li11 {
+    margin:0 200px; 
+    position: absolute;
+    top: 53rem;
+}
+
+a.li11:hover {
+    color: #b0ff31;  
+    transition: 0.7s;
+    outline: 8px ridge rgba(170, 50, 220, .6);
+    border-radius: 2px;
+}
+
+.nous1 {
+    
+    position: absolute;
+    top: 55rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
