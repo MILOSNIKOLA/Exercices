@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <!-- <link href="https://fonts.cdnfonts.com/css/games" rel="stylesheet"> -->
+    <link href="https://fonts.cdnfonts.com/css/umbles" rel="stylesheet">
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.4.1/jquery.mb.YTPlayer.min.js"></script> -->
+
+    <title>igrice za Skidanje</title>
+    <style>
+        
+        
+html{
+    
+    
+}
+
+body:hover {
+    opacity: 1;
+   
+}
+
+body {
+    
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fget.wallhere.com%2Fphoto%2FGhost-Recon-Breakpoint-Tom-Clancy%27s-Ghost-Recon-Breakpoint-Video-Game-Art-video-game-characters-Ghost-Recon-Tom-Clancy%27s-Ubisoft-1867663.jpg&f=1&nofb=1&ipt=5216e43f4b1cdae92995bb408a3b51fbf48d6d5109c00268ddf57eeb624b6bcf&ipo=imagesg");
+    height:100%;
+    width: 99%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.37;
+    transition: opacity 350ms ease-in-out;
+    margin-bottom: 5rem;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(86, 175, 26);
+    text-decoration: underline;
+}
+
+h1:hover {
+    text-align: center;
+    color: rgba(36, 71, 184, 0.74);
+    text-decoration: underline;
+    transition-duration: 3s;
+    transition-delay: 250ms;
+    
+}
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+.prvi {
+    border-radius: 15px;
+    border: 5px solid #240ab4;
+    padding: 10px;
+    padding-top: 0;
+    margin-top: 10px;
+    color: chartreuse;
+    transition: 2s;
+    font-size: 40px;
+}
+
+.prvi:hover {
+    transform: rotate(45deg) ;
+    transform:rotate(3d);
+    border-radius: 15px;
+    border: 5px solid #240ab4;
+    padding: 0 20px;
+    color: rgb(90, 136, 43);
+    box-shadow:10px 12px 20px 4px #000;
+}
+li a {
+    background-color: #00ffff;
+    padding: 15px;
+    border-radius: 20px;
+    color: purple;
+    margin: 20px 0;
+    /* font-family: 'Games', sans-serif; */
+    font-family: 'Umbles', sans-serif;
+}
+
+li a:hover {
+    background-color: #000000;
+    transform: scale3d();
+    color: rgb(29, 32, 255);
+    transition: 2s;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+ul li{
+    margin: 40px 0;
+
+}
+
+.prvi , .zero , .achech {
+    list-style-type: none;
+}
+
+.prvi {
+    font-size: xx-large;
+    padding: 0;
+}
+
+.zero {
+    border-radius: 15px;
+    border: 5px solid #240ab4;
+    padding: 10px;
+    color: chartreuse;
+    transition: 2s;
+    box-shadow:0px 1px 20px 20px #000;
+}
+
+.zero:hover {
+    transition: 2s;
+    transform:rotate(3d);
+    border-radius: 15px;
+    border: 5px solid #240ab4;
+    padding: 0 20px;
+    color: rgb(90, 136, 43);
+    /**/
+    margin: 15px -40px;
+    /**/
+}
+
+.achech {
+    border-radius: 15px;
+    border: 5px solid #240ab4;
+    padding: 10px;
+    color: chartreuse;
+    transition: 2s;
+}
+
+.achech:hover {
+    transition: 2s;
+    transform: rotate(15deg) ;
+    
+    border-radius: 15px;
+    border: 5px solid #240ab4;
+    padding: 0 20px;
+    color: rgb(90, 136, 43);
+}
+
+.drugi p{
+    margin: 0;
+    animation: igre 5s infinite;
+    color: aliceblue;
+    margin-top: 35px;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+    /* background-repeat: 40px; */
+    font-size: 50px;
+}
+
+.drugi p:hover{
+    /* border-top: 5px solid red /*  #4a30e0; */;
+    /* border-left: 5px solid blue;
+    border-right: 5px solid blue;
+    border-bottom: 5px solid white; */ 
+    /* border-right-width: 100%;
+    border-left-width: 100%; */
+    animation: igre 5s infinite;
+    
+}
+
+    @keyframes igre {
+        from{
+            transform: rotate(0deg)
+        }
+        25%{
+            transform: rotate(-45deg)
+        }
+       to{
+            transform: rotate(360deg)
+        }
+    }
+
+
+
+    .video-container{
+  width: 100vw;
+  height: 100vh;
+}
+    
+iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 99.9%;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .video-container iframe {
+    /* height = 100 * (9 / 16) = 56.25 */
+    height: 56.25vw;
+  }
+}
+    
+@media (max-aspect-ratio: 16/9) {
+  .video-container iframe {
+    /* width = 100 / (9 / 16) = 177.777777 */
+    width: 177.78vh;
+  }
+}
+
+/* #text{
+  position: absolute;
+  color: #FFFFFF;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+
+
+ </style>
+
+</head>
+<body>
+    
+    <div class="video-container">
+        <iframe width="1860" height="500" src="https://www.youtube.com/embed/CM4AbiCRkSY" frameborder="0" allowfullscreen controls loop="on" autoplay></iframe>
+      </div>
+      
+      <!-- <div id="text">
+        <h1>Use a youtube video as a full screen background with CSS</h1>
+      </div> -->
+
+      
+    <div class="drugi">   
+        <p>GAMES</p>
+    </div>
+    <h1>Torrenti za igre</h1>
+        <div class="img"> 
+    <ul> 
+        <li class="prvi">Skidanje ovde :</li>
+        <li><a href="https://1337x.unblockit.rsvp/home/" target="_blank">1337x</a></li>
+        <li><a href="https://torrends.to/" target="_blank">Torrendi za Sve</a></li>
+        <li class="zero">Games</li>
+        <li><a href="https://fitgirl-repacks.site/" target="_blank">FitGirl Repacks</a></li>
+        <li><a href="https://www.gamestorrents.fm/" target="_blank">Gamestorrents</a></li>
+        <li><a href="https://www.skidrowcodex.net/" target="_blank">Skidrowcodex</a></li>
+        <li><a href="https://dodi-repacks.site/" target="_blank">Dodi-repacks</a></li>
+        <li><a href="https://elamigos.site/#TopOfPage" target="_blank">Elamigos</a></li>
+        <li class="achech">A check !</li>
+        <li><a href="https://repack-mechanics.com/" target="_blank">Repack-mechanics</a></li>
+        <li><a href="https://isohunts.to/" target="_blank">Isohunts</a></li>
+        <li><a href="https://robgamers.com/" target="_blank">Robgamers</a></li>
+    </ul>
+</div>
+</div>
+
+
+</body>
+</html>
+
