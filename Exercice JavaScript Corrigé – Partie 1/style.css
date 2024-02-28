@@ -1,0 +1,19 @@
+body {
+    background: #00435e;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    text-align: left;
+    transform: translateY(-50%);
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+P {
+    margin: 50px auto 0 auto;
+    text-align: LEFT;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+}
