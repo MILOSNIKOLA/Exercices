@@ -1,0 +1,13 @@
+ol {
+    list-style-type: none;
+    counter-reset: compteListe;
+  }
+  
+  li::before {
+    counter-increment: compteListe;
+    content: counter(compteListe) " ";
+  }
+  
+  .reinit {
+    counter-reset: compteListe;
+  }

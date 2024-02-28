@@ -1,0 +1,58 @@
+body {
+  background: rgb(80, 80, 80);
+}
+
+
+h1 {
+  color: #000077;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+tbody {
+  text-align: left;
+}
+
+.one {
+  
+  border-spacing: 0;
+
+}
+
+.prvi1 {
+  border: 2.5px #000 solid;
+  background:  rgb(0, 139, 252);
+  
+  text-align: left;
+  
+  
+}
+.prvi2 , .prvi3, .prvi4, .prvi5, 
+.prvi6, .prvi7{
+  border-right: 2.5px ridge #000000;
+  border-left: 2.5px ridge #000000;
+  border-bottom: 2.5px ridge #000000;
+  background:  rgb(0, 139, 252);
+  
+}
+
+ .pre1, .pre2{
+  background: #fff;
+  width: calc(100%);
+}
+
+
+
+/* div{
+    background: linear-gradient(
+        to right,
+        red 0%,
+        red 50%,
+        yellow 50%,
+        yellow 100%
+    );
+    padding: 50px;
+    text-align: center;
+    color: black;
+
+    */

@@ -1,0 +1,515 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    box-sizing: border-box;
+}
+/*********************************logo1**************************************/
+header{
+    position: relative;
+    left: 0;
+    
+}
+
+h1{
+    background:rgb(39, 60, 82);
+    margin-top: 0;
+    color: rgb(143, 142, 142);
+    padding: 20px 0 20px 100px;
+    
+}
+h1:hover{
+   color: rgb(255, 251, 251);
+   position: inherit;
+}
+/*********************************menu1***************************************/
+.ul1{
+    
+}
+.a{
+    
+    position: relative;
+    right: -70%;
+    top: -66px;
+    color: rgb(143, 142, 142);
+    margin: 0 18px;
+    text-decoration: none;
+    display: initial;
+    background-color: initial;
+    
+}
+.a:hover{
+    color: #ffffff;
+    border-radius: 20px;
+    
+}
+/******************************nav2*******************************/  
+
+.nav{
+    display: flex;
+    width: 70%;
+}
+
+.ul2{
+   
+   
+   
+   
+}
+
+a{
+    display: flex;
+	flex-direction: row;
+	
+    margin: 5px 85px 10px 65px;
+    /*padding-left: 7px;*/
+    width: 140px;
+    text-decoration: none;
+    
+}
+
+.ul2{
+    margin-left: 38px;
+}
+
+
+.b{
+    color: rgb(143, 142, 142);
+    
+}
+
+.b:hover{
+    color:#000;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    
+}
+.b1{
+    color: rgb(143, 142, 142);
+}
+
+.b1:hover{
+    color:#000;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+.b2{
+    color: rgb(143, 142, 142);
+}
+
+.b2:hover{
+    color:#000;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+.b3{
+    color: rgb(143, 142, 142);
+}
+
+.b3:hover{
+    color:#000;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;;
+}
+.b4{
+    
+    color: rgb(143, 142, 142);
+}
+
+.b4:hover{
+    color:#000;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+
+
+
+.prvi{
+    margin-right: 20px;
+}
+.prvi:hover{
+    
+}
+.drugi{
+    margin-right: 20px;
+}
+
+.treci{
+    margin-right: 20px;
+}
+
+.cetv{
+    margin-right: 20px;
+}
+
+.peti{
+    margin-right: 20px;
+}
+
+/*****************************************Title + foto + text + like/commentaire*********/
+
+.contenu{
+    background-color: #ffffff;
+    width: 940px;
+    height:640px;
+    border: 1px solid rgb(67, 68, 139);
+}
+
+.ime{
+    margin-left: 50px;
+    font-family: 'Fantasy','Lucida Sans Regular', sans-serif;
+    font-weight: bold;
+    
+}
+
+.time{
+    margin-left: 50px;
+    margin-top: -10px;
+    color: rgb(143, 142, 142);
+
+}
+
+.foto .peti {
+    position: absolute;
+    top:130px;
+    
+    
+}
+.ble{
+    display: inherit;
+}
+
+.text{
+    margin: 10px;
+    text-align: justify;
+    color: #757575;
+}
+
+hr{
+    margin: -10px 0 0 0;
+}
+
+.like{
+    margin: 5px;
+}
+
+.pouces{
+    margin: -32px 25px 0 40px;
+    color: #757575;
+    display: inherit;
+}
+.comm .comms{
+    position: fixed;
+    bottom:140px;
+    margin-left: 763px;
+    
+    
+}
+
+.comm1{
+
+    position: relative;
+    width: 120px;
+    color: #757575;
+    position: relative;
+    bottom:17px;
+    margin-left: 400px;  
+}
+
+/***********************************infos***********************************************/
+
+.infos{
+    position: fixed;
+    width: 240px;
+    height:300px;
+    border: 1px outset rgb(67, 68, 139);
+    float:right;
+    margin: -642px 1364px 150px;
+    background-color: #ffffff;
+    
+}
+
+.foto1{
+    position: absolute;
+    top:13px;
+}
+.sugg{
+    margin:25px 0;
+}
+/********************************Suggestion***********************************************/
+
+.friends{
+    position: fixed;
+    width: 240px;
+    height:340px;
+    border: 1px outset rgb(67, 68, 139);
+    float:right;
+    margin: -340px 1364px 150px;
+    background-color: rgb(226, 226, 226);
+}
+
+.premier,.deuxieme,.troisieme,.quatrieme{
+    margin: 5px 0;
+    display: flex;
+	flex-direction: column;
+	
+
+}
+
+.premier-1{
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    left: 90px;
+}
+
+.premier-1-1{
+    margin: 0;
+    position: absolute;
+    left:90px;
+    top: 25px;
+    color: rgb(143, 142, 142);
+}
+
+.add-1{
+    margin: 0;
+    position: absolute;
+    left:90px;
+    top:55px
+}
+
+.text1{
+    margin: 0;
+    position: absolute;
+    left:120px;
+    top:65px;
+    color: rgb(143, 142, 142);
+}
+
+.deuxieme-1{
+    margin: 0;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    
+}
+
+.deuxieme-1-1{
+    margin: 0;
+    position: absolute;
+    left:90px;
+    top: 110px;
+    color: rgb(143, 142, 142);
+}
+
+.add-2{
+    margin: 0;
+    position: absolute;
+    left:90px;
+    top:140px
+}
+
+.text2{
+    margin: 0;
+    position: absolute;
+    left:120px;
+    top:148px;
+    color: rgb(143, 142, 142);
+}
+
+.troisieme-1{
+    margin: 0;
+    position: absolute;
+    top: 173px;
+    left: 90px;
+}
+
+.troisieme-1-1{
+    margin: 0;
+    position: absolute;
+    top:195px;
+    left: 90px;
+    color: rgb(143, 142, 142);
+}
+
+.add-3{
+    margin: 0;
+    position: absolute;
+    top:225px;
+    left: 90px;
+    
+}
+
+.text3{
+    margin: 0;
+    position: absolute;
+    left:120px;
+    top:234px;
+    color: rgb(143, 142, 142);
+}
+
+.quatrieme-1{
+    margin: 0;
+    position: absolute;
+    top:260px;
+    left: 90px;
+}
+
+.quatriemz-1-1{
+    margin: 0;
+    position: absolute;
+    top:280px;
+    left: 90px;
+    color: rgb(143, 142, 142);
+}
+
+.add-4{
+    margin: 0;
+    position: absolute;
+    top:310px;
+    left: 90px;    
+}
+.text4{
+    margin: 0;
+    position: absolute;
+    left:120px;
+    top:317px;
+    color: rgb(143, 142, 142);
+}
+
+
+/*** *** *** *** *** *** *** *** *** *** Media Queries *** *** *** *** *** *** *** *** *** ***/
+
+
+@media screen and (max-width: 390px) /*and (max-height:844px)*/ {
+    
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(226, 226, 226);
+        
+    }
+      
+    .menu{
+        display: inherit;
+    }
+
+    h1{
+        width: 100%;
+        
+    }
+    header h1{
+        text-align: center;
+        margin:  0;
+        padding:7px 0 45px 0;
+    }
+    .ul1{
+        display:flex;
+        
+    }
+   .ul1 ,.a{
+       top:-37px;
+       left:0;
+        
+    
+    }
+    .nav{
+        display: inherit;
+        position: relative;
+    }
+    .contenu{
+        width: 390px;
+        height: 844px;
+        
+    }
+
+    .foto {
+        position: relative;
+        margin: 0;
+        
+        left:-3px;
+        top:-190px;
+    }
+
+    .ble .ses{
+        margin: 5px 0 5px 5px;
+        background-image: url('ble1.jpg');
+        max-width: 390px;
+        max-height: 844px;
+    }
+    .ul2 {
+        width: 200px;
+        height:200px;
+        margin: 0;
+        padding: auto;
+        
+           
+    }
+    .b ,.b1 ,.b2 ,.b3 ,.b4,.prvi ,.drugi ,.treci,.cetv,.peti{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: flex-start;
+        width: 40px;
+        height: 36px;
+        margin: 0;
+        display: initial;
+    }
+    .b ,.b1 ,.b2 ,.b3 ,.b4{
+       
+    }
+
+    .prvi ,.drugi ,.treci,.cetv,.peti{
+        margin: 0 20px ;
+        
+    }
+
+    .prvi{
+        margin: 0 20px 0 10px;
+        
+    }
+
+    .b{
+       margin: 0 10px;
+    }
+
+    
+
+    .contenu .ime{
+        margin-left: 80px;
+    }
+   
+    .time{
+        margin-left: 80px;
+    }
+    .friends{
+        background-color: rgb(82, 194, 7);
+        height: auto;
+        width: 844px;
+    }
+    .comms {
+        background-color: #9dff00;
+        bottom: -100;
+        z-index: 1;
+    }
+    .comm1 {
+        
+        margin-left: 130px;
+    }
+}
+/*********************************logo2**************************************/
+    

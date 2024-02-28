@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #a3bbbd;
+}
+/*-------------------------------------------Header--------------------------*/
+nav a{
+    color: #575757;
+    
+}
+
+nav{
+    position: sticky;
+    left: 0;
+    right:0;
+    top:0;
+}
+
+a.prvi{
+  
+  margin-left: 60px;
+}
+
+.facebook{
+    background-image: url("face.png");
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right:20px;
+    top:5px;
+}
+
+.twiter{
+    background-image: url("twiter.png");
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 65px;
+    top:5px;
+}
+
+.prvi{
+    width: 50%;
+}
+
+img{
+    position: relative;
+    top:30px;
+}
+/*-----------------------corps-------------------------------------*/
+h2{
+    margin:48px auto 10px 20%;
+}
+
+p{
+    margin:15px auto 1px 20%;
+    width:400px;
+    text-align: justify;
+}
+
+.drugi{
+    display: block;
+    position: absolute;
+    top:520px;
+    left: 200px;
+}
+
+.treci{
+    display: block;
+    position: absolute;
+    top:735px;
+    left: 200px;
+}
+ 
+.cetv{
+    display: block;
+    position: absolute;
+    top:950px;
+    left: 200px;
+}
+
+.peti{
+    display: inline;
+    position: absolute;
+    top:1165px;
+    left: 200px;
+}
+/*---------------------aside----------------------------------------*/
+
+main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: stretch;
+    
+}
+h2{
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+.prvih2{
+    position: relative;
+    top:0;
+    left: -10px;
+}
+.prvih2_1{
+    position: relative;
+    top: 15px;
+    left:-10px
+}
+.prvih2_2{
+    position: relative;
+    top:25pt;
+    left:0px;
+}
+.prvih2_3{
+    position: relative;
+    top:38pt;
+    left:-7px;
+}
+
+.dru_1{
+    position: relative;
+    right: 10px;
+    bottom: -15px;
+}
+.dru_2{
+    position: relative;
+    right: 10px;
+    bottom: -30px;
+}
+.dru_3{
+    position: relative;
+    right: 0px;
+    bottom: -47px;
+    
+}
+.dru_4{
+    position: relative;
+    left: -5px;
+    bottom: -60px;
+}
+.link{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: stretch;
+    position: relative;
+    top:50px;
+    right: -100px;
+    
+
+}
+.link1{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: stretch;
+    position: relative;
+    right: -100px;
+    top:50px;
+    
+}
+aside{
+    background-color: #748a84;
+    width: 300px;
+    height: 550px;
+}
