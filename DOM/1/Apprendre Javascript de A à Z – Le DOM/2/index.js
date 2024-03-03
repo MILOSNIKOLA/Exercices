@@ -98,20 +98,20 @@ document.addEventListener('keypress', (e) => {
 //****************************************************** */
 // Scroll Event
 
-const nav = document.querySelector('nav');
+// const nav = document.querySelector('nav');
 
-// console.log(nav);
+// // console.log(nav);
 
-window.addEventListener('scroll', () => {
-    // console.log("test !!!");
-    console.log(window.scrollY);
+// window.addEventListener('scroll', () => {
+//     // console.log("test !!!");
+//     console.log(window.scrollY);
 
-    if (window.scrollY > 120) {
-        nav.style.top = 0
-    } else {
-        nav.style.top = "-50px"
-    }
-})
+//     if (window.scrollY > 120) {
+//         nav.style.top = 0
+//     } else {
+//         nav.style.top = "-50px"
+//     }
+// })
 
 
 //----------------------------------------------------------------
@@ -120,7 +120,6 @@ window.addEventListener('scroll', () => {
 const inputName = document.querySelector('input[type="text"]');
 const select = document.querySelector('select');
 const form = document.querySelector('form');
-
 
 let pseudo = "";
 let language = "";
@@ -142,31 +141,115 @@ form.addEventListener('submit', (e) => {
 
     if (cgv.checked) {
         // Affiche le  content des variables
-        document.querySelector("form > div")
-        // .textContent = `
-        // <h3>Pseudo : ${pseudo}</h3>
-        // <h4>Langage préféré : ${language}</h4>`;
-        .innerHTML = <h3>Pseudo' : + pseudo</h3>
+        document.querySelector("form > div").innerHTML = `
+        <h3>Pseudo : ${pseudo}</h3>
+        <h4>Langage préféré : ${language}</h4>
+        `;
+        
     } else {
         alert('Veuillez acceptez les CGV')
     }
 })
 
+//-------------------------------------------------------------
+// Load event
+
+window.addEventListener('load', () => {
+    // console.log('daaaaa');
+})
+
+//------------------------------------------------------------
+// les forEach
+
+// const boxes = document.getElementsByClassName('box')
+const boxes = document.querySelectorAll('.box')
+
+// console.log(boxes);
+
+boxes.forEach((box) => {
+    box.addEventListener('click', (e) => {
+        // console.log(e.target);
+        e.target.style.transform = "scale(0.7)"
+    })
+});
+
+//----------------------------------------------------------
+// addEventLister Vs onclick
+
+// document.body.onclick = () => {
+//     console.log('Click !!');
+// }
+
+// document.body.onscroll = () => {
+//     console.log('Click !!');
+// }
+
+// Bubbling => fin (de base) l'eventlistener est paramétré en mode Bubbling
+document.body.addEventListener('click', () => {
+    // console.log('click 1 !');
+})
+
+// Usecapture
+document.body.addEventListener('click', () => {
+    // console.log('click 2 !');
+},true)
+
+//------------------------------------------------------------------------
+// Stop propagation
+
+questionContainer.addEventListener('click', (e) => {
+    // alert('test');
+    e.stopPropagation();
+})
+
+//  removeEventListener
+
+//------------------------------------------------------------------------
+//  BOM
+
+// console.log(window.innerHeight);
+// console.log(window.scrollY);
+// window.open('http://google.com', "cours js", "heigth=600, width=800")
+// window.close()
 
 
+// Evénements adossés Window
+//window.alert('hello')
 
+// confirm
 
+btn2.addEventListener('click', () => {
+    confirm('Voulez vous vraiment vous tromper ?')
+})
 
+// prompt
 
+// let answer
 
+// btn1.addEventListener('click', () => {
+//     answer = prompt('Entrez Votre nom !')
 
+//     questionContainer.innerHTML += "<h3>Bravo " + answer + "</h3>"
+// })
 
+// setTimeout
 
+// setTimeout(() => {
+//     questionContainer.style.borderRadius = "500px"
+// },3000)
 
+// // let interval = setInterval(() => {
+// //     document.body.innerHTML += `
+// //     <div classe='box'>
+// //         <h2>Nouvell Boite !</h2>
+// //     </div>
+// //     `;
+// // }, 3000)
 
+// document.body.addEventListener('click', (e) => {
+//     e.target.remove(); // retirer less elément du DOM
+//     clearInterval(interval)
+// })
 
-
-
-
-
-
+// Location 
+console.log();

@@ -32,7 +32,7 @@ img {
     border: 6px solid #000000;
     transition: 0.25s ease;
     background:black ;
-
+    z-index: 10 ;
 }
 
 p {
