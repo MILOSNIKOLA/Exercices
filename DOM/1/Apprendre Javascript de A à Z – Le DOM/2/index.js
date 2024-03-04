@@ -98,20 +98,20 @@ document.addEventListener('keypress', (e) => {
 //****************************************************** */
 // Scroll Event
 
-// const nav = document.querySelector('nav');
+const nav = document.querySelector('nav');
 
-// // console.log(nav);
+// console.log(nav);
 
-// window.addEventListener('scroll', () => {
-//     // console.log("test !!!");
-//     console.log(window.scrollY);
+window.addEventListener('scroll', () => {
+    // console.log("test !!!");
+    console.log(window.scrollY);
 
-//     if (window.scrollY > 120) {
-//         nav.style.top = 0
-//     } else {
-//         nav.style.top = "-50px"
-//     }
-// })
+    if (window.scrollY > 120) {
+        nav.style.top = 0
+    } else {
+        nav.style.top = "-50px"
+    }
+})
 
 
 //----------------------------------------------------------------
@@ -238,13 +238,13 @@ btn2.addEventListener('click', () => {
 //     questionContainer.style.borderRadius = "500px"
 // },3000)
 
-// // let interval = setInterval(() => {
-// //     document.body.innerHTML += `
-// //     <div classe='box'>
-// //         <h2>Nouvell Boite !</h2>
-// //     </div>
-// //     `;
-// // }, 3000)
+// let interval = setInterval(() => {
+//     document.body.innerHTML += `
+//     <div classe='box'>
+//         <h2>Nouvell Boite !</h2>
+//     </div>
+//     `;
+// }, 3000)
 
 // document.body.addEventListener('click', (e) => {
 //     e.target.remove(); // retirer less elément du DOM
@@ -252,4 +252,36 @@ btn2.addEventListener('click', () => {
 // })
 
 // Location 
-console.log();
+
+// console.log(location.href); savoir OU Vous etez
+// console.log(location.host); le Nom de site
+// console.log(location.pathname);  l'element apres l' host
+// location.replace('https://www.t911.ws/torrents/films')
+
+//  window.onload = () => {
+//     location.href = 'https://www.udemy.com/course/cours-javascript/?referralCode=5B30AD39585BCBF32319'
+//  }
+
+// Navigator
+
+// console.log(navigator.userAgent);
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition
+
+
+// History
+
+// console.log(history);
+// window.history.back();
+// history.go(-2)
+
+//----------------------------------------------------------------------------
+// SetProperty
+
+window.addEventListener('mousemove', (e) => {
+    nav.style.setProperty('--x', e.layerX + 'px')
+    // nav.style.setProperty('--y', e.layerY + 'px')
+
+})
+
+
