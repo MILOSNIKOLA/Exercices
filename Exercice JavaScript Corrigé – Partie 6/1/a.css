@@ -1,0 +1,26 @@
+body {
+    background: #0a32b8;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+p {
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  
+  .nochech1 {
+      color: rgb(255, 0, 0);
+      
+  }
