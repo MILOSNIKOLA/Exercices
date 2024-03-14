@@ -11,6 +11,12 @@
 //-------------------------  Click Event  ----------------------------
 
 const questionContainer = document.querySelector('.click-event');
+const btn1 = document.querySelector('#btn-1');
+const btn2 = document.getElementById('btn-2');
+const response = document.querySelector('p'); 
+const wrong = document.querySelector('btn-2')
+
+console.log(btn1 , btn2);
 
 // console.log(questionContainer);
 
@@ -18,5 +24,31 @@ const questionContainer = document.querySelector('.click-event');
 
 questionContainer.addEventListener('click' , () => {
     //console.log('okeee'); // Verifier TOUJOUR AVANT
-    questionContainer.style.background = "red"
+    // questionContainer.style.background = "red"
+    questionContainer.classList.toggle('question-clicked')
+    questionContainer.style.borderRadius = '150px';
 })
+
+btn1.addEventListener('click', () => {
+    // console.log('clickkkkk');
+    response.style.visibility = "visible";
+})
+
+btn2.addEventListener('click', () => {
+    // console.log('clickkkkk');
+    // response.style.visibility = "visible";
+    response.style.visibility = "visible";
+    response.style.color = 'red'
+    questionContainer.classList.toggle('wrong')
+    questionContainer.style.textDecorationLine = 'normal'
+})
+
+
+
+
+
+
+
+
+
+
