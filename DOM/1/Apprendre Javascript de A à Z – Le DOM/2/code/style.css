@@ -26,7 +26,13 @@ p {
 
 .question-clicked {
     background: rgb(47, 47, 47);
-    border: 6px dashed pink;
+    border: 6px dashed rgb(15, 163, 15);
+    
+}
+
+.question-clicked1 {
+    background: rgb(0, 0, 0);
+    border: 6px solid red;
     
 }
 

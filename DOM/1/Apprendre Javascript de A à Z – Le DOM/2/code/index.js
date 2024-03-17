@@ -32,15 +32,17 @@ questionContainer.addEventListener('click' , () => {
 btn1.addEventListener('click', () => {
     // console.log('clickkkkk');
     response.style.visibility = "visible";
+    response.style.background = "green"
 })
 
 btn2.addEventListener('click', () => {
     // console.log('clickkkkk');
-    // response.style.visibility = "visible";
     response.style.visibility = "visible";
-    response.style.color = 'red'
-    questionContainer.classList.toggle('wrong')
-    questionContainer.style.textDecorationLine = 'normal'
+    response.style.color = 'white';
+    // response.classList.toggle('wrong')
+    questionContainer.style.textDecorationLine = 'normal';
+    response.style.background = 'red';
+    questionContainer.classList.toggle('question-clicked1')
 })
 
 
