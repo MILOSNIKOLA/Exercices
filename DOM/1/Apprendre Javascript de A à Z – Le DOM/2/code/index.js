@@ -13,10 +13,10 @@
 const questionContainer = document.querySelector('.click-event');
 const btn1 = document.querySelector('#btn-1');
 const btn2 = document.getElementById('btn-2');
-const response = document.querySelector('p'); 
-const wrong = document.querySelector('btn-2')
+const response = document.querySelector('p');
+// const wrong = document.querySelector('btn-2')
 
-console.log(btn1 , btn2);
+// console.log(btn1 , btn2);
 
 // console.log(questionContainer);
 
@@ -35,22 +35,17 @@ btn1.addEventListener('click', () => {
     response.style.background = "green"
 })
 
-btn2.addEventListener('click', () => {
-    // console.log('clickkkkk');
-    response.style.visibility = "visible";
-    response.style.color = 'white';
-    // response.classList.toggle('wrong')
-    questionContainer.style.textDecorationLine = 'normal';
-    response.style.background = 'red';
-    questionContainer.classList.toggle('question-clicked1')
-})
+// btn2.addEventListener('click', () => {
+//     // console.log('clickkkkk');
+//     response.style.visibility = "visible";
+//     response.style.color = 'white';
+//     // response.classList.toggle('wrong')
+//     questionContainer.style.textDecorationLine = 'normal';
+//     response.style.background = 'red';
+//     questionContainer.classList.toggle('question-clicked1')
+// })
 
-
-
-
-
-
-
+ 
 
 
 
