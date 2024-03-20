@@ -26,7 +26,7 @@ p {
 
 .question-clicked {
     background: rgb(47, 47, 47);
-    border: 6px dashed rgb(15, 163, 15);
+    border: 6px solid green;
     
 }
 
