@@ -16,13 +16,14 @@ const btn2 = document.getElementById('btn-2'); // Sélection du bouton 2 par son
 const response = document.querySelector('p');
 
 questionContainer.addEventListener('click', () => {
-    console.log('okeee'); // Vérification de l'événement de clic
+    // console.log('okeee'); // Vérification de l'événement de clic
     questionContainer.classList.toggle('question-clicked'); // Basculer la classe sur le conteneur de question lors du clic
 });
 
 btn1.addEventListener('click', () => {
     response.style.visibility = "visible"; // Rendre la réponse visible
     response.style.background = "green"; // Appliquer un arrière-plan vert à la réponse
+    response.classList.toggle('show-response') // LETICI ODGOVAR
     questionContainer.style.borderRadius = '150px'; // Appliquer un rayon de bordure au conteneur de question
 });
 
@@ -32,4 +33,27 @@ btn2.addEventListener('click', () => {
     response.style.background = 'red'; // Appliquer un arrière-plan rouge à la réponse
     questionContainer.classList.toggle('question-clicked1'); // Basculer une autre classe sur le conteneur de question lors du clic sur le bouton 2
     questionContainer.style.borderRadius = '150px'; // Appliquer un rayon de bordure au conteneur de question
+    response.classList.toggle('show-response') // LETICI ODGOVAR
 });
+
+//**************************** Mouse EVENT --------------------------------------
+
+const mousemove = document.querySelector('.mousemove')
+
+//  console.log(mousemove);
+
+window.addEventListener('mousedown')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
