@@ -11,56 +11,25 @@
 //-------------------------  Click Event  ----------------------------
 
 const questionContainer = document.querySelector('.click-event');
-const btn1 = document.querySelector('#btn-1');
-const btn2 = document.getElementById('btn-2');
+const btn1 = document.querySelector('#btn-1'); // Sélection du bouton 1 par son identifiant
+const btn2 = document.getElementById('btn-2'); // Sélection du bouton 2 par son identifiant
 const response = document.querySelector('p');
-// const wrong = document.querySelector('btn-2')
 
-// console.log(btn1 , btn2);
-
-// console.log(questionContainer);
-
-// questionContainer.style.borderRadius = '150px';
-
-questionContainer.addEventListener('click' , () => {
-    console.log('okeee'); // Verifier TOUJOUR AVANT
-    // questionContainer.style.background = "red"
-    questionContainer.classList.toggle('question-clicked')
-    
-})
+questionContainer.addEventListener('click', () => {
+    console.log('okeee'); // Vérification de l'événement de clic
+    questionContainer.classList.toggle('question-clicked'); // Basculer la classe sur le conteneur de question lors du clic
+});
 
 btn1.addEventListener('click', () => {
-    // console.log('clickkkkk');
-    response.style.visibility = "visible";
-    response.style.background = "green";
-    questionContainer.style.borderRadius = '150px';
-})
+    response.style.visibility = "visible"; // Rendre la réponse visible
+    response.style.background = "green"; // Appliquer un arrière-plan vert à la réponse
+    questionContainer.style.borderRadius = '150px'; // Appliquer un rayon de bordure au conteneur de question
+});
 
 btn2.addEventListener('click', () => {
-    // console.log('clickkkkk');
-    response.style.visibility = "visible";
-    response.style.color = 'white';
-    // response.classList.toggle('wrong')
-    // questionContainer.style.textDecorationLine = 'normal';
-    response.style.background = 'red';
-    questionContainer.classList.toggle('question-clicked1');
-    questionContainer.style.borderRadius = '150px';
-})
-
- 
-// /v3/polyfill.js
-
-// /v3/polyfill.min.js.
-
-Uncaught (in promise) Error: Internal error opening backing store for indexedDB.open.
-    at wrappedSendMessageCallback (browser-polyfill.js:1163:16)
-wrappedSendMessageCallback @ browser-polyfill.js:1163
-await in wrappedSendMessageCallback (asynchrone)
-(anonyme) @ index.js:92
-(anonyme) @ index.js:92
-(anonyme) @ index.js:92
-polyfill.js:1193 Uncaught (in promise) Error: Internal error opening backing store for indexedDB.open.
-    at wrappedSendMessageCallback (polyfill.js:1193:18)
-wrappedSendMessageCallback @ polyfill.js:1193
-browser-polyfill.js:1163 Uncaught (in promise) Error: Internal error opening backing store for indexedDB.open.
-    at wrappedSendMessageCallback (browser-polyfill.js:1163:16)
+    response.style.visibility = "visible"; // Rendre la réponse visible
+    response.style.color = 'white'; // Appliquer une couleur de texte blanche à la réponse
+    response.style.background = 'red'; // Appliquer un arrière-plan rouge à la réponse
+    questionContainer.classList.toggle('question-clicked1'); // Basculer une autre classe sur le conteneur de question lors du clic sur le bouton 2
+    questionContainer.style.borderRadius = '150px'; // Appliquer un rayon de bordure au conteneur de question
+});
