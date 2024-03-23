@@ -7,6 +7,7 @@
 
 // baliseHTML.style.backgroundColor = 'blue'
 
+// var browser = require("webextension-polyfill");
 
 //-------------------------  Click Event  ----------------------------
 
@@ -38,11 +39,16 @@ btn2.addEventListener('click', () => {
 
 //**************************** Mouse EVENT --------------------------------------
 
-const mousemove = document.querySelector('.mousemove')
+const mousemove = document.querySelector('.mousemove');
 
 //  console.log(mousemove);
 
-window.addEventListener('mousedown')
+// window.addEventListener('mousemove', (e) => {
+//     // console.log('misssssS !');
+//     // console.log(e.target);
+//     mousemove.style.left = e.pageX + 'px'
+//     mousemove.style.top = e.pageY + 'px'
+// })
 
 
 

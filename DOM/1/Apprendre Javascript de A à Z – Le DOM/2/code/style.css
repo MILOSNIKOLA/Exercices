@@ -56,7 +56,11 @@ p {
 .mousemove {
     height: 50px;
     width: 50px;
-    border: 2px solid pink;
+    border: 5px solid rgb(226, 121, 139);
     position: absolute;
+    left: 50%;
+    top: 50%;
     border-radius: 50px;
+    transform: translate(-50%,-50%);
+    transition: .4s ease;
 }
