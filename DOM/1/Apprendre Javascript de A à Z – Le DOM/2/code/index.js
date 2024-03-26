@@ -43,20 +43,51 @@ const mousemove = document.querySelector('.mousemove');
 
 //  console.log(mousemove);
 
-// window.addEventListener('mousemove', (e) => {
-//     // console.log('misssssS !');
-//     // console.log(e.target);
-//     mousemove.style.left = e.pageX + 'px'
-//     mousemove.style.top = e.pageY + 'px'
-// })
+window.addEventListener('mousemove', (e) => {
+    // console.log('misssssS !');
+    // console.log(e.target);
+    mousemove.style.left = e.pageX + 'px'
+    mousemove.style.top = e.pageY + 'px'
+    
+})
 
+window.addEventListener('mousedown', () => {
+    // console.log("test");
+    mousemove.style.transform = 'scale(2) translate(-25%, -25%)';
+})
 
+window.addEventListener('mouseup', () => {
+    // console.log("test");
+    mousemove.style.transform = 'scale(1) translate(-50%, -50%)';
+    mousemove.style.border = '10px double red'
+})
 
+questionContainer.addEventListener('mouseenter', () => {
+    questionContainer.style.background = 'rgba(0, 0, 0, .5)';
+})
 
+questionContainer.addEventListener('mouseout', () => {
+    // console.log("missss out");
+    questionContainer.style.background = "red";
+})
 
+response.addEventListener('mouseover', () => {
+    response.style.transform = 'rotate(10deg)';
+})
 
+//--------------------------  KeyPress EVENT --------------------------------------
 
+const keypressContainer = document.querySelector('.keypress');
+const key = document.getElementById('key');
 
+console.log(keypressContainer);
+// console.log(key);
+
+document.addEventListener('keypress', (e) => {
+    // console.log(e.key);
+    key.textContent = e.key;
+   
+});
 
 
 

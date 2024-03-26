@@ -9,6 +9,7 @@ body {
     margin: 0;
     color: #fff;
     min-height: 200vh;
+    overflow-x: hidden;
 }
 
 .box {
@@ -63,4 +64,5 @@ p {
     border-radius: 50px;
     transform: translate(-50%,-50%);
     transition: .4s ease;
+    z-index: -1;
 }
