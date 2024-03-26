@@ -80,14 +80,76 @@ response.addEventListener('mouseover', () => {
 const keypressContainer = document.querySelector('.keypress');
 const key = document.getElementById('key');
 
-console.log(keypressContainer);
+const ring = () => {
+    const audio = new Audio();
+    audio.src = './song.mp3';
+    audio.play()
+}
+
+// console.log(keypressContainer);
 // console.log(key);
 
 document.addEventListener('keypress', (e) => {
     // console.log(e.key);
     key.textContent = e.key;
    
+    if (e.key === 'h') {
+        keypressContainer.style.background = "pink"
+    } else if (e.key === 'r') {
+        keypressContainer.style.background = 'green'
+    } else {
+        keypressContainer.style.background = 'red'
+    }
+    
+    // ring()
 });
+
+//------------------------- Scroll Event  ---------------------------
+
+const nav = document.querySelector('nav')
+
+// console.log(nav);
+
+window.addEventListener('scroll', () => {
+    // console.log('test');
+    console.log(window.scrollY);
+
+    if (window.scrollY > 120) {
+        nav.style.top = 0;
+    } else {
+        nav.style.top = '-50px'
+    }
+})
+
+
+//--------------------------  Form EVENT  -------------------------------------
+
+const inputName = document.querySelector('input[type="text"]');
+const select = document.querySelector('select');
+let psedo = '';
+
+// console.log(inputName);
+console.log(select);
+
+inputName.addEventListener('input', (e) => {
+    // console.log(e);
+    // console.log(e.target.value);
+    pseudo = e.target.value;
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
