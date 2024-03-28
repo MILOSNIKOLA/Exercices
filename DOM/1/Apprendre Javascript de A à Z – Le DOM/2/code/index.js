@@ -126,33 +126,63 @@ window.addEventListener('scroll', () => {
 
 const inputName = document.querySelector('input[type="text"]');
 const select = document.querySelector('select');
-let psedo = '';
-
+const form = document.querySelector('form');
+let pseudo = '';
+let language = '';
 // console.log(inputName);
-console.log(select);
+// console.log(select);
+// console.log(form);
 
 inputName.addEventListener('input', (e) => {
-    // console.log(e);
+    // console.log('yessss');
     // console.log(e.target.value);
     pseudo = e.target.value;
+    // console.log(pseudo);
+})
+
+select.addEventListener('input', (e) => {
+    // console.log(e);
+    language = e.target.value
+})
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    console.log('yeessS');
+    console.log(cgv.checked);
+    if (cgv.checked) {
+        document.querySelector('form > div').innerHTML = `
+        <h3>Pseudo : ${pseudo}</h3>
+        <h4>Langage préféré : ${language}</h4>
+        `;
+    } else {
+        alert('Veuillez accepter les CGV')
+    }
 })
 
 
+// const inputName = document.querySelector('input[type="text"]');
+// const select = document.querySelector('select');
+// const form = document.querySelector('form');
+// const cgv = document.getElementById('cgv');
+// let pseudo = '';
+// let language = '';
 
+// inputName.addEventListener('input', (e) => {
+//     pseudo = e.target.value;
+// });
 
+// select.addEventListener('change', (e) => {
+//     language = e.target.value;
+// });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// form.addEventListener('submit', (e) => {
+//     e.preventDefault();
+//     if (cgv.checked) {
+//         document.querySelector('form > div').innerHTML = `
+//         <h3>Pseudo : ${pseudo}</h3>
+//         <h4>Langage préféré : ${language}</h4>
+//         `;
+//     } else {
+//         alert('Veuillez accepter les CGV');
+//     }
+// });
