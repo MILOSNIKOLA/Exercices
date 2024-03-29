@@ -148,7 +148,7 @@ select.addEventListener('input', (e) => {
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     console.log('yeessS');
-    console.log(cgv.checked);
+    // console.log(cgv.checked);
     if (cgv.checked) {
         document.querySelector('form > div').innerHTML = `
         <h3>Pseudo : ${pseudo}</h3>
@@ -158,6 +158,11 @@ form.addEventListener('submit', (e) => {
         alert('Veuillez accepter les CGV')
     }
 })
+
+
+
+
+
 
 
 // const inputName = document.querySelector('input[type="text"]');
