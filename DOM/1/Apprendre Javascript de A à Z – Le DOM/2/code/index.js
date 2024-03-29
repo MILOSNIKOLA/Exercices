@@ -159,35 +159,43 @@ form.addEventListener('submit', (e) => {
     }
 })
 
+//*********************  Load Event ***********************************/
 
+window.addEventListener('load', () => {
+    // console.log('Document Chargé');   
+})
 
+//***********************  ForEach  *********************************** */
 
+// const boxes = document.getElementsByClassName('box'); // kad ima vise Njih
+const boxes = document.querySelectorAll('.box')
 
+// console.log(boxes);
+// console.log(boxes);
 
+// boxes.addEventListener('click', () => {  => NEMOZE S VISE NJIH SAMO JEDNA (boxes)
+//     console.log("test");
+// })
 
-// const inputName = document.querySelector('input[type="text"]');
-// const select = document.querySelector('select');
-// const form = document.querySelector('form');
-// const cgv = document.getElementById('cgv');
-// let pseudo = '';
-// let language = '';
+// onda treba forEach
 
-// inputName.addEventListener('input', (e) => {
-//     pseudo = e.target.value;
-// });
+boxes.forEach((box) => {
+    box.addEventListener('click', (e) => {
+        // console.log(e.target);
+        // e.target.style.transform = 'scale(.7)'
+    })
+});
 
-// select.addEventListener('change', (e) => {
-//     language = e.target.value;
-// });
+//*************************** addEventLister **************************/
+//    addEventLister Vs onload
 
-// form.addEventListener('submit', (e) => {
-//     e.preventDefault();
-//     if (cgv.checked) {
-//         document.querySelector('form > div').innerHTML = `
-//         <h3>Pseudo : ${pseudo}</h3>
-//         <h4>Langage préféré : ${language}</h4>
-//         `;
-//     } else {
-//         alert('Veuillez accepter les CGV');
-//     }
-// });
+document.body.onclick = () => {
+    console.log('Click !!!');
+}
+
+document.body.onclick = ()=> {
+    console.log('Scrool !!');
+}
+
+// Nemoze da se ubace 2 ili vise elementa uz pomoc .onclick , zadnji ima prednost i brise sve ostale
+
