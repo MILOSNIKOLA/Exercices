@@ -189,13 +189,49 @@ boxes.forEach((box) => {
 //*************************** addEventLister **************************/
 //    addEventLister Vs onload
 
-document.body.onclick = () => {
-    console.log('Click !!!');
-}
+// document.body.onclick = () => {
+//     console.log('Click !!!');
+// }
 
-document.body.onclick = ()=> {
-    console.log('Scrool !!');
-}
+// document.body.onclick = ()=> {
+//     console.log('Scrool !!');
+// }
 
 // Nemoze da se ubace 2 ili vise elementa uz pomoc .onclick , zadnji ima prednost i brise sve ostale
+
+// document.body.addEventListener('click', () => {
+//     console.log('click 1 !');
+// })
+
+// document.body.addEventListener('click', () => {
+//     console.log('click 2 !');
+// })
+
+
+// Moze da se ubace 2 ili vise elementa uz pomoc .addEventListener , to ima prednost od .onclick
+
+// Bubblig => fin (de base l'eventlister est paramétré en mode Bubbling)
+document.body.addEventListener('click', () => {
+    console.log('click 1 !');
+},
+    false
+);
+
+// Usecapture => debut
+document.body.addEventListener('click', () => {
+    console.log('click 2 !');
+},
+    true
+);
+
+
+
+
+
+
+
+
+
+
+
 
