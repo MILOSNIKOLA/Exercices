@@ -211,25 +211,47 @@ boxes.forEach((box) => {
 // Moze da se ubace 2 ili vise elementa uz pomoc .addEventListener , to ima prednost od .onclick
 
 // Bubblig => fin (de base l'eventlister est paramétré en mode Bubbling)
-document.body.addEventListener('click', () => {
-    console.log('click 1 !');
-},
-    false
-);
+// document.body.addEventListener('click', () => {
+//     console.log('click 1 !');
+// },
+//     false
+// );
 
-// Usecapture => debut
-document.body.addEventListener('click', () => {
-    console.log('click 2 !');
-},
-    true
-);
+// // Usecapture => debut
+// document.body.addEventListener('click', () => {
+//     console.log('click 2 !');
+// },
+//     true
+// );
 
+//************************ Stop propagation *********************** */
 
+questionContainer.addEventListener('click', (e) => {
+    // alert('Test !')
+    // e.stopPropagation();
+})
 
+//*****************  removeEvennListener */
 
+questionContainer.removeEventListener('click', (e) => {
+    // console.log('testt');
+})
 
+//********************  BOM ************************************************/
 
+// console.log(window.innerHeight);
+// console.log(window.scrollY);
+// window.open('http://google.com', 'cours js', 'height=600,width=800');
+// window.close
 
+// Evenements adosses a Windows
+// alert('hello')
+
+// confirm
+
+// btn2.addEventListener('click', () => {
+//     confirm('Voulez vous vraiment vous tromper ???')
+// })
 
 
 
