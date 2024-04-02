@@ -68,7 +68,7 @@ questionContainer.addEventListener('mouseenter', () => {
 
 questionContainer.addEventListener('mouseout', () => {
     // console.log("missss out");
-    questionContainer.style.background = "red";
+    questionContainer.style.background = "#0009";
 })
 
 response.addEventListener('mouseover', () => {
@@ -253,6 +253,28 @@ questionContainer.removeEventListener('click', (e) => {
 //     confirm('Voulez vous vraiment vous tromper ???')
 // })
 
+btn1.addEventListener('click', () => {
+    let answer =  prompt('Entrez votre nom ..!');
+
+    questionContainer.innerHTML = '<h3>Bravo ' + answer +'</h3>'
+})
+
+// Timer , compte a rebours
+// setTimeout(() => {
+//     // logique a executer 
+// }, 2000 /*'temps en millisecondes avant de déclencher'*/)
+
+setTimeout(() => {
+    // questionContainer.style.borderRadius = '50px'
+}, 2000)
+
+// setTimeout(() => {
+//     window.close()
+// }, 2000)
+
+setInterval(() => {
+    // document.body.innerHTML += "<div class='box'><h2>Nouvelle Boite ! </h2></div>"
+}, 1000)
 
 
 
