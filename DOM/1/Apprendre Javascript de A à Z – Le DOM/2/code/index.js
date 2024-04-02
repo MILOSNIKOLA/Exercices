@@ -48,7 +48,7 @@ window.addEventListener('mousemove', (e) => {
     // console.log(e.target);
     mousemove.style.left = e.pageX + 'px'
     mousemove.style.top = e.pageY + 'px'
-    
+
 })
 
 window.addEventListener('mousedown', () => {
@@ -92,7 +92,7 @@ const ring = () => {
 document.addEventListener('keypress', (e) => {
     // console.log(e.key);
     key.textContent = e.key;
-   
+
     if (e.key === 'h') {
         keypressContainer.style.background = "pink"
     } else if (e.key === 'r') {
@@ -100,7 +100,7 @@ document.addEventListener('keypress', (e) => {
     } else {
         keypressContainer.style.background = 'red'
     }
-    
+
     // ring()
 });
 
@@ -254,9 +254,9 @@ questionContainer.removeEventListener('click', (e) => {
 // })
 
 btn1.addEventListener('click', () => {
-    let answer =  prompt('Entrez votre nom ..!');
+    let answer = prompt('Entrez votre nom ..!');
 
-    questionContainer.innerHTML = '<h3>Bravo ' + answer +'</h3>'
+    questionContainer.innerHTML = '<h3>Bravo ' + answer + '</h3>'
 })
 
 // Timer , compte a rebours
@@ -272,10 +272,35 @@ setTimeout(() => {
 //     window.close()
 // }, 2000)
 
-setInterval(() => {
-    // document.body.innerHTML += "<div class='box'><h2>Nouvelle Boite ! </h2></div>"
-}, 1000)
+// setInterval(() => {
+//     // document.body.innerHTML += "<div class='box'><h2>Nouvelle Boite ! </h2></div>"
+// }, 1000)
 
+// let interval = setInterval(() => {
+//     document.body.innerHTML += 
+//         // `
+//         //     <div class='box'>
+//         //         <h2>Nouvelle boite</h2>
+//         //     </div>
+//         // `
+// }, 1000)
 
+document.body.addEventListener('click', (e) => {
+    // console.log(e.target);
+    // e.target.remove() // effafer les container
+    // clearInterval(interval)
+})
+
+//****************** Location */
+
+// console.log(location.href);
+// console.log(location.host);
+// console.log(location.pathname);
+// console.log(location.search);
+// location.replace('http://google.com')
+
+window.onload = () => {
+    // location.href = 'https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile', 5000
+};
 
 
