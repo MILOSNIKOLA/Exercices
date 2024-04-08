@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    
+}
+
+img {
+    animation-iteration-count: 2;
+    animation-play-state: running;
+    animation-play-state: running;
+    height: 200px;
+    width: 200px;
+    
+}
+
+@keyframes iimg {
+    0% { left: -500px; } /* Position de départ */
+    100% { left: calc(150% + 100px)}; /* Position de fin */
+}
+
+
+.img1.img2.img3.img4.img5.img6{
+    position: absolute;
+    top: 50%; /* Position verticale */
+    transform: translateY(-50%);
+    animation: iimg 15s linear infinite; /*Réglage de la vitesse et de l'infin*/
+}
+
+/*   */
+
+
+
+
+
+
+
