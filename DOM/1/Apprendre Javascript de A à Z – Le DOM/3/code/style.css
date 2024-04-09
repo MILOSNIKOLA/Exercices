@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,33 +13,24 @@ h1 {
     
 }
 
-img {
-    animation-iteration-count: 2;
-    animation-play-state: running;
-    animation-play-state: running;
+.img {
     height: 200px;
     width: 200px;
-    
-}
+    position: absolute;
+    top: 50%; 
+    /* transform: translateY(-50%);
+    animation: iimg 5s linear infinite; 
+/*}
 
-@keyframes iimg {
-    0% { left: -500px; } /* Position de départ */
-    100% { left: calc(150% + 100px)}; /* Position de fin */
-}
+/* @keyframes iimg {
+    0% { left: -500px; } 
+    /* 100% { left: calc(150% + 100px)}; 
+/*}
 
 
 .img1.img2.img3.img4.img5.img6{
-    position: absolute;
-    top: 50%; /* Position verticale */
-    transform: translateY(-50%);
-    animation: iimg 15s linear infinite; /*Réglage de la vitesse et de l'infin*/
+    
 }
 
 /*   */
-
-
-
-
-
-
 
