@@ -14,8 +14,12 @@ function nbrPaire(n) {
 
 	// Écrivez votre code ici
 
-    
-
+    if ( n % 2 == 0) {
+		 true
+	} else {
+		return false
+	}
+	
 }
 
 // Afficher la sortie
