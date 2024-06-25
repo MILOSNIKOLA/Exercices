@@ -1,133 +1,207 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  width: 400px;
-  height: 200px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+  @media screen and (min-width: 360px){
+    
+    
+        body {
+     background: #000;   
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-  
+h1 {
+    color: rgb(180, 17, 45);
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 15px;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-  
-  
+h1:hover {
+    border-radius: 50px;
+    transition: 1.4s;
+    text-shadow: 1px 1px 2px rgb(175, 0, 0), 0 0 1em rgb(255, 255, 255), 0 0 0.2em blue;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  
+p {
+    text-align: center;
+    color: #fff;
+
 }
 
-.active {
-  background-color: #717171;
+div {
+    
 }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.prvi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+    animation: 3s linear 1s infinite;
+    padding:20px 0;
+    
+}
+img {
+    width: 300px;
+    border:5px double #1141dfbe;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+img:hover {
+    animation-name: rotate;
+    animation-duration: 3s;
+    transform: scale(1.5);
+
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+.fin {
+    color: #fff;
+    
 }
-</style>
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.end {
+    font-size: 30;
+    text-align: center;
+    
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px solid blue;
+}
+
+.end:hover{
+    border:3px dashed pink;
+    color: blue;
+}
+
+}   
+audio {
+    
+}
+
+    </style>
+    <title>Slike</title>
 </head>
 <body>
-    <h2>Galerija slika</h2>
-    <!-- <p>Change image every 5 seconds:</p> -->
+   <audio controls loop autoplay src="./zeljko-joksimovic-lane-moje-youtubemp3free.org.mp3"></audio>
+  <p>
+    <h1>Galerija Slika</h1>
     
-    <div class="slideshow-container">
-    
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="../img/img1.jpg" style="width:100%">
-      <div class="text">Caption Text</div>
+    <div class="prvi">
+        <img src="./img1.jpg" alt="">
     </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
-      <img src="../img/img2.jpg" style="width:100%">
-      <div class="text">Caption Two</div>
+    <p>Plavuša autoputem vozi 220 km/h...
+        Plavuša ide 220 km/h na autoputu. Uočila je mobilni radar, ali je prekasno. Dva kilometra dalje, motociklisti Žandarmerije joj signaliziraju da parkira na odmorištu:
+        - Gospođo, čekali smo vas!
+        - Znam. Tako da sam došla što je pre moguće!</p>
+    <div class="prvi">
+        <img src="./img2.jpg" alt="">
     </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="../img/img3.jpg" style="width:100%">
-      <div class="text">Caption Three</div>
+    <p>Plavuša na sudu…
+        Na sudu je plavuša. Ona kaze : <br>
+        - Sve priznajem, udavila sam svoju zlatnu ribicu, bacila pticu sa drugog sprata i živu zakopala glistu!
+    </p>
+    <div class="prvi">
+        <img src="./img3.jpg" alt="">
     </div>
-    
+    <p>
+        Plavuša i doktor…
+        Plavuša ide doktoru:
+        - Doktore, pomozite mi! Svaki put kad dodirnem nogu stvarno me boli, kada dodirnem lakat, a i kada dodirnem glavu!
+        Doktor ga pregleda i kaže:
+        - Gospođice, izgleda da vam je prst slomljen.
+    </p>
+    <div class="prvi">
+        <img src="./img4.jpg" alt="">
     </div>
-    <br>
-    
-    <div style="text-align:center">
-      <span class="dot"></span> 
-      <span class="dot"></span> 
-      <span class="dot"></span> 
+    <p>
+        Plavuša i njena kafa...
+        Plavuša odlazi doktoru i kaže:
+        - Doktore, boli me oko svaki put kad popijem kafu.
+        - Oh?! Da vidimo to, evo.
+        Pije i vrišti od bola. Doktor mu je tada rekao:
+        - Zašto ne uklonite kašiku pre nego što je popijete?  
+    </p>
+    <div class="prvi">
+        <img src="./img5.jpg" alt="">
     </div>
-    
-    <script>
-    let slideIndex = 0;
-    showSlides();
-    
-    function showSlides() {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}    
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 5000); // Change image every 2 seconds
-    }
-    </script>
-    
-    </body>
-    </html> 
-    
+    <p>
+        Plavuša i oluja…
+Šta radi plavuša kada je oluja?
+
+Odlazi do prozora da se slika.
+    </p>
+    <div class="prvi">
+        <img src="./img6.jpg" alt="">
+    </div>
+    <p>
+        Plavuša i brineta…
+Plavuša i brineta razgovaraju. brineta:
+- Muž mi je kupio cveće, večeras ću opet morati da raširim noge!
+plavuša:
+- Zašto, imaš li još vaze?
+    </p>
+    <div class="prvi">
+        <img src="./img7.jpg" alt="">
+    </div>
+    <p>
+        Prazne flaše…
+Zašto plavuše stavljaju prazne flaše u frižider?
+
+Za goste koji nisu žedni.
+    </p>
+    <div class="prvi">
+        <img src="./img8.jpg" alt="">
+    </div>
+    <p>
+        Dah u uho...
+Šta kaže plavuša kada joj neko šapne na uvo?
+
+Hvala na popuni.
+    </p>
+    <div class="prvi">
+        <img src="./img9.jpg" alt="">
+    </div>
+    <p>
+        Plavuša i SMS poruke…
+U pitanju je plavuša koja svom mužu šalje SMS poruku: "Dragi moj, zaboravio si mobilni kod kuće."
+    </p>
+    <div class="prvi">
+        <img src="./img10.jpg" alt="">
+    </div>
+    <p>
+        Plavuša u posjeti prijateljici koja je upravo dobila blizance: <br>
+        – O, kako su slični... Pogotovo onaj s lijeve strane! 
+    </p>
+    <div class="prvi">
+        <img src="./img11.jpg" alt="">
+    </div>
+    <p>
+        Plavuša zove prijateljicu:
+– Halo, Cindy?
+– Mora da ste pogrešili, nema Sindi ovde.
+– Ali onda, rekla je plavuša, nakon kraćeg oklevanja, zašto ste se javili?
+    </p>
+    <div class="fin">
+        <img src="./lane.gif" alt="">
+        <a href="https://www.youtube.com/watch?v=myEYkWE4QPY&ab_channel=Biodiversit%C3%A9avecPassion" target="_blank"><p class="end">KLIKNI ME za the end's !!!</p></a>
+    </div>
+</body>
+</html>
