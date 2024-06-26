@@ -12,8 +12,13 @@
 const questionContainer = document.querySelector('.click-event')
 
 questionContainer.addEventListener('click', () => {
-    questionContainer.style.background = 'red'
-    questionContainer.style.border = '3px solid grey'
+    // questionContainer.style.background = 'red'
+    // questionContainer.style.border = '3px solid grey';
+
+    // questionContainer.classList.add('question-clicked');
+    // questionContainer.classList.remove('question-clicked')
+    questionContainer.classList.toggle('question-clicked')
+    
 })
 
 
