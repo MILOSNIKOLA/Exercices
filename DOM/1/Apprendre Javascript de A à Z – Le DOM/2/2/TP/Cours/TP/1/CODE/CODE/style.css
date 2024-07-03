@@ -23,70 +23,55 @@ p {
     visibility: hidden;
     width: 240px;
     margin: 10px auto 0;
+    opacity: 0;
+    transition: .6s
 }
 
-.question-clicked {
+.question-clicked {      /* Class ajouté en JS */
     background-color: ;
     border-radius: 30px;
-    border: 6px dashed #3e5ab6;
+    border: 6px dashed #fa362f;
     margin: 0 50px;
     transition: ease .75s;
     /* animation-duration:25s;
     animation-name: question-clicked; */
     /* animation:question-clicked 5s;
     animation-delay: 250ms; */
-    animation: linear infinite 25s question-clicked;
+    animation: linear infinite 5s question-clicked;
 }
 
 @keyframes question-clicked {
     0 {
       margin:0;
     }
-    25% {
+    /* 25% {
         margin-top: 25px;
-    }
+    } */
     50% {
       margin-top:50px;
     } 
-    75% {
+    /* 75% {
         margin-top:75px;
-    }
+    } */
     100% {
-      margin-top:100px;
+      margin-bottom:100px;
     }
     75% {
-        margin-bottom: 75px;
-      } 
-    50% {
-        margin-bottom: 50px;
-      }
-    25% {
-        margin-bottom: 25px;
+      margin-bottom: 75px;
     }
-
-    0 {
-        margin: 0;
-    }
-
-    /* 0 {
-        margin-top: 0;
-      }
-    
-      100% {
-        margin-top: 150px;
-      }
-    50%{
-        margin-bottom: 75px;
-      }
-      0 {
-
-      } */
       
   }
 
+.responsewrong {
+  background: red;
+  text-decoration: line-through;
+}
 
-
-
+.show-response {
+  visibility: visible;
+  opacity: 1;
+  background: green;
+}
 
 
 

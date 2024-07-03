@@ -10,6 +10,15 @@
 //  Click event 
 
 const questionContainer = document.querySelector('.click-event')
+const btn1 = document.querySelector('#btn-1');
+const btn2 = document.getElementById('btn-2');
+const btn3 = document.getElementById('btn-3');
+const btn4 = document.getElementById('btn-4');
+const response = document.querySelector('p');
+
+
+// console.log(btn1,btn2);
+// console.log(response);
 
 questionContainer.addEventListener('click', () => {
     // questionContainer.style.background = 'red'
@@ -17,9 +26,59 @@ questionContainer.addEventListener('click', () => {
 
     // questionContainer.classList.add('question-clicked');
     // questionContainer.classList.remove('question-clicked')
-    questionContainer.classList.toggle('question-clicked')
-    
+    questionContainer.classList.toggle('question-clicked');
+
 })
+
+btn1.addEventListener('click', () => {
+    // response.style.visibility = 'visible';
+    response.classList.add('show-response')
+    response.style.background = 'green';
+
+})
+
+btn2.addEventListener('click', () => {
+   response.style.visibility = 'visible';
+    response.style.background = 'red';
+    btn2.classList.add('responsewrong')
+})
+
+btn3.addEventListener('click', () => {
+    response.style.visibility = 'visible';
+    response.style.background = 'red';
+    btn3.classList.add('responsewrong')
+})
+
+btn4.addEventListener('click', () => {
+    response.style.visibility = 'visible';
+    response.style.background = 'red';
+    btn4.classList.add('responsewrong')
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
