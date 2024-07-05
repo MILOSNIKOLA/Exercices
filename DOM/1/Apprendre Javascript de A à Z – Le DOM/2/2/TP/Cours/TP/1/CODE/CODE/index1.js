@@ -37,26 +37,7 @@ btn1.addEventListener('click', () => {
 
 })
 
-// btn2.addEventListener('click', () => {
-//    response.style.visibility = 'visible';
-//     response.style.background = 'red';
-//     btn2.classList.add('responsewrong')
-
-// })
-
-// btn3.addEventListener('click', () => {
-//     response.style.visibility = 'visible';
-//     response.style.background = 'red';
-//     btn3.classList.add('responsewrong')
-    
-// })
-
-// btn4.addEventListener('click', () => {
-//     response.style.visibility = 'visible';
-//     response.style.background = 'red';
-//     btn4.classList.add('responsewrong')
-//     // btn4.classList.add('tenter')
-// })
+ 
 
 const wrongButtons = [btn2, btn3, btn4];
 const wrongT = document.querySelector('.p')
@@ -69,8 +50,8 @@ wrongButtons.forEach((btn) => {
         response.style.visibility = 'visible';
         response.style.background = 'red';
         btn.classList.add('responsewrong');
-        wrongT.addEventListener('click', () => {
-            
+        wrongT.addEventListener('keypress', (e) => {
+            btn.textContent = "Erreur !!"
         })
     });
 });
