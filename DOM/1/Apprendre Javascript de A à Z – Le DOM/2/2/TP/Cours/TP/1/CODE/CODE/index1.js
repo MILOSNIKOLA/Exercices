@@ -30,7 +30,7 @@ questionContainer.addEventListener('click', () => {
 
 })
 
-btn1.addEventListener('click', () => {
+btn1. ('click', () => {
     // response.style.visibility = 'visible';
     response.classList.add('show-response')
     response.style.background = 'green';
