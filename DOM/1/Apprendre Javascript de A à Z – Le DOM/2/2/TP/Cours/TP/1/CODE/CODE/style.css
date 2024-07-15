@@ -18,6 +18,7 @@ body {
     transition: .25s ease;
     background-color: black;
     padding: 10px;
+    position: relative;
 }
 
 p {
@@ -67,7 +68,7 @@ p {
 .responsewrong {
   background: red;
   text-decoration: line-through;
- 
+  color: #fff;
 }
 
 .show-response {
@@ -79,8 +80,14 @@ p {
 
 
 
-.tenter {
- 
+.p {
+  
+  color: #fff;
+  z-index: 10;
+  visibility: visible;
+  position: absolute;
+  text-align: center;
+  margin: 200px;
 }
 
 

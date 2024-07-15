@@ -15,10 +15,8 @@ const btn2 = document.getElementById('btn-2');
 const btn3 = document.getElementById('btn-3');
 const btn4 = document.getElementById('btn-4');
 const response = document.querySelector('p');
-
-
-// console.log(btn1,btn2);
-// console.log(response);
+const wrongButtons = [btn2, btn3, btn4];
+const wrongT = document.querySelector('.p')
 
 questionContainer.addEventListener('click', () => {
     // questionContainer.style.background = 'red'
@@ -30,29 +28,25 @@ questionContainer.addEventListener('click', () => {
 
 })
 
-btn1. ('click', () => {
+btn1.addEventListener('click', () => {
     // response.style.visibility = 'visible';
     response.classList.add('show-response')
     response.style.background = 'green';
 
 })
 
- 
-
-const wrongButtons = [btn2, btn3, btn4];
-const wrongT = document.querySelector('.p')
-
-// console.log(wrongT);
-
-
 wrongButtons.forEach((btn) => {
     btn.addEventListener('click', () => {
         response.style.visibility = 'visible';
         response.style.background = 'red';
         btn.classList.add('responsewrong');
-        wrongT.addEventListener('keypress', (e) => {
-            btn.textContent = "Erreur !!"
+        wrongButtons.addEventListener('click', () => {
+        //   btn.textContent = 'Erreur !!'  
+
+        
         })
+        
+        
     });
 });
 
