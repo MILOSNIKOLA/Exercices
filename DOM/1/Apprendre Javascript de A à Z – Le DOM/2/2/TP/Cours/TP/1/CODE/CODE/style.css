@@ -80,14 +80,24 @@ p {
 
 
 
-.p {
+.erreur {
   
   color: #fff;
   z-index: 10;
   visibility: visible;
-  position: absolute;
+  /* position: absolute;
+  top: 100px; */
+  display: initial;
   text-align: center;
-  margin: 200px;
+  /* justify-content: center; */
+  align-items: center;
+  opacity: 0;
+}
+
+.erreur:hover{
+  transform: translateX(-200px);
+  opacity: 1;
+  color: #fff;
 }
 
 
