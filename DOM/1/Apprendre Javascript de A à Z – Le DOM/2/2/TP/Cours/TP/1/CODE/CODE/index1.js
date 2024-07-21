@@ -15,8 +15,9 @@ const btn2 = document.getElementById('btn-2');
 const btn3 = document.getElementById('btn-3');
 const btn4 = document.getElementById('btn-4');
 const response = document.querySelector('p');
-const wrongButtons = [btn2, btn3, btn4];
-const wrongT = document.querySelector('.erreur')
+const wrongButtons = document.getElementById('btn2','btn3','btn4');
+// const wrongButtons = 
+// ;
 
 questionContainer.addEventListener('click', () => {
     // questionContainer.style.background = 'red'
@@ -28,20 +29,13 @@ questionContainer.addEventListener('click', () => {
 
 })
 
+
 btn1.addEventListener('click', () => {
     // response.style.visibility = 'visible';
     response.classList.add('show-response')
     response.style.background = 'green';
 
 })
-
-wrongButtons.forEach((btn) => {
-    wrongButtons.addEventListener('click', () => {
-        btn.classList.toggle('erreur')
-       
-        
-    });
-});
 
 
 

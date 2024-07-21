@@ -33,7 +33,7 @@ p {
 .question-clicked {      /* Class ajouté en JS */
     background-color: ;
     border-radius: 30px;
-    border: 6px dashed #fa362f;
+    /* border: 6px dashed #fa362f; */
     margin: 0 50px;
     transition: ease .75s;
     /* animation-duration:25s;
@@ -41,6 +41,7 @@ p {
     /* animation:question-clicked 5s;
     animation-delay: 250ms; */
     animation: linear infinite 5s question-clicked;
+    border: 6px dashed green; 
 }
 
 @keyframes question-clicked {
