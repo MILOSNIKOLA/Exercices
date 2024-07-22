@@ -26,6 +26,7 @@ questionContainer.addEventListener('click', () => {
     // questionContainer.classList.add('question-clicked');
     // questionContainer.classList.remove('question-clicked')
     questionContainer.classList.toggle('question-clicked');
+    questionContainer.classList.toggle('erreur');
 
 })
 
