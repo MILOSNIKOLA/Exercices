@@ -1,0 +1,140 @@
+
+<!-- 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulter le Fichier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulter le Fichier</h1>
+        <button id="viewFile">Voir le Fichier</button>
+        <div id="fileContainer">
+            <img id="image" width="500" height="auto" src="./jeee.jpg" alt="Image" class="blurred">
+            <audio id="audio" src="./Evanescence - Bring Me to Life.mp3"></audio>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulter le Fichier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #fileContainer {
+            margin: 10px 20px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .blurred {
+            filter: blur(50px);
+            transition: filter 15s ease-in;
+        }
+
+        .unblurred {
+            filter: blur(0);
+            transition: filter 15s ease-in;
+        }
+
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Consulter le Fichier</h1>
+        <button id="viewFile">Voir le Fichier</button>
+        <div id="fileContainer">
+            <img id="image" width="500" height="auto" src="./jeee.jpg" alt="Image" class="blurred">
+            <audio id="audio" src="./Evanescence - Bring Me to Life.mp3"></audio>
+        </div>
+    </div>
+
+    <script>
+        let fileViewed = false;
+
+        document.getElementById('viewFile').addEventListener('click', () => {
+            if (fileViewed) {
+                alert('Vous avez déjà consulté ce fichier.');
+                return;
+            }
+
+            const image = document.getElementById('image');
+            const audio = document.getElementById('audio');
+
+            if (image && audio) {
+                // Dévoilement progressif de l'image
+                image.classList.remove('blurred');
+                image.classList.add('unblurred');
+                audio.play();
+
+                fileViewed = true;
+
+                // Attendre 15 secondes pour le dévoilement complet, puis 5 secondes avant de refermer
+                setTimeout(() => {
+                    setTimeout(() => {
+                        // Reflouter l'image progressivement
+                        image.classList.remove('unblurred');
+                        image.classList.add('blurred');
+                    }, 7000); // Pause de 7 secondes avant de reflouter
+
+                    // Arrêter et réinitialiser l'audio après 35 secondes
+                    setTimeout(() => {
+                        audio.pause();
+                        audio.currentTime = 0; // Réinitialiser l'audio au début
+                        alert('Le fichier a été effacé.');
+                    }, 15000); // 15 secondes pour reflouter
+                }, 15000); // 15 secondes pour dévoiler
+            } else {
+                alert('Aucun fichier disponible à consulter.');
+            }
+        });
+    </script>
+</body>
+</html>
