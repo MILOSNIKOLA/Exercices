@@ -64,7 +64,7 @@
         }
 
         #fileContainer {
-            margin: 10px 20px;
+            padding: 0 10px;
             position: relative;
             display: flex;
             align-items: center;
@@ -88,11 +88,12 @@
 </head>
 <body>
     <div class="container">
-        <h1>Consulter le Fichier</h1>
-        <button id="viewFile">Voir le Fichier</button>
+        <h1>Pogledaj fajl</h1>
+        <button id="viewFile">Prikaži datoteku</button>
         <div id="fileContainer">
-            <img id="image" width="500" height="auto" src="./jeee.jpg" alt="Image" class="blurred">
+            <img id="image" width="300" height="auto" src="./jeee.jpg" alt="Image" class="blurred">
             <audio id="audio" src="./Evanescence - Bring Me to Life.mp3"></audio>
+            <!-- <video controls width="100%" height="auto" src="https://www.youtube.com/watch?v=3YxaaGgTQYM" autoplay></video> -->
         </div>
     </div>
 
@@ -101,7 +102,7 @@
 
         document.getElementById('viewFile').addEventListener('click', () => {
             if (fileViewed) {
-                alert('Vous avez déjà consulté ce fichier.');
+                alert('Već ste pogledali ovu datoteku.');
                 return;
             }
 
@@ -128,11 +129,11 @@
                     setTimeout(() => {
                         audio.pause();
                         audio.currentTime = 0; // Réinitialiser l'audio au début
-                        alert('Le fichier a été effacé.');
+                        alert('Datoteka je izbrisana.');
                     }, 15000); // 15 secondes pour reflouter
                 }, 15000); // 15 secondes pour dévoiler
             } else {
-                alert('Aucun fichier disponible à consulter.');
+                alert('Nema dostupnih datoteka za pregled.');
             }
         });
     </script>
