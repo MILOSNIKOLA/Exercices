@@ -9,6 +9,7 @@
     body {
         background: #5d78d3;
         text-align: center;
+        
     }
 
     html {
@@ -20,10 +21,15 @@ table {
   border: 2px solid rgb(200,200,200);
   letter-spacing: 1px;
   font-size: 0.8rem;
+  
+}
+
+.table {
+        margin:auto 3rem;
 }
 
 td, th {
-  border: 1px solid rgb(190,190,190);
+  border: 5px solid rgb(190,190,190);
   padding: 10px 20px;
 }
 
@@ -62,7 +68,7 @@ table {
 </style>
 <body>
     <h1>Le Tableau</h1>
-    <table border="4" cellpadding="10" cellspacing="4">
+    <table class="table">
         <thead>
             <tr>
                 <th>Entreprise</th>
@@ -74,58 +80,39 @@ table {
             </tr>
         </thead>
         <tbody>
-          
             <tr>
               <td rowspan="6">Google</td>
               <td rowspan="5">Google Ltd</td>
-              <td></td>
+              <td rowspan="3">YT</td>
               <td>ADS</td>
               <td>1052</td>
               <td>10,7</td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
-              <td>YT</td>
               <td>BTO</td>
               <td>204</td>
               <td>150,1</td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
               <td>CSI</td>
               <td>3543</td>
               <td>60,0</td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td rowspan="2">MAP</td>
               <td>ADS</td>
               <td>48</td>
               <td>10,7</td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
-              <td>Map</td>
               <td>BTO</td>
               <td>5471</td>
               <td>15,8</td>
             </tr>
             <tr>
-              <td colspan="3"></td>
-              <td></td>
-              <td></td>
-              <td><tr>
-                <td colspan="4">Total</td>
-              </tr></td>
+              <td colspan="3" style="text-align: left;">Total</td>
               <td>10318</td>
               <td>247,3</td>
-              
             </tr>
         </tbody>
     </table>
