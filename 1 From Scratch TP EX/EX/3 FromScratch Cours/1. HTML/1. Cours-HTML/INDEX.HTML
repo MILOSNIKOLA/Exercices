@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=  , initial-scale=1.0">
+    <!-- titre de la page -->
+    <title>Cours HTML de zero</title>
+    <!-- Icone de l'onglet -->
+     <link rel="shortcut icon" href="./htmllogo.png">
+     
+</head>
+<style>
+        body {
+            background-color: rgb(88, 90, 189);
+        }
+     </style>
+<body>
+    <nav>
+        <!-- UL= Unordered List -->
+         <ul>
+            <li>Accueil</li>
+            <li>Boutique</li>
+            <li>
+                <a href="#form">Formation</a>
+            </li>
+         </ul>
+
+         <header>
+            <!-- un seul H1 par page --> 
+             <h1>Ceci est le titre principal</h1><!-- en Block, il prend tout largeur  -->
+             <p>
+                texte classique <em>Texte en italique</em><strong>Texte en gras</strong>
+             </p>
+             <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum itaque nostrum nisi! At nemo tempore consectetur perspiciatis nam neque nesciunt fugit amet aut nulla, eius provident culpa! Obcaecati, libero corrupti.
+             </p>
+         </header>
+
+         <main>
+            <section>
+                <h2>Order List</h2>
+                <ol>
+                    <li>Ceci est une</li>
+                    <li>liste dans</li>
+                    <li>l'ordre</li>
+                </ol>
+            </section>
+
+            <section>
+                <h3>Image en HTML</h3>
+                <img src="./spaceship.jpg" width="700" alt="spaceship">
+
+                <div>
+                    <h4>Tableau</h4>
+                    <table border="4" 
+                    cellpadding="10" 
+                    cellspacing="4"
+                    style="text-align: center">
+                        <thead> <!-- l'entete de tableau -->
+                            <tr>
+                                <th>Col 1</th>
+                                <th>Col 2</th>
+                                <th>Col 3</th>
+                            </tr>
+                        </thead> 
+                         <tbody> <!-- corps de tableau -->
+                            <tr>
+                                <td rowspan="2">Cell 1</td>
+                                <td>Cell 2</td>
+                                <td>Cell 3</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Cell 4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h5><span>&#8594; </span>Les Liens</h5>
+                    <a href="https://htmlcheatsheet.com" target="_blank">HTML Cheat Sheet</a>
+
+                </div>
+                <div>
+                    <h6><i>&#128512; </i>Les Videos</h6>
+                    <video src="./vid.mp4"width='600' height="400" autoplay muted loop>video</video>
+                </div>
+            </section>
+            <section>
+                <h2>Les Formulaires</h2>
+                <form id="form">
+                    <!-- "for" et "id" permetten de lier le label a l'input -->
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" placeholder="Veuillez Entrer Votre Nom" />
+
+                    <br>
+
+                    <label for="age">Age</label>
+                    <input type="number" id="age" value="18"/>
+
+                    <br>
+
+                    <!-- Input de type select  -->
+                     <label for="gender">Gendre</label>
+                     <select id="gender">
+                        <option value="Homme">Homme</option>
+                        <option selected="selected" value="Femme">Femme</option>
+                        <option value="Autre">Autre</option>
+                     </select>
+
+                     <div>
+                        <input type="radio" name="type" id="human" checked>
+                        <label for="human">Humain</label>
+
+                        <input type="radio" name="type" id="dog">
+                        <label for="dog">Chien</label>
+
+                        <input type="radio" name="type" id="Cat">
+                        <label for="cat">Chat</label>
+                        <br>
+                        <textarea placeholder="Votre Message"
+                            placeholder="Votre message..."
+                            cols="20"
+                            rows="5"
+                        ></textarea>>
+    
+                     </div>
+                     <br>
+                     <!-- Input de type checkbox -->
+                      <input type="checkbox" name="" id="cgv">
+                      <label for="cgv">Accepter les conditions generals</label>
+                     <br>
+
+                     <!-- Input de type submit permet de valider -->
+                     <input type="submit" value="Ceci est un bouton le bouton pour valider formulaire">
+                </form>
+                <button>Ceci est un bouton</button>
+            </section>
+         </main>
+         <br>
+         <footer>
+            <!-- Mail et envoi de fichier -->
+             <a href="mailto:milosnikola@outlook.fr">Contactez moi</a>
+             <a href="./notice.txt" download="Notice">Telecharger la notice</a>
+         </footer>
+         <br>
+    </nav>
+</body>
+
+</html>
