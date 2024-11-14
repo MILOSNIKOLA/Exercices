@@ -93,8 +93,60 @@ p {
     line-height: 20px;
     margin: 20px 0;
     color: var(--color4);
-    display: -moz-box;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp: 4;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
 }
+
+p::selection{
+    background: var(--color1);
+    color: #fff;
+}
+
+
+/* ***********************  checkbox-container  ******************************/
+
+.checkbox-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
