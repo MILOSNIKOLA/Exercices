@@ -115,9 +115,29 @@ p::selection{
     margin: 0 20px 30px;
 }
 
+input[type="checkbox"]{
+    display: none;
+}
 
+input[type="checkbox"]:checked + label {
+    background: red;
+    transform: scale(1.2);
+}
 
+label {
+    cursor: pointer;
+    border: 1px solid var(--color1);
+    padding: 10px;
+    background: var(--color2);
+    transition: 0.2s;
+}
 
+label:hover{
+    background: #9561d8;
+    transition:.2s ease-out;
+    border-radius: 15%;
+    font-size: 16px;
+}
 
 
 
