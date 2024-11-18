@@ -3,7 +3,7 @@ from colorama import init, Fore
 from phonenumbers import geocoder, timezone, carrier
 init()
 
-number = "+33751412774"
+# number = "+33751412774"
 
 def process_number(number):
     try:
