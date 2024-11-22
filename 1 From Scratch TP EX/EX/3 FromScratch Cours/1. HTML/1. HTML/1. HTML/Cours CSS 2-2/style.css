@@ -1,7 +1,7 @@
 :root {
     --color1: #ad77ab;
     --color2: #6228af;
-    --color3: #3dc95b;
+    --color3: #c93d3d;
     --color4: #141212;
 }
 
@@ -26,6 +26,7 @@ body {
 h1 {
     color: white;
     margin-bottom: 20px;
+    position: relative;
 }
 
 p {
@@ -113,6 +114,7 @@ p::selection {
     display: flex;
     justify-content: space-around;
     margin: 0 20px 30px;
+    perspective: 100px; /* for 3D */
 }
 
 input[type="checkbox"] {
@@ -223,7 +225,73 @@ a:visited {
     color: var(--color4);
 }
 
+/**************************** Animation *******************************/
+
+h1::after {
+    content: "";
+    position: absolute;
+    background: white;
+    height: 1px;
+    width: 100%;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%) scale(0);
+    animation: h1anim 5s ease-in-out forwards;
+    transform-origin: center;
+}
+
+@keyframes h1anim {
+    100% {
+        transform:translateX(-50%) scaleX(1);
+    }
+}
+
+
+label:first-of-type:hover {
+    animation: label1 1s infinite linear ;
+}
+
+@keyframes label1 {
+    50%{
+        transform: scale(1.4);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+label:nth-child(4):hover {
+    animation: label2 3s infinite;
+}
+/* ne pas oublier perspective sur lz parent */
+
+@keyframes label2 {
+    33% {
+        transform: translateZ(30px);
+    }
+    66% {
+        transform: translateZ(-40px);
+    }
+    100% {
+        transform: translateZ(0);
+    }
+}
 
 
 
-1h28 min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1h28 min */
