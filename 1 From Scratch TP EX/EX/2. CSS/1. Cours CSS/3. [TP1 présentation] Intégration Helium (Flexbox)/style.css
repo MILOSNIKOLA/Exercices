@@ -104,7 +104,6 @@ p {
     float: right;
     margin-right: 2rem;
     margin-top: 10rem;
-    display: inline;
 	/* flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
@@ -119,9 +118,52 @@ p {
 /**********************   Footer   **********************/
 
 
+footer {
+    margin: 0 1rem 3rem 1rem;
+    background:  rgba(0, 0, 0, 0.651);
+    /* width: 100%; */
+    height: auto;
+    border-radius: 25px;
+}
 
+.aside .li {
+    color: #fff;
+    list-style: none;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 1.5rem;
+    width: 50%;
+    padding: 1rem;
+    
+}
 
+ul .ul {
+    display: block;
+}
 
+.ull {
+    
+   
+    list-style-type: none;
+    margin-left: 10px;
+    width: 15rem;
+    
+    padding:.5rem ;
+}
+
+.lii {
+
+     color: #fff;
+     display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    text-align: center;
+    background: #410eb8;
+    
+}
+
+ 
 
 
 
