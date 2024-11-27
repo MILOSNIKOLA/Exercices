@@ -1,0 +1,137 @@
+* {
+    margin-left: .5rem;
+    box-sizing: border-box;
+}
+ 
+
+ body {
+    background: rgb(29,29,29);
+ }
+
+ /* header h1 {
+    color:#fff;
+    display: flex;
+    width: 30%;
+ }
+
+ul {
+    display: flex;
+}
+
+ .ul li {
+    display: flex;
+    color: #fff;
+    width: 70%;
+ }
+
+ h1 + li {
+    display: flex;
+    flex-direction: row;
+ } */
+
+/****************** header + nav  **********************************/
+
+ header {
+    display: flex;
+    align-items: center; /* Aligne verticalement les éléments */
+    justify-content: space-between; /* Espace entre h1 et le nav */
+    color:#fff;
+}
+
+header h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+/* Appliquer un flexbox à l'ul pour aligner les li horizontalement */
+.ul {
+    display: flex;
+    list-style: none; /* Enlève les puces des éléments de la liste */
+    margin: 0; /* Enlève la marge par défaut */
+    padding: 0; /* Enlève le padding par défaut */
+}
+
+.ul li {
+    margin: 0 4rem 0 20rem; /* Espace entre chaque li */
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+
+
+/*************************  article   **************************************/
+
+
+h2 {
+    color: #fff;
+    font-size: 100px;
+    text-transform: capitalize;
+    width: 50rem;
+    margin-bottom: 0;
+    margin-top: 15rem;
+}
+
+h3 + p{
+    width: 50rem;
+}
+
+h3 {
+   color: blue;
+   font-size: 2rem;
+   text-transform: capitalize;
+   margin-top: 1.5rem;
+   width: 50rem;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+p {
+    width: 50rem !important;
+    color: #fff;
+}
+
+.img {
+    margin-bottom: 30rem;
+}
+
+.img img {
+    
+    width: 55rem;
+    height: 55rem;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 10rem;
+    display: inline;
+	/* flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items:flex-start;
+	align-content:flex-start */
+    position: absolute;
+    right: .5rem;
+    top: 1rem;
+}
+
+
+/**********************   Footer   **********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
