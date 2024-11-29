@@ -120,7 +120,7 @@ p {
 
 footer {
     margin: 0 1rem 3rem 1rem;
-    background:  rgba(0, 0, 0, 0.651);
+    background:  #000000a6;
     /* width: 100%; */
     height: auto;
     border-radius: 25px;
@@ -134,43 +134,45 @@ footer {
 	justify-content: space-between;
 	font-size: 1.5rem;
     width: 50%;
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
+    text-transform: capitalize;
     
 }
 
-ul .ul {
-    display: block;
-}
+
+/******* 3 li ****/
+
+
 
 .ull {
     
    
     list-style-type: none;
-    margin-left: 10px;
-    width: 15rem;
     
-    padding:.5rem ;
+    width: 15rem;
+    border-radius: 5px solid #000000a6;
+    margin:0;
+}
+
+li {
+    text-align: center;
 }
 
 .lii {
-
-     color: #fff;
-     display: flex;
-    flex-direction: column;
+    padding: 15px 0;
+    color: #fff;
+    display: flex;
     flex-direction: row;
-    text-align: center;
+    align-items: center;
+	align-content: center;
+    justify-content: center;
     background: #410eb8;
-    
+    border: 3px solid #000;
+    border-radius: 50px;
+    text-transform: capitalize;
 }
 
  
-
-
-
-
-
-
-
 
 
 
