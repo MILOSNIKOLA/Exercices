@@ -127,6 +127,10 @@ button {
     margin: 30px auto;
   }
 
+  .infos h3 {
+    color: #fff;
+  }
+
 }
 
 
@@ -160,36 +164,76 @@ button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
-  #modem {
+  /* #modem {
     display: block;
-  }
+  } */
 
   .header-left-container h1 {
-    max-width: 300%;
+    /* max-width: 300%;
     width: 100%;
-    min-width: 50%;
+    min-width: 50%; */
     display: block;
-    /* font-size: 300%; */
-    margin: 0 auto;
+    
+    /* margin-left: 5px;
+    margin-right: 5px; */
+
     /* text-align: left; */
-    padding: 0;
-    border: 1px solid #6fbcbe;
+    /* padding: 0 5px; */
+    /* border: 1px solid #6fbcbe; */
     /* white-space:wrap; */
-    font-size: 3rem;
+    font-size: 7.2vw; /* impo taille en vw qui suit*/ 
   }
 
   .header {
     display: block;
     white-space: nowrap;
-    /* margin: 30px auto; */
+    margin: 0;
   }
 
   p {
-    text-wrap:wrap ;
+    text-wrap:wrap;
+    
   }
-  .infos {
+
+  /* .infos {
     
    
-  }
+  } */
+
+}
+
+@media screen and (max-width: 644px) {
+  /* .infos h3 ,.infos-rigth h3{
+   
+  } */
+  .infos-rigth{
+    display: flex;
+    flex-wrap: wrap;
+     
+   }
+  
+   .infos-left {
+    width: 10rem !important;
+    
+    display: flex;
+   }
+
+}
+
+@media screen and (max-width: 630px) {
+  
+ /* .btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+ }
+
+ .investors {
+  display: flex !important;
+  flex-wrap: wrap;
+ } */
+
+ 
 
 }
