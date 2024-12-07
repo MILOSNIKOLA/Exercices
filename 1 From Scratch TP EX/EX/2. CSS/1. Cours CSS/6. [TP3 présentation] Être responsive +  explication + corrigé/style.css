@@ -203,25 +203,16 @@ button {
 }
 
 @media screen and (max-width: 644px) {
-  /* .infos h3 ,.infos-rigth h3{
-   
-  } */
-  .infos-rigth{
-    display: flex;
-    flex-wrap: wrap;
-     
-   }
-  
-   .infos-left {
-    width: 10rem !important;
-    
-    display: flex;
-   }
+ 
 
 }
 
 @media screen and (max-width: 630px) {
   
+  .infos-rigth h3{
+    width: 1rem;
+  }
+
  /* .btn-container {
   display: flex;
   flex-direction: column;
