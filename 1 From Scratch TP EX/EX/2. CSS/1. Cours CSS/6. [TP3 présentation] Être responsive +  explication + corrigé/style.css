@@ -202,29 +202,50 @@ button {
 
 }
 
-@media screen and (max-width: 644px) {
- 
+@media screen and (max-width: 645px) {
+ .infos {
+   display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
 
-}
-
-@media screen and (max-width: 630px) {
-  
-  .infos-rigth h3{
-    width: 1rem;
-  }
-
- /* .btn-container {
+ .infos-left {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
+  font-size: .8rem;
+ }
+
+ .infos-rigth {
+  display: flex;
   
  }
 
- .investors {
-  display: flex !important;
+ h3 {
+  display: flex;
   flex-wrap: wrap;
- } */
+  font-size: .8rem;
+ }
 
- 
+ button {
+  width: 125px;
+  text-wrap: nowrap;
+ }
 
+}
+
+@media screen and (max-width: 646px) {
+  .infos-left h3 {
+    height: 25px;
+  }
+  
+  .infos-left .btn-container{
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem;
+    margin-right: 20rem;
+   }
+  
+   .btn-container {
+    h20px
+   }
 }
