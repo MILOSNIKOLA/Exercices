@@ -1,10 +1,11 @@
 body {
     min-height: 100vh;
     display: grid;
-    gap: 1rem;
-    
+    gap: 2rem;
+    width: 90%;
     grid-template-columns: repeat(3, 300px);
     grid-template-rows: 1fr 1fr 1fr;
+    /* justify-content: end; */
 }
 
 div:nth-child(1) {
@@ -19,11 +20,14 @@ div:nth-child(1) {
   }
   div:nth-child(3) {
     background: green;
+    grid-column: 2 /2;
   }
   div:nth-child(4) {
     background: red;
+    grid-row: 2 /4;
   }
   div:nth-child(5) {
     background: orchid;
+    grid-column: 2 /4;
   }
 
