@@ -5,7 +5,7 @@ body {
 
 nav {
     display: flex;
-    margin: 0 5remrem;
+    /* margin: 0 5rem; */
     padding:5px 50px;
 }
 
@@ -24,22 +24,29 @@ ul li {
     font-weight: 900;
     font-size: 20px;
     text-transform: uppercase;
-   
+    display: flex;
 }
 
 #language {
     background: #b4a8a8;
-    border-radius:20%;
-    /* border: 12px solid  #b4a8a8; */
+    border-radius:45%;
+    border: 12px solid  #b4a8a8;
     /* padding:0 5px; */
     color: #000000;
     /* line-height:10px; */
-    padding
+    /* margin-bottom: -50px; */
+    justify-content: flex-start;
+    transform: translateY(-25%);
+}
+
+ul li:nth-child(1) {
+    color: blue;
+    border: blue 3px;
     
-    
-    
-    
-    
-    
-    : 50px;
+}
+
+ul .li span {
+    height: 20px;
+    border-top-style: solid;
+    border-bottom: blue;
 }
