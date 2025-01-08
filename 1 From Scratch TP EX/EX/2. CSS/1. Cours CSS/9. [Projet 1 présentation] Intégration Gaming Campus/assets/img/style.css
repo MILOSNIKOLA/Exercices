@@ -69,18 +69,30 @@ z-index: 10;
 }
 
 
-.main-header #logo {
+#logo {
    
   position: absolute;
-  z-index: 5;
+  /* top: 10rem;
+  left: 0; */
+  z-index: 9;
+background: url(./assets/img/logo-gc-hero1.png);
 }
 
-#logo img {
+/* .main-header img {
     
-    
+} */
+
+.main-header h1 {
+    z-index: 10;
+    position: absolute;
+    top: 20rem;
 }
 
-
+.main-header button {
+    z-index: 10;
+    position: absolute;
+    top: 25rem;
+}
 
 
 
