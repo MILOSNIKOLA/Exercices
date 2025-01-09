@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     
+
+    /* background-color: rgb(80, 78, 68); */
 }
 
 body {
@@ -60,52 +62,103 @@ ul li {
     display: flex;
 }
 
-.main-header {
-display: grid;
-justify-items: center;
-/* position: relative; */
-position: relative;
-z-index: 10;
-}
+/***************** header *****************/
 
+header {
+    background-image: url(./assets/img/bg.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    display: grid;
+    width: 100%;
+    height: 100%;
+
+
+}
 
 #logo {
-   
-  position: absolute;
-  /* top: 10rem;
-  left: 0; */
-  z-index: 9;
-background: url(./assets/img/logo-gc-hero1.png);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#logo img {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
 }
 
-/* .main-header img {
-    
-} */
+h1{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    margin-top: 0;
 
-.main-header h1 {
-    z-index: 10;
-    position: absolute;
-    top: 20rem;
 }
 
 .main-header button {
-    z-index: 10;
-    position: absolute;
-    top: 25rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:transparent;
+    border: 1px solid #fff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    text-transform: uppercase;
 }
 
+.main-header button i {
+    margin-left: 20px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    margin-top: 20;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70rem;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+/***************** icon-part *****************/
 
 
-
-
-
-
-
-
-
-
-
-
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.icon-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
 
