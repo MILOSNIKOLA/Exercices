@@ -142,14 +142,14 @@ p {
 .icon-part {
     background-color: #000000;
     
-    width: 100%;
+    
 }
 
 .icon-part-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    /* width: 2378.75px; */
     
     margin-top: 50px;
     margin-bottom: 50px;
@@ -182,6 +182,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
+    
 }
 
 .list-icon-part h3 {
@@ -194,6 +195,7 @@ p {
     text-align: center;
     font-weight: 600;
     color: #fff;
+    
 }
 
 .icon-part-container .list-icon-part p {
@@ -226,19 +228,75 @@ p {
 
 /***************** news-part *****************/
 
+/* .news-part {
+    
+    width: 100%;
+} */
 
+.header-news {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
 
+.left-part {
+    width: 70%;
+   
+   
+}
 
+.left-part h2{
+   display: flex;
+   justify-content: left;
+   margin-left: 50px;
+   margin-bottom: 0;
+   width: 70%;
+   text-transform: uppercase;
+   font-size: 40px;
+   color: #635252;
+   font-family: 'montserrat', sans-serif;
+   font-weight: 500;
+   letter-spacing: 5px;
+}
 
+.left-part p {
+   
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    width: 70%;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing:3px;
 
+}
 
+.right-part {
+    display:flex;
+    /* justify-self: right; */
+    justify-self: right;
+    
+    width: 20%;
+    margin: 3rem 0 5rem 0;
+}
 
+.right-part button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    font-weight: 700;
+}
 
+.right-part button i {
+    margin-left: 15px;
+}
 
-
-
-
-
+/***   main-news  ****/
 
 
 
