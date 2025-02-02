@@ -277,10 +277,10 @@ p {
 
 .right-part {
     display:flex;
-    /* justify-self: right; */
+   
     justify-self: right;
     
-    width: 30%;
+    width: 60%;
     margin: 3rem 0 5rem 0;
 }
 
@@ -288,14 +288,15 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 35px;
+    padding: 15px 25px;
     text-transform: uppercase;
     border: 2px solid #000;
     font-weight: 700;
+    
 }
 
 .right-part button i {
-    margin-left: 15px;
+    margin-left: 35px;
 }
 
 /***   main-news  ****/
@@ -384,45 +385,46 @@ h4 p{
     /* margin-top: 140px; */
 }
 
-
+.main-news-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.5rem;
+    width: 50%;
+    margin-bottom: 1rem;
+    /* height: 0; */
+}
 
 
 .main-news-container .link {
     /* margin-left: 1.5rem; */
-    
+    /* height: 5rem; */
     font-weight: 700;
     font-size: 26px;
     word-wrap: break-word;
-    width: 22rem;
+    width: 20rem;
 }
 
 
-.link {
-    display: flex;
-    
-    /* height: 2rem; */
-    
-}
-
-
-/* .main-news-container .link a{
-    display: ;
-    margin-top: 50px;
-    
-    
-    
-} */
-
-a{
-    display: flex;
+.link a{
+   display: flex;
     /* margin-top: 50px; */
-    height:auto;
+    /* height:auto; */
     /* max-height: 5rem; */
     width: 15rem;
-    align-content: flex-end;
+    /* align-content: center; */
+    /* margin-top: 7rem; */
 }
 
-a i {
+.link a:first-child {
+    margin-top: 50px;
+}
+
+#text {
+    margin-bottom: 100px;
+}
+
+.link a i {
     margin-left: 1.5rem;
     text-transform: none;
 }
