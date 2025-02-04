@@ -325,10 +325,10 @@ p {
     
     width: 50%;
     margin-left: 1.5rem;
-    margin-bottom: 1rem;
-    height: auto; */
+    
+    height: auto; 
     /* justify-content: space-between;*/
-
+    
 }
 
 
@@ -396,6 +396,18 @@ h4 p{
 }
 
 
+
+
+/* .main-news-container div .mn-pic {
+    margin-bottom: 10rem;
+} */
+
+
+
+
+
+
+
 .main-news-container .link {
     /* margin-left: 1.5rem; */
     /* height: 5rem; */
@@ -415,6 +427,7 @@ h4 p{
     /* align-content: center; */
     margin-top: 7rem;
     text-decoration: none;
+    font-weight: 200;
 }
 
 .main-news-container > div:first-child .link { /* Cible le premier élément parent */
@@ -429,10 +442,53 @@ h4 p{
     gap: .5rem; /* Espace entre le texte et l'icône */
   }
 
-.link a i {
-    margin-left: 1rem;
-    text-transform: none;
+
+  .main-news-container > div:nth-child(2) { /* Cible le premier élément parent */
+    display: flex;
+    
+    margin-bottom: 12rem; /* Pousse le lien vers le bas */
+  }
+
+  .main-news-container > div:nth-child(2) .link a { /* Cible le premier élément parent */
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem; /* Espace entre le texte et l'icône */
+    transform: translateY(5.5rem);
+  }
+  
+  .main-news-container > div:nth-child(3) { /* Cible le premier élément parent */
+    display: flex;
+    
+    margin-bottom: 12rem; /* Pousse le lien vers le bas */
+  }
+
+  .main-news-container > div:nth-child(3) .link a { /* Cible le premier élément parent */
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem; /* Espace entre le texte et l'icône */
+    transform: translateY(5.5rem);
+  }
+
+.link a  {
+    /* margin-left: 1rem;
+    text-transform: none; */
+    
 }
+
+.link a i  {
+    font-weight: 00;
+    margin-left: 15px;
+    /* width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-left: 60px solid green; */
+}
+
+
+
+
+
 /* a:nth-child(add) {
     display:flex;
     height: 5rem;
@@ -459,53 +515,57 @@ h4 p{
 }
 
 .contact-list .list {
-    display: flex;
+    /* display: flex; */
     
 }
 
 .list #contact-img {
     display: flex;
-    justify-content: ;
+    /* justify-content: ; */
     margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    margin-right: auto;
-    width: 100%;
-    padding: 0;
+    /* margin-bottom: 50px; */
+    margin-left: 20rem;
+    /* margin-right: auto; */
+    /* width: 100%; */
+    /* padding: 0; */
+    
+    
+    
 }
 
-
-h5 {
+.list {
     display: flex;
-    justify-content: center;
+}
+.list h5 {
+    display: flex;
+    justify-content: left;
     color: #000000;
     font-size: 20px;
     font-family: "Montserrat", serif;
-    font-weight: 500;
-    
-    margin-right: auto;
-    
-    width: 70rem;
-    text-align: center;
+    margin-left: 15rem;
+    text-transform: uppercase;
     line-height: 30px;
     font-weight: 600;
 }
 
 .infos-p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
+    /* flex-direction: column;
+    justify-content: center; */
     color: #000000;
     font-size: 20px;
     font-family: "Montserrat", serif;
     
-    width: 70rem;
+    /* width: 70rem; */
     text-align: center;
     line-height: 30px;
     font-weight: 600;
 }
 
-
+.list ul li:nth-child(1){
+    color: blue;
+    border-top: none;
+}
 
 
 
