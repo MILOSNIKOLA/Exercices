@@ -512,12 +512,17 @@ h4 p{
 
 .contact-list {
     display: flex;
+    position: none;
 }
 
 .contact-list .list {
     display: flex;
-    
+    flex-wrap: wrap;
+    /* align-content: space-between; */
+    position: none;
 }
+
+
 
 .list #contact-img {
     display: flex;
@@ -535,44 +540,70 @@ h4 p{
 
 .list {
     display: flex;
+    margin: 0;
+    position: none;
 }
+
 .list h5 {
     display: flex;
     justify-content: left;
     color: #000000;
     font-size: 20px;
     font-family: "Montserrat", serif;
-    margin-left: 15rem;
+    margin-left: 7.6rem;
+    margin-bottom: 0;
     text-transform: uppercase;
-    line-height: 30px;
+    /* line-height: 30px; */
     font-weight: 600;
     width: 27rem;
 }
 
 .infos-p {
-    display: block;
-    /* flex-direction: column;
-    justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    align-items: center; 
     color: #000000;
     font-size: 20px;
     font-family: "Montserrat", serif;
-    
-    /* width: 70rem; */
+    /* margin: 0; */
+    padding: 0;
+    width: 35rem;
     text-align: center;
-    line-height: 30px;
-    font-weight: 600;
+    /* line-height: 30px; */
+    /* font-weight: 600; */
+    position: none;
+}
+
+.list a{
+    text-decoration: none;
+    position: none;
 }
 
 .list ul li:nth-child(1){
     color: blue;
     border-top: none;
+    margin: 0;
+    position: none;
+    top: none;
 }
 
-.list h5 ,.infos-p{
-    display: block;
-    margin-left: 10rem;
+.list ul li{
+    display: flex;
+    /* justify-content: r; */
+    align-items: flex-start;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 600;
+    width: 20rem;
+    position: none;
 }
 
-
-
+.list ul li a {
+    position: none ;/*u pocetku*/
+}
 
