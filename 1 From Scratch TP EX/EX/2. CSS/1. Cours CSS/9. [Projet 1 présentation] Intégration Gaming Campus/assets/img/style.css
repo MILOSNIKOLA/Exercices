@@ -512,14 +512,14 @@ h4 p{
 
 .contact-list {
     display: flex;
-    position: none;
+    
 }
 
 .contact-list .list {
     display: flex;
     flex-wrap: wrap;
     /* align-content: space-between; */
-    position: none;
+    
 }
 
 
@@ -532,7 +532,7 @@ h4 p{
     margin-left: 20rem;
     /* margin-right: auto; */
     /* width: 100%; */
-    /* padding: 0; */
+    padding: 5rem;
     
     
     
@@ -541,17 +541,17 @@ h4 p{
 .list {
     display: flex;
     margin: 0;
-    position: none;
+   
 }
 
 .list h5 {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     color: #000000;
     font-size: 20px;
     font-family: "Montserrat", serif;
-    margin-left: 7.6rem;
-    margin-bottom: 0;
+    margin-left: 10.4rem;
+    margin-bottom: ; */
     text-transform: uppercase;
     /* line-height: 30px; */
     font-weight: 600;
@@ -567,17 +567,17 @@ h4 p{
     font-size: 20px;
     font-family: "Montserrat", serif;
     /* margin: 0; */
-    padding: 0;
-    width: 35rem;
+    padding: 5px;
+    width: 40rem;
     text-align: center;
-    /* line-height: 30px; */
+    /* line-height: -30px; */
     /* font-weight: 600; */
-    position: none;
+    margin-top: 5px;
 }
 
 .list a{
     text-decoration: none;
-    position: none;
+    
 }
 
 .list ul li:nth-child(1){
@@ -597,13 +597,14 @@ h4 p{
     font-size: 20px;
     font-family: "Montserrat", serif;
     text-transform: uppercase;
-    line-height: 30px;
+    line-height: 50px;
     font-weight: 600;
-    width: 20rem;
+    width: 19rem;
     position: none;
 }
 
-.list ul li a {
-    position: none ;/*u pocetku*/
+.infos-p li:nth-child(1) {
+    
+    transform: translateY(15px);
 }
 
