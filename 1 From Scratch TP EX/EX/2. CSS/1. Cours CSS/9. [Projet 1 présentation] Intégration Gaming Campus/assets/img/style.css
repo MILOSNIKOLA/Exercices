@@ -527,13 +527,13 @@ h4 p{
 .list #contact-img {
     display: flex;
     /* justify-content: ; */
-    margin-top: 50px;
-    /* margin-bottom: 50px; */
-    margin-left: 20rem;
+    /* margin-top: 100%; */
+    /* margin-bottom: ; */
+    margin-left: 15rem;
     /* margin-right: auto; */
     /* width: 100%; */
     padding: 5rem;
-    
+    transform: translateY(-3rem);
     
     
 }
@@ -546,12 +546,12 @@ h4 p{
 
 .list h5 {
     display: flex;
-    justify-content: center;
+    /* justify-content: space-evenly; */
     color: #000000;
     font-size: 20px;
     font-family: "Montserrat", serif;
     margin-left: 10.4rem;
-    margin-bottom: ; */
+    margin-bottom: 0;
     text-transform: uppercase;
     /* line-height: 30px; */
     font-weight: 600;
@@ -567,7 +567,7 @@ h4 p{
     font-size: 20px;
     font-family: "Montserrat", serif;
     /* margin: 0; */
-    padding: 5px;
+    padding: 5px 0;
     width: 40rem;
     text-align: center;
     /* line-height: -30px; */
@@ -608,3 +608,8 @@ h4 p{
     transform: translateY(15px);
 }
 
+.contact-list > .list h5:nth-child(1n+1) {
+    display: flex;
+    flex-direction: row;
+    background-color: chartreuse;
+}
