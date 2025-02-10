@@ -540,7 +540,7 @@ h4 p{
 
 .list {
     display: flex;
-    margin: 0;
+    
    
 }
 
@@ -550,7 +550,7 @@ h4 p{
     color: #000000;
     font-size: 20px;
     font-family: "Montserrat", serif;
-    margin-left: 10.4rem;
+    margin-left: 7.5rem;
     margin-bottom: 0;
     text-transform: uppercase;
     /* line-height: 30px; */
@@ -591,7 +591,7 @@ h4 p{
 .list ul li{
     display: flex;
     /* justify-content: r; */
-    align-items: flex-start;
+    align-items: left;
     text-decoration: none;
     color: #000000;
     font-size: 20px;
@@ -601,15 +601,60 @@ h4 p{
     font-weight: 600;
     width: 19rem;
     position: none;
+    transform: translateX(-3rem);
 }
 
 .infos-p li:nth-child(1) {
     
     transform: translateY(15px);
+    /* width: 19rem; */
+    margin-right: 6rem !important;
 }
 
-.contact-list > .list h5:nth-child(1n+1) {
+.list:nth-of-type(3) {
+
     display: flex;
-    flex-direction: row;
-    background-color: chartreuse;
-}
+    width: 20rem;
+  }
+
+  .list:nth-of-type(3) > h5{
+    
+    display: flex;
+    width: 100%;
+    margin-left: -10rem;
+  }
+
+  .list:nth-of-type(3) p {
+    display: flex !important;
+    
+    display: flex;
+    /* margin-right:10rem !important;
+    margin-left: 0 !important; */
+    text-align: left;
+    width: 100rem;
+    /* transform: translateX(-10rem); */
+    /* transform: translateZ(10rem); */
+    /* transform: translateY(10rem); */
+    transform: translate(-10rem)!important;
+    /* height: auto; */
+    margin-bottom: 12rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
