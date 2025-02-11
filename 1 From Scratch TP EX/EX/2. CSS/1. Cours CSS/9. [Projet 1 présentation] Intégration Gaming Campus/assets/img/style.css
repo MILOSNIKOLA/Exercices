@@ -615,7 +615,10 @@ h4 p{
 
     display: flex;
     width: 20rem;
+    color: #8f6f6f !important;
   }
+
+
 
   .list:nth-of-type(3) > h5{
     
@@ -641,19 +644,88 @@ h4 p{
   }
 
 
+  .list:nth-of-type(3) a {
+    display: initial;
+    /* background-color: yellow; */
+    text-align: left;
+    /* transform: translateY(-11rem); */
+    position: absolute;
+    left: 64.4rem;
+    bottom:-110rem;
+  }
+
+
+  .list:nth-of-type(4) > h5{
+    display: initial;
+    display: flex;
+    width: 20rem;
+    margin-left: -8rem;
+    margin-bottom: -1rem;
+  }
+
+  .list:nth-of-type(4){
+    background-color: yellow;
+    display: initial;
+    
+  }
+
+  .list:nth-of-type(4) h6 {
+    display: flex;
+    justify-content: left;
+    color: #000000;
+    font-size: 10px;
+    font-family: "Montserrat", serif;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-weight: 600;
+    width: 19rem;
+    margin-left: .5rem;
+    margin-right: 10rem !important;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    transform: translateX(-8.5rem);
+    height: auto;
+  }
+
+  h6:nth-of-type(2) {
+    display: flex;
+    justify-content: left;
+  
+}
+
+.list:nth-of-type(4) {
+    width: 20%; /* Ajustez cette valeur selon vos besoins */
+    margin: 0 auto; /* Pour centrer la div si nécessaire */
+  }}
 
 
 
+.footer-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #000000;
+    color: #fff;
+    width: 10rem;
+}
 
+p.copyright {
+    display: flex;
+    justify-content: left;
+    width: 10rem;
+}
 
+.list:nth-of-type(4) p {
+    display: flex;
+    justify-content: left;
+    color: #000000;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+    text-transform: uppercase;
+    width: 19rem;
+    margin-right: ;
 
-
-
-
-
-
-
-
+}
 
 
 
