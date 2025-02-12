@@ -121,7 +121,7 @@ h1{
 }
 
 p {
-    display: flex;
+    display: flex !important;
     justify-content: center;
     color: #000000;
     font-size: 20px;
@@ -130,7 +130,7 @@ p {
     margin-top: 20;
     margin-right: auto;
     margin-left: auto;
-    width: 70rem;
+    /* width: 40rem; */
     text-align: center;
     line-height: 30px;
     font-weight: 600;
@@ -555,7 +555,7 @@ h4 p{
     text-transform: uppercase;
     /* line-height: 30px; */
     font-weight: 600;
-    width: 27rem;
+    width: 30rem;
 }
 
 .infos-p {
@@ -624,17 +624,18 @@ h4 p{
     
     display: flex;
     width: 100%;
-    margin-left: -10rem;
+    margin-left: -11rem;
+    transform: translateX(-7rem);
   }
 
   .list:nth-of-type(3) p {
     display: flex !important;
     
-    display: flex;
+    
     /* margin-right:10rem !important;
     margin-left: 0 !important; */
     text-align: left;
-    width: 100rem;
+    width: 20rem;
     /* transform: translateX(-10rem); */
     /* transform: translateZ(10rem); */
     /* transform: translateY(10rem); */
@@ -664,14 +665,31 @@ h4 p{
   }
 
   .list:nth-of-type(4){
-    background-color: yellow;
+    /* background-color: yellow; */
     display: initial;
     
   }
 
+
+
+
+.network {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 15rem;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    padding: 0;
+    width: 100%;
+}
+
+  
   .list:nth-of-type(4) h6 {
     display: flex;
     justify-content: left;
+    
     color: #000000;
     font-size: 10px;
     font-family: "Montserrat", serif;
@@ -681,7 +699,7 @@ h4 p{
     width: 19rem;
     margin-left: .5rem;
     margin-right: 10rem !important;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     margin-bottom: 0;
     transform: translateX(-8.5rem);
     height: auto;
@@ -696,26 +714,53 @@ h4 p{
 .list:nth-of-type(4) {
     width: 20%; /* Ajustez cette valeur selon vos besoins */
     margin: 0 auto; /* Pour centrer la div si nécessaire */
-  }}
+  }
 
 
 
 .footer-logos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    background-color: #000000;
-    color: #fff;
-    width: 10rem;
+    justify-content: left;
+    
+    /* color: #fff; */
+    width: 20rem;
+    margin: 0 10rem;
+}
+
+.footer-logos i {
+    display: flex;
+    margin-left: 1.5rem;
+    justify-content: left;
+    text-align: left;
+    align-items: flex-start;
+    align-self: start;
+    transform: translateX(-19.5rem);
+    margin-top: 1.5rem;
 }
 
 p.copyright {
     display: flex;
-    justify-content: left;
-    width: 10rem;
+    justify-content: flex-start;
+    margin-top: 5rem;
+    margin-left: -8rem;
+    /* width: 10rem; */
 }
 
-.list:nth-of-type(4) p {
+/* p.copyright:nth-child(2n) {
+    
+} */
+
+.list p {
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -8rem;
+    transform: translateY(2.5rem);
+    margin: 0;
+}
+
+/* .list:nth-of-type(4) p {
     display: flex;
     justify-content: left;
     color: #000000;
@@ -725,7 +770,69 @@ p.copyright {
     width: 19rem;
     margin-right: ;
 
-}
+} */
+
+.list h6 {
+    margin:0;
+    line-height: 2.5; /* Ajuste l'espacement vertical entre les lignes */
+    display: flex;
+
+  }
+  
+  .list h6:first-of-type {
+    margin-bottom: -3.5rem; 
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
