@@ -863,24 +863,275 @@ footer h3 {
 
 footer ul {
     display: flex;
-    justify-content: ;
+    justify-content:center;
     list-style: none;
-    padding: 0;
+    /* margin-left: -50px;
+    margin-right: -50px; */
+   
+    padding:0;
 }
 
 footer ul li {
     display: flex;
     justify-content: center;
-    /* margin: 0 10px; */
+    margin: 0 1.5rem;
 }
 
+
+footer ul li:nth-child(1) {
+    color: rgb(0, 0, 0);
+    /* position: relative;
+    top: -17px; */
+    /* border-top: 1px solid; */
+
+
+}
 footer ul li img {
-    width: 50px;
+    width: 100px;
     height: 50px;
     margin: 0;
 }
 
+@media screen and (max-width: 425px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+        width: 425px!important;
+    }
 
+/**********  NAV  *************/
+
+    nav {
+        display: block;
+        /* padding: 0 10px; */
+        /* margin-bottom: -17px; */
+        margin:0;
+        /* padding:0; */
+        padding:5px 0!important;
+        padding-bottom: 20px!important;
+        margin-bottom:0!important;
+        width: 100%;
+        position: relative !important;
+        top: 0px; /*nav bar je Tu*/
+        left: 40px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        /* justify-content: center; */
+        width: 425px;
+        height: auto;
+        list-style: none;
+        margin: 0!important;
+        padding:0!important;
+        position: absolute!important;
+    }
+    
+    ul li:nth-child(1) {
+        color: rgb(0, 0, 0);
+        border-top: none;
+        padding-top:none;
+        display: none;
+        background-color: chartreuse;
+    }
+
+    nav ul li {
+        font-size: 5px;
+        margin: 0;
+        padding: 0 5px !important;;
+        /* width: 425px; */
+        font-size: 7px;
+        text-align: left;
+        display: flex;
+        justify-content: justify;
+        flex-wrap: wrap;
+        /* width: 60%; */
+    }
+
+    li#language {
+        padding: 0 5px!important;
+        margin: 0!important;
+        background: none !important;;
+        border-radius:none !important;
+        border: none!important;
+        transform: translateY(0);
+        width: 40%;
+    }
+/**********  HEADER/LOGO  *************/
+
+    header {
+        background-image: url(./assets/img/bg.jpg);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        display: grid;
+        width: 100%;
+        height: 100%;
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #logo img {
+        width: 300px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: "Montserrat", serif;
+        font-weight: 500;
+        margin-top: 0;
+    
+    }
+
+    .main-header button {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color:transparent;
+        border: 1px solid #fff;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20rem;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 12px;
+        text-transform: uppercase;
+    }
+
+    .main-header button i {
+        margin-left: 20px;
+    }
+/********** TXT  *************/
+   body > p {
+        display: flex !important;
+        justify-content: left!important;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Montserrat", serif;
+        font-weight: 500;
+        margin-top: 20;
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+        text-align: center;
+        line-height: 30px;
+        font-weight: 600;
+        text-align: justify;
+    }
+
+/**********  ICON-PART  *************/
+    
+    .icon-part{
+        background-color: #000000;
+        padding-bottom: .5rem;
+        padding: 50px 0!important;
+        margin: 0!important;
+    }
+    
+    .icon-part-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .list-icon-part h3 {
+        font-size: 10px;
+        font-family: "Montserrat", serif;
+        font-weight: 500;
+        margin-top: 0;
+        padding: 0;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .icon-part-container .list-icon-part {
+        margin-left: auto;
+        margin-right: auto;
+        padding:10px 0;
+    }
+
+    /***********  NEWS-PART  ***********/
+
+    .header-news {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .left-part {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .left-part h2{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 0;
+        width: 425px!important;
+        text-transform: uppercase;
+        font-size: 25px;
+        color: #4b3f3f;
+        font-family: 'montserrat', sans-serif;
+        font-weight: 500;
+        letter-spacing: 5px;
+    }
+
+    .left-part p {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        width: 100%;
+        font-family: 'montserrat', sans-serif;
+        font-weight: 500;
+        letter-spacing:3px;
+        font-size: 12px;
+    }
+
+    .right-part {
+        display:flex;
+        float: both;
+        
+
+    }
+
+    .right-part button {
+        display:flex!important;
+        justify-content: center!important;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .right-part button i {
+        margin-left: 35px;
+    }
+  }
+  
 
 
 
