@@ -5,10 +5,115 @@
 }
 
 html , body {
-    font-family: 'Poppins', sans-serif;
+    font-family: '', sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    color: #333;
-    background-color: #000000;
+    color: #ffffff;
+    background-color: #615555;
 }
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 2rem 2rem;
+    background-color: #ffffff;
+    color: #000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    /* padding: 0 5rem; */
+    
+}
+
+nav ul li {
+    display: flex;
+    padding: 0 2.7rem;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+nav ul li:first-child {
+    position: relative;
+    color: blue;
+    border-top: solid;
+    /* border-width: .5rem; */
+    /* padding-top: 1.48rem; */
+   width: 1.5rem;
+    /* margin-top: -3rem; */
+    top: .9rem;
+    /* right: 1rem; */
+    
+}
+
+nav ul li:nth-child(8) {
+    position: relative;
+    top: -.4rem;
+    /* width: 10rem; */
+    border-radius:85px;
+    border: solid#aaa0a0;
+    background-color: #aaa0a0;
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
