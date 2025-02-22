@@ -32,7 +32,7 @@ nav ul {
 
 nav ul li {
     display: flex;
-    padding: 0 2.7rem;
+    padding: 0 1.7rem;
     text-transform: uppercase;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
@@ -42,26 +42,32 @@ nav ul li {
 }
 
 nav ul li:first-child {
-    position: relative;
+    
     color: blue;
-    border-top: solid;
-    /* border-width: .5rem; */
-    /* padding-top: 1.48rem; */
-   width: 1.5rem;
-    /* margin-top: -3rem; */
+    border-top: 5px solid #5208ff;
+    width: 5rem;
+    position: relative;
+    bottom:3 0px;
+    display: flex;
+    /*border-top: solid;
+    border-width: .5rem; */
+    /* padding-top: 1.48rem;
+    width: 1.5rem;
+    margin-top: -3rem;
     top: .9rem;
-    /* right: 1rem; */
+    right: 1rem; */
     
 }
 
 nav ul li:nth-child(8) {
     position: relative;
     top: -.4rem;
-    /* width: 10rem; */
+    width: 9rem;
     border-radius:85px;
     border: solid#aaa0a0;
     background-color: #aaa0a0;
-    padding: 0 20px;
+    /* padding: 0 10px; */
+    
 }
 
 
