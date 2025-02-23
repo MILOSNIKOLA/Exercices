@@ -44,29 +44,25 @@ nav ul li {
 nav ul li:first-child {
     
     color: blue;
-    border-top: 5px solid #5208ff;
-    width: 5rem;
-    position: relative;
-    bottom:3 0px;
-    display: flex;
-    /*border-top: solid;
-    border-width: .5rem; */
-    /* padding-top: 1.48rem;
-    width: 1.5rem;
-    margin-top: -3rem;
-    top: .9rem;
-    right: 1rem; */
-    
+    border-top: blue 5px solid;
+    padding-top: 28px;
+    transform: translateY(-32px);
+    padding-left: 0;
+    padding-right: 0;
 }
+
+
+
+
 
 nav ul li:nth-child(8) {
     position: relative;
-    top: -.4rem;
+    top: -.9rem;
     width: 9rem;
     border-radius:85px;
-    border: solid#aaa0a0;
-    background-color: #aaa0a0;
-    /* padding: 0 10px; */
+    border:solid #beb2b2;
+    background-color:#beb2b2;
+    padding-top: 10.5px;
     
 }
 
