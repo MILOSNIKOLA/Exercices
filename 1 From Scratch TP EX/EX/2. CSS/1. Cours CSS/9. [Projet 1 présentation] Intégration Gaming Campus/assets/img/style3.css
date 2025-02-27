@@ -318,7 +318,7 @@ header .main-header button i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0;
+  padding: rem 0;
   color: #fff;
   width: 10px;
   margin: 0 auto;
@@ -377,12 +377,12 @@ header .main-header button i {
 }
 
 .main-news-container div:nth-child(1)  {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .main-news-container div .link{
   display: initial;
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
   text-transform: uppercase;
   margin: 0;
   padding: 0;
@@ -398,13 +398,15 @@ header .main-header button i {
 .main-news-container div .link a {
   width: 20rem;
   transform: translateX(-10rem)!important;
-  display: flex;
+  /* display: flex; */
   /* margin-right: 20rem; */
+  border: 1px solid #000;
   
 }
 
 .main-news-container div .link a:nth-child(1) {
   margin-top: 1rem;
+  
   /* transform: translateX(-10rem); */
 }
 
