@@ -380,17 +380,44 @@ header .main-header button i {
   margin-top: 1rem;
 }
 
+.main-news-container div .link{
+  display: initial;
+  padding-top: 5rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  padding-top: 10rem;
+}
+
+
+
+.main-news-container div .link {
+  
+}
+
+.main-news-container div .link a {
+  width: 20rem;
+  transform: translateX(-10rem)!important;
+  display: flex;
+  /* margin-right: 20rem; */
+  
+}
+
+.main-news-container div .link a:nth-child(1) {
+  margin-top: 1rem;
+  /* transform: translateX(-10rem); */
+}
 
 
 
 
 
 
-
-
-
-
-
+.main-news-container div .link a i {
+  
+  height: auto;
+  margin-left: 1rem;
+}
 
 
 
