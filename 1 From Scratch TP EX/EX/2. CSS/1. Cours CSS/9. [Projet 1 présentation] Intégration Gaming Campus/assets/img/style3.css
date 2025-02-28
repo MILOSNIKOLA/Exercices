@@ -318,11 +318,34 @@ header .main-header button i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: rem 0;
+  padding-top: 1rem;
   color: #fff;
   width: 10px;
   margin: 0 auto;
+  margin-top: -1rem;
 }
+
+
+
+
+
+
+
+
+/* .main-news-container div:nth-child(1) {
+  margin-bottom: -1.5rem;
+} */
+
+
+
+
+
+
+
+
+
+
+
 
 .main-news-container div .mn-pic {
   display: flex;
@@ -381,12 +404,13 @@ header .main-header button i {
 }
 
 .main-news-container div .link{
-  display: initial;
+  display: flex;
   /* padding-top: 5rem; */
   text-transform: uppercase;
   margin: 0;
   padding: 0;
   padding-top: 10rem;
+  height: auto;
 }
 
 
@@ -398,15 +422,16 @@ header .main-header button i {
 .main-news-container div .link a {
   width: 20rem;
   transform: translateX(-10rem)!important;
-  /* display: flex; */
+  display: flex;
   /* margin-right: 20rem; */
   border: 1px solid #000;
   
 }
 
 .main-news-container div .link a:nth-child(1) {
-  margin-top: 1rem;
-  
+  margin-right: 1rem;
+  display: flex;
+  width: 15rem;
   /* transform: translateX(-10rem); */
 }
 
@@ -420,7 +445,6 @@ header .main-header button i {
   height: auto;
   margin-left: 1rem;
 }
-
 
 
 
