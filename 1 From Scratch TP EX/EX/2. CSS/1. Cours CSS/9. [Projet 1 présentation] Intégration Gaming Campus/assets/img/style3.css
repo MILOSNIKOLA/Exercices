@@ -316,36 +316,21 @@ header .main-header button i {
 .main-news-container div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 1rem;
-  color: #fff;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* padding-top: 5rem; */
+  /* color: #fff; */
   width: 10px;
   margin: 0 auto;
-  margin-top: -1rem;
+  /* margin-top: -1rem; */
+  align-items: center;
 }
 
-
-
-
-
-
-
-
-/* .main-news-container div:nth-child(1) {
-  margin-bottom: -1.5rem;
-} */
-
-
-
-
-
-
-
-
-
-
-
+.main-news-container:nth-child(1){
+  display: flex;
+  margin-top: 5rem;
+  
+}
 
 .main-news-container div .mn-pic {
   display: flex;
@@ -370,7 +355,7 @@ header .main-header button i {
   /* line-height: 1.6; */
   text-align: left;
   /* background-color: #ac0e0e; */
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   /* margin: 0 auto; */
   margin-right: 4.7rem;
   color: #000000;
@@ -388,61 +373,36 @@ header .main-header button i {
   text-align: left;
 }
 
-.main-news-container p {
-  display: initial;
-  font-size: 15px;
-  font-weight: 100;
-  width:3000% ;   /*600px*/
-  padding: 0;
-  margin: 0;
-  margin-right: 1.7rem;
-  text-align: left;
+
+.main-news-container div:nth-child(1).mn-pic,h4,p,.link {
+  margin-top: rem;
 }
 
-.main-news-container div:nth-child(1)  {
-  margin-top: 1.5rem;
-}
 
-.main-news-container div .link{
+.link {
   display: flex;
-  /* padding-top: 5rem; */
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
+  justify-content: flex-end; /* Aligne le contenu à droite */
+  margin-top: 15px; /* Espacement avec le paragraphe */
   padding-top: 10rem;
-  height: auto;
-}
-
-
-
-.main-news-container div .link {
-  
-}
-
-.main-news-container div .link a {
   width: 20rem;
-  transform: translateX(-10rem)!important;
-  display: flex;
-  /* margin-right: 20rem; */
-  border: 1px solid #000;
-  
 }
 
-.main-news-container div .link a:nth-child(1) {
-  margin-right: 1rem;
-  display: flex;
-  width: 15rem;
-  /* transform: translateX(-10rem); */
+.link a {
+  display: inline-flex;
+  align-items:flex-start;
+  color: #0077ff; /* Couleur du texte */
+  text-decoration: none;
+  margin: 0;
+  margin-top: -9rem;
+  /* padding-top: 5rem; */
+  width: 20rem;
 }
-
-
-
 
 
 
 .main-news-container div .link a i {
   
-  height: auto;
+  
   margin-left: 1rem;
 }
 
