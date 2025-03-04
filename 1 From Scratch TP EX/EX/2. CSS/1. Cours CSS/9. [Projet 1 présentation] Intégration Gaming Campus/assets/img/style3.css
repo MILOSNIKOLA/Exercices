@@ -465,10 +465,64 @@ header .main-header button i {
   height: 250px;
 }
 
-.contact-list .list:nth-child(2) h5 ,.infos-p {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .contact-list .list:nth-child(2) h5 {
   display: flex;
-  
+  flex-wrap: wrap;
+  width: 250px;
+  margin-right: 10px;
+  padding:0 10px;
+  font-size: 20px;
 }
+
+
+.contact-list .list:nth-child(2) .infos-p li {
+  display: flex;
+  flex-wrap: wrap;
+
+} */
+
+/* .contact-list .list:nth-child(2) h5 ,.infos-p li a{
+  display: flex;
+  flex-wrap: wrap;
+  
+} */
+
+
+.contact-list .list:nth-child(2) h5 .infos-p:nth-child(2) li a {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  margin-right: 10px;
+  padding:0 10px;
+  font-size: 20px;
+  
+
+}
+
+.infos-p:nth-child(2) {
+  float: left;
+}
+
+
+
+
+
+
+
 
 
 .contact .contact-container .contact-list .list p {
