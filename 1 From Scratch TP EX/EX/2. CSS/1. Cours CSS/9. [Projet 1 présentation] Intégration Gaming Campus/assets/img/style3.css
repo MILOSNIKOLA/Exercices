@@ -112,7 +112,7 @@ p {
   text-align: center;
   background-color: #ffffff;
   padding: 3rem 5rem 3rem 5rem;
-  width: 100rem;
+  /* width: 100; */
   margin: 0 auto;
   color: #000;
 }
@@ -430,10 +430,10 @@ header .main-header button i {
 }
 
 .contact .contact-container {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   float:left;
-  color: #fff;
+  color: #fff; */
 }
 
 .contact .contact-container .contact-list {
@@ -611,46 +611,48 @@ header .main-header button i {
   
 }
 
+/**/
+
 .contact .contact-container .medias-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin: 0;
+  
   width: 100%;
   color: #fff;
-}
-
-.contact-medias .medias-text {
-  width: 100%;
 }
 
 .contact-medias .medias-text h3 {
 
   color: #000000; 
   text-transform: uppercase;
-  width: 65%;
-  margin: 0;
+  padding-bottom: .8rem;
   margin-top: 5rem;
-  margin-bottom: -1rem;
-  
+  text-align: start;
+  margin-left: 16%;
+  width: 24%;
+
 }
 
 .contact-medias .medias-text p {
   color: #000000; 
   font-size: 16px;
-  margin-top: 1rem;
-  margin-right: 0;
-  margin-left: 0;
-  margin-bottom: 0;
-  transform: translateX(-25rem);
-  /* padding-top: 6rem; */
+  text-align: start;
+  margin: 0;
+  margin-bottom: 2rem;
+  padding:0;
+  width: 24%;
+  margin-left: 16%;
+  float: both;
 }
 
-
-.medias-logo
-
+.medias-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 16%;
+  width: calc(100% - 44%);
+}
 
 
 /********* FOOTER ********/
