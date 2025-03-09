@@ -616,10 +616,14 @@ header .main-header button i {
 .contact .contact-container .medias-text {
   display: flex;
   flex-direction: column;
-  
+  flex-wrap: nowrap;
   width: 100%;
   color: #fff;
+  align-items: flex-start;
 }
+
+
+
 
 .contact-medias .medias-text h3 {
 
@@ -629,7 +633,7 @@ header .main-header button i {
   margin-top: 5rem;
   text-align: start;
   margin-left: 16%;
-  width: 24%;
+  width: 40%;
 
 }
 
@@ -640,27 +644,36 @@ header .main-header button i {
   margin: 0;
   margin-bottom: 2rem;
   padding:0;
-  width: 24%;
+  width: 40%;
   margin-left: 16%;
   float: both;
+}
+
+.medias-text h3 , .medias-text p {
+  margin-right: 5rem;
 }
 
 .medias-logos {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1rem;
-  margin-left: 16%;
-  width: calc(100% - 44%);
+  margin-top: -5rem;
+  /* margin-left: -16%; */
+  margin-left: 35%;
+ margin-right: 10%;
+  width: 50%;
 }
 
-
+.contact-medias .medias-logos i {
+  margin-left: 1rem;
+  color: #000000;
+}
 /********* FOOTER ********/
 
-/* footer {
-  margin-top: 10rem;
+footer {
+  background-color: #000;
 }
- */
+
 
 
 
