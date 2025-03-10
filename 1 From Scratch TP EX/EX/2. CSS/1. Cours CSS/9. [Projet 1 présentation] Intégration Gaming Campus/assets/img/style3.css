@@ -416,27 +416,14 @@ header .main-header button i {
 .contact {
   display: flex;
   flex-direction: column;
-  
-  
-  /* padding: 5rem 5rem;
-   */
+  /* padding: 5rem 5rem;*/
   /* background-color: #000; */
   color: #fff;
-}
-
-.contact .contact-container {
-  /* display: flex;
-  flex-wrap: wrap;
-  float:left;
-  color: #fff; */
 }
 
 .contact .contact-container .contact-list {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
-  /* justify-content: center; */
-  /* padding: 1rem rem; */
   margin: 1rem 0;
   /* margin-left: -5rem;
   margin-right: 1rem; */
@@ -451,10 +438,6 @@ header .main-header button i {
  margin: 0 -13rem;
  
 }
-
-/* .contact .contact-container .contact-list .list h5,ul,li,h6 {
- 
-} */
 
 /** 1th list **/
 
@@ -618,9 +601,6 @@ header .main-header button i {
   padding-bottom: 3rem;
 }
 
-
-
-
 .contact-medias .medias-text h3 {
 
   color: #000000; 
@@ -698,7 +678,44 @@ footer ul li {
 }
 
 
+@media screen and (max-width: 425px) {
+  * {
+    margin: 0;
+    padding: 0;
+    max-width: 425px;
+  }
 
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0 5px;
+    height: 5px;
+  }
+  #language {
+    margin: 0;
+    padding: 0;
+    position:static;
+    border-radius: 85px;
+    border: 1px solid #beb2b2;
+    background-color: #beb2b2;
+    display: flex;
+  }
+}
 
 
 
