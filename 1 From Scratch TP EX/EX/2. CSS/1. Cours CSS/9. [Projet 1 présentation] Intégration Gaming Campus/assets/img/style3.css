@@ -760,8 +760,130 @@ footer ul li {
  .list-icon-part {
   width: 100%;
   margin: 0;
+  padding-top: 1rem;
  }
 
+.header-news .left-part {
+  width: 100%;
+}
+
+.header-news .left-part {
+  font-size: 1.5rem;
+  
+  margin: 0 auto;
+  margin-left: 0;
+  color: #000000;
+  padding: 0;
+}
+
+.left-part h2 {
+  margin: 0 auto!important;
+  margin-bottom: -10px!important;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  letter-spacing: 2px!important;
+  word-spacing: 2px;
+}
+.left-part p {
+  margin: 0 auto!important;
+  margin-bottom: 5px!important;
+  text-align: center;
+  padding: 0! ;
+  text-align: center;
+  width: 100%;
+  font-size: 17px!important;
+}
+
+.right-part{
+  margin: 0 auto!important;
+  
+  padding: 0 !important;;
+  width: 100%!important;
+}
+
+.right-part button {
+  
+  margin-top: 1rem!important;
+  margin: .7rem auto!important;
+  display: flex!important;
+  justify-content: center!important;
+  align-self: center;
+}
+
+.right-part button i {
+  margin-left: 1rem!important;
+}
+
+.main-news {
+  display: flex;
+  padding-top: 50px;
+}
+
+.main-news .main-news-container {
+  display: flex!important;
+  flex-direction: column;
+  justify-content: center!important;
+  align-items:  !important;
+  padding:0;
+  /* padding-top: 1rem; */
+  
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-news .main-news-container div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-news-container div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0!important;
+  /* padding-bottom: 5rem;
+  transform: translateY(-10rem); */
+}
+
+.main-news-container > div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0!important;
+}
+
+.link {
+  padding-top: 5rem;
+}
+
+.link a {
+  margin-top: -35rem!important;
+  transform: translateY(15rem)!important;
+}
+
+.contact-list {
+  display: flex!important;
+  flex-direction: column!important;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.contact-list .list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center!important;
+  align-items: center!important;
+  
+}
+
+.contact .contact-container .contact-list .list #contact-img img {
+  transform: translateY(0rem);
+  width: 150px;
+  height: auto;
+}
+
+.list:nth-child(4) .copyright, p{
+  
 }
 
 
@@ -780,3 +902,14 @@ footer ul li {
 
 
 
+
+
+
+
+
+
+
+
+
+
+}
