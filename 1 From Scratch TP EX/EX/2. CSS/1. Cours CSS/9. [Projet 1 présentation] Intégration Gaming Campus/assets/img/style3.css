@@ -687,7 +687,6 @@ footer ul li {
 
   nav {
     position: absolute;
-    /* top: 1rem; */
     margin: 0;
     padding: 0;
     background-color: #ffffff00;
@@ -698,7 +697,7 @@ footer ul li {
     flex-direction: column;
     justify-content: left;
     list-style: none;
-    padding: 2px 0;
+    padding: 2px;
     margin: 0;
     /* width: 30%; */
     color: #000000;
@@ -708,9 +707,10 @@ footer ul li {
     display: flex;
     flex-wrap: wrap;
     font-size: 10px;
-    margin: 0;
+    /* margin: 0; */
     margin-top: 5px;
-    padding: 0 5px;
+    margin-right: 10px;
+    /* padding: 0 5px; */
     /* height: 10px; */
     color: #fff;
     border: none;
@@ -721,29 +721,29 @@ footer ul li {
     border-top:none;
     padding-top:0px;
     transform: translateY(0px);
-    padding-left: 5px;
-    padding-right: 0;
+    /* margin-right: 5px!important; */
+     padding-left: 28px!important;
+    /*padding-right: 5px; */
   }
 
   #language {
-    display:initial;
     margin: 0;
     padding: 0;
     display: revert;
-   
-    /* background-color: none; */
-    padding-left: 5px;
+    /* padding-left: 28px; */
     
+
   }
 
   nav ul li:nth-child(8) {
     position:static;
-    
-    width: 8.2rem;
-    /*border-radius: 0; */
-    /* border: 1px solid #beb2b2;
-    background-color: #beb2b2; */
-    
+    text-align: center;
+    width: 3.8rem;
+    position: absolute;
+    top: 9.4rem;
+    right: 7rem;
+    border-radius: 85px;
+    border: 1px solid #beb2b2;
   }
 
  .icon-part-container {
@@ -883,33 +883,64 @@ footer ul li {
 }
 
 .list:nth-child(4) .copyright, p{
+  text-align:left center!important;
   
 }
 
+.contact-medias .medias-text h3 {
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+  width: 300px;
+}
 
+.contact-medias .medias-text p {
+  text-align: left;
+  
+  margin: 0 auto;
+  width: 300px;
+}
 
+.contact-medias .medias-logos {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width:100%;
+  
+}
 
+.contact-medias .medias-logos .img {
+  padding: 5px;
+  margin: 0px;
+}
 
+footer {
+  
+}
 
+footer ul{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items:stretch center;
+  width: 100%;
+  padding: 5px 0;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer ul li {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
 
 }
