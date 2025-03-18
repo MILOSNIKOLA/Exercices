@@ -335,9 +335,14 @@ h1 {
     margin: 20px 0 8px;
 }
 
+.footer-logos i{
+    font-size: .8rem;
+    margin: 0 12px 30px 0;
+}
 
-
-
+.copyright {
+    margin: 0; 
+}
 
 
 
