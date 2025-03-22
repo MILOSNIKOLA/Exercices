@@ -1,3 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* header{
+   
+    
+    
+} */
+
+header .prvi {
+    
+}
+
+.prvi h1 , .prvi p , button{
+    
+    float: left;
+
+}
+
+.pr-vi {
+    float: right;
+}
+
+
+.prvi h1{
+    display: grid;
+    padding: 10rem 0;
+    padding-left: 10rem;
+}
+
+.prvi p {
+    padding: 10rem 0;
+    padding-left: 10rem;
+    width: 50%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
