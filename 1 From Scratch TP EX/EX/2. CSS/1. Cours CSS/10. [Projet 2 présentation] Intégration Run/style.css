@@ -104,12 +104,13 @@ aside .dru-gi { /*vert celi div*/
     width: 50%;
     float: right;
     padding-top: 4rem;
-    transform: translateX(-23rem);
-    margin-left: rem;
+    transform: translateX(-10rem);
+    /* margin-right: 1rem; */
 }
 
 .dru-gi h2,p,button {
    margin-top:2.3rem;
+  
 }
 
 
@@ -125,12 +126,18 @@ aside .dru-gi { /*vert celi div*/
     word-spacing: 2px;
     font-size: 60px;
     font-family: "Nanum Gothic", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+    font-weight: 100;
+    margin-left: -5px;
 }
 
 .dru-gi p {
     width: 100%;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-top: 20px;
+    margin-left: 0;
+    padding-top: 0;
 }
 
 .dru-gi button {
@@ -143,20 +150,62 @@ aside .dru-gi { /*vert celi div*/
     margin: 2rem 0 0 0rem;
 }
 
-
-
-
-
-
-
-
-
-
-
+/********************** 3/3 *************************/
 
 .aside .tre-ci {
-    float: left;
+   
 }
+
+.tre-ci h2,p,button {
+    padding-top:2.3rem;
+    padding-left: 10rem;
+    margin-left: 2rem;
+    
+}
+
+.tre-ci h2 {
+    transform: translateY(3rem);
+    margin-top:2.3rem;
+    /* padding-right: -10rem; */
+    margin-left: 2rem;
+    width: 50%;
+    text-transform: capitalize;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.tre-ci p {
+    width: 50%;
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+.tre-ci button {
+    padding: 1rem 2rem;
+    border: 1px solid rgb(167, 143, 167);
+    border-radius: 35px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 2rem;
+}
+
+.treci {
+ float: right;
+ display: block;
+ margin-top: -8.3rem;
+}
+
+.treci img {
+   float: right;
+    width: 40rem;
+    height: 30rem;
+}
+
+
+
+
 
 .form {
     float: left;
