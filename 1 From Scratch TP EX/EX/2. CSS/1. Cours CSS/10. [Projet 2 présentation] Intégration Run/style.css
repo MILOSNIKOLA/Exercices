@@ -26,7 +26,7 @@ header p,button{
     color: rgb(167, 143, 167);
 }
 .prvi h1 {
-    margin-bottom: 1rem;
+    margin-bottom: -1rem;
     padding:10rem 0 0 10rem;
     /* background-color: #333; */
     font-size: 60px;
@@ -64,7 +64,8 @@ header .pr-vi {
     width: 50%;
     height: auto;
     overflow: hidden;
-    margin: 0;
+    margin-top: -3rem;
+    /* margin: 0; */
     padding: 0;
 }
 
@@ -79,6 +80,17 @@ header .pr-vi {
     margin-left: -100%;
 }
 
+
+.ar::after {
+    content: '';
+    width: 300px;
+    height: 2px;
+    border-bottom: 1px solid rgba(167, 143, 167, 0.473);
+    position: absolute;
+    bottom: -102px;
+    left: 44rem;
+}
+
 /************************** 2/3 *************************/
 
 aside {
@@ -89,7 +101,7 @@ aside {
 aside .drugi {
     width: 50%;
     float: left;
-    padding-top: 5rem;
+    padding-top: 2rem;
     height: auto;
 }
 
@@ -97,7 +109,7 @@ aside .drugi img {
     width: 75%;
     height: 450px;
     display: block;
-    margin-top: 8rem;
+    margin-top: 7.6rem;
 }
 
 aside .dru-gi { /*vert celi div*/
@@ -110,7 +122,7 @@ aside .dru-gi { /*vert celi div*/
 
 .dru-gi h2,p,button {
    margin-top:2.3rem;
-  
+   
 }
 
 
@@ -136,8 +148,9 @@ aside .dru-gi { /*vert celi div*/
     letter-spacing: 1px;
     word-spacing: 1px;
     margin-top: 20px;
-    margin-left: 0;
+    margin-left: -10rem;
     padding-top: 0;
+    color: rgb(167, 143, 167);
 }
 
 .dru-gi button {
@@ -150,13 +163,24 @@ aside .dru-gi { /*vert celi div*/
     margin: 2rem 0 0 0rem;
 }
 
+.arr::after{
+    content: '';
+    width:550px;
+    height: 5px;
+    border-bottom: 1px solid rgba(134, 118, 134, 0.37);
+    position: absolute;
+    bottom: -34.4rem;
+    left: 44.55rem;
+    /* background-color: chartreuse; */
+}
+
 /********************** 3/3 *************************/
 
 .aside .tre-ci {
    
 }
 
-.tre-ci h2,p,button {
+.tre-ci h2,p {
     padding-top:2.3rem;
     padding-left: 10rem;
     margin-left: 2rem;
@@ -180,6 +204,7 @@ aside .dru-gi { /*vert celi div*/
     line-height: 30px;
     letter-spacing: 2px;
     word-spacing: 1px;
+    color: rgb(167, 143, 167);
 }
 
 .tre-ci button {
@@ -188,13 +213,14 @@ aside .dru-gi { /*vert celi div*/
     border-radius: 35px;
     cursor: pointer;
     margin-top: 20px;
-    margin-left: 2rem;
+    margin-left: 11.7rem;
 }
 
 .treci {
  float: right;
- display: block;
- margin-top: -8.3rem;
+ /* display: block; */
+ margin-top: -15rem;
+ 
 }
 
 .treci img {
@@ -203,6 +229,17 @@ aside .dru-gi { /*vert celi div*/
     height: 30rem;
 }
 
+.arrr::after {
+   
+        content: 'aaaaaaa';
+        width:1400px;
+        height: 5px;
+        border-bottom: 1px solid rgb(134, 118, 134);
+        position: absolute;
+        bottom: -64.22rem;
+        left: -5rem;
+        
+    }
 
 
 
