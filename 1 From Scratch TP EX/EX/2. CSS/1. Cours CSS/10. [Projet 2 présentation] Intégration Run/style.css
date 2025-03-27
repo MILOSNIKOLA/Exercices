@@ -176,10 +176,6 @@ aside .dru-gi { /*vert celi div*/
 
 /********************** 3/3 *************************/
 
-.aside .tre-ci {
-   
-}
-
 .tre-ci h2,p {
     padding-top:2.3rem;
     padding-left: 10rem;
@@ -234,7 +230,7 @@ aside .dru-gi { /*vert celi div*/
         content: 'aaaaaaa';
         width:1400px;
         height: 5px;
-        border-bottom: 1px solid rgb(134, 118, 134);
+        border-bottom: 1px solid rgba(134, 118, 134, 0.288);
         position: absolute;
         bottom: -64.22rem;
         left: -5rem;
@@ -242,8 +238,9 @@ aside .dru-gi { /*vert celi div*/
     }
 
 
-
+/************************* FORM *********************/
 
 .form {
-    float: left;
+    display: flex;
+    margin-top: 20rem;
 }
