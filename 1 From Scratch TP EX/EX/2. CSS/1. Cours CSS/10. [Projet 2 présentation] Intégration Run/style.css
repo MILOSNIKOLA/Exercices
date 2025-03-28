@@ -240,7 +240,54 @@ aside .dru-gi { /*vert celi div*/
 
 /************************* FORM *********************/
 
-.form {
-    display: flex;
+.for {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
     margin-top: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+
+
+form {
+   width: 600px;
+}
+
+form p {
+    width: 100px;
+    height: 30px;
+}
+
+p input[type="text"],p input[type="email"] {
+    width: 250px;
+    
+}
+
+p input[type="text"] {
+    display: grid;
+    float: left;
+}
+
+p input[type="email"] {
+    display: grid;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
