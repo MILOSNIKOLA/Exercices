@@ -245,49 +245,67 @@ aside .dru-gi { /*vert celi div*/
     justify-content: center;
     justify-items: center;
     margin-top: 20rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
 
+/* .form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+  }
+  
+  .form p {
+    margin: 0;
+  }
+  */
 
-form {
-   width: 600px;
-}
 
-form p {
-    width: 100px;
-    height: 30px;
-}
+  /* .for {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+  }
+   */
+  
+  .form {
+    display: grid; /* Active le mode Grid */
+    grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+    grid-template-areas: 
+      "name email"
+      "message message"
+      "button ,"; /* Bouton centré sous le champ Message */
+    gap: 20px; /* Espace entre les éléments */
+  }
+  
+  .form p:nth-of-type(1) {
+    grid-area: name; /* Zone pour le champ Name */
+  }
+  
+  .form input[type="text"] {
+    grid-area: name; /* Champ Name aligné avec son label */
+  }
+  
+  .form p:nth-of-type(2) {
+    grid-area: email; /* Zone pour le champ Email */
+  }
+  
+  .form input[type="email"] {
+    grid-area: email; /* Champ Email aligné avec son label */
+  }
+  
+  .form p:nth-of-type(3),
+  .form textarea {
+    grid-area: message; /* Zone pour le champ Message */
+  }
+  
+  .form button {
+    grid-area: button; /* Zone pour le bouton */
+  }
+  
 
-p input[type="text"],p input[type="email"] {
-    width: 250px;
+  .form form {
+    display: inline-flex;
     
-}
-
-p input[type="text"] {
-    display: grid;
-    float: left;
-}
-
-p input[type="email"] {
-    display: grid;
-    float: right;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
+  
+  
