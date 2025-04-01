@@ -227,7 +227,7 @@ aside .dru-gi { /*vert celi div*/
 
 .arrr::after {
    
-        content: 'aaaaaaa';
+        content: '';
         width:1400px;
         height: 5px;
         border-bottom: 1px solid rgba(134, 118, 134, 0.288);
@@ -244,68 +244,159 @@ aside .dru-gi { /*vert celi div*/
     display: grid;
     justify-content: center;
     justify-items: center;
+    
     margin-top: 20rem;
     width: 100%;
 }
 
-/* .form {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 10px; 
-  }
+
   
-  .form p {
-    margin: 0;
-  }
-  */
+   .for .h3 h3{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: "Nanum Gothic", sans-serif;
+    
+   }
 
+   .for .h3::first-letter {
+    text-transform: uppercase;
+   }
 
-  /* .for {
+.for {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 20px; 
+    gap: 20px;
   }
-   */
   
   .form {
-    display: grid; /* Active le mode Grid */
-    grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
-    grid-template-areas: 
-      "name email"
-      "message message"
-      "button ,"; /* Bouton centré sous le champ Message */
-    gap: 20px; /* Espace entre les éléments */
+    width: 150%;
   }
-  
-  .form p:nth-of-type(1) {
-    grid-area: name; /* Zone pour le champ Name */
-  }
-  
-  .form input[type="text"] {
-    grid-area: name; /* Champ Name aligné avec son label */
-  }
-  
-  .form p:nth-of-type(2) {
-    grid-area: email; /* Zone pour le champ Email */
-  }
-  
-  .form input[type="email"] {
-    grid-area: email; /* Champ Email aligné avec son label */
-  }
-  
-  .form p:nth-of-type(3),
-  .form textarea {
-    grid-area: message; /* Zone pour le champ Message */
-  }
-  
-  .form button {
-    grid-area: button; /* Zone pour le bouton */
-  }
-  
 
   .form form {
-    display: inline-flex;
-    
+    display: grid;
+    grid-template-areas:
+      "name-label email-label"
+      "name-input email-input"
+      "message-label message-label"
+      "message-input message-input"
+      " button button";
+    gap: 15px;
   }
   
+  form p {
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    display: inline;
+    font-weight: 300;
+    font-family: "Nanum Gothic", sans-serif;
+  }
   
+  /* form input[type="text"],
+  form input[type="email"] {
+    display: grid;
+  } */
+
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%; 
+    border: 1px solid rgba(167, 143, 167, 0.568);
+   
+  }
+  
+  form input[type="text"],
+  form input[type="email"] {
+    height: 20px;
+    
+  }
+
+  form input[type="text"] {
+    grid-area: name-input; 
+  }
+  
+  form input[type="email"] {
+    grid-area: email-input; 
+  }
+  
+  form textarea {
+    grid-area: message-input; 
+  }
+  
+  form p:nth-of-type(1) {
+    
+    grid-area: name-label; 
+  }
+  
+  form p:nth-of-type(2) {
+    
+    grid-area: email-label; 
+  }
+  
+  form p:nth-of-type(3) {
+    grid-area: message-label; 
+    margin-top: 1rem;
+  }
+  
+  form button {
+    grid-area: button;
+    border: 1px solid rgba(167, 143, 167, 0.568);
+    width: 25%;
+    border-radius: 40px;
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+  
+footer::after {
+   
+    content: 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
+    width:100%;
+    height: 15px;
+    border-bottom: 1px solid rgba(134, 118, 134, 0.288);
+    position: absolute;
+    bottom: -105rem;
+    
+    
+}
+
+footer {
+     margin-top: 5rem;
+     /* background: rgb(187, 255, 0); */
+     border-bottom: 1px solid rgb(122, 134, 118);
+     width: 100%;
+     height: auto;
+}
+
+footer .icon {
+   display: flex;
+   
+}
+
+.icon i{
+    margin: 0 auto;
+    padding: 5rem;
+}
+
+.fab .fa-twitter {
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
