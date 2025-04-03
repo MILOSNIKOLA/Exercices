@@ -71,7 +71,7 @@ header .pr-vi {
 
 
 .pr-vi img {
-    width: 200%;
+    width: 120rem;
     height:auto;
     /* scale: 1.4; */
     object-fit: cover;
@@ -87,9 +87,21 @@ header .pr-vi {
     height: 2px;
     border-bottom: 1px solid rgba(167, 143, 167, 0.473);
     position: absolute;
-    bottom: -102px;
+    bottom: -114px;
     left: 44rem;
 }
+
+/* .pr-vi img + .ar::after{
+    content: '';
+    width: 300px;
+    height: 2px;
+    border-bottom: 1px solid rgba(167, 143, 167, 0.753);
+    position: absolute;
+    bottom:-100px;
+    transform: translateX(-15rem);
+    margin: 0;
+    padding: 0;
+} */
 
 /************************** 2/3 *************************/
 
