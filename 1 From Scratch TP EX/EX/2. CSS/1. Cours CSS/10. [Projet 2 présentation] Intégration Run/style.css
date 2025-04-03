@@ -348,7 +348,7 @@ aside .dru-gi { /*vert celi div*/
   
 footer::after {
    
-    content: 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
+    content: '';
     width:100%;
     height: 15px;
     border-bottom: 1px solid rgba(134, 118, 134, 0.288);
@@ -364,29 +364,39 @@ footer {
      border-bottom: 1px solid rgb(122, 134, 118);
      width: 100%;
      height: auto;
+     padding: 3rem 0;
 }
 
 footer .icon {
    display: flex;
-   
+   justify-content: center;
+   width: 50px;
+   margin: 0 auto;
+
+  
 }
 
 .icon i{
-    margin: 0 auto;
-    padding: 5rem;
-}
-
-.fab .fa-twitter {
-  
+   margin: 0 2rem;
   
 }
 
+.fab {
+   display: flex;
+
+}
+
+i img {
+  width: 20px;
+  border:  1px solid rgba(134, 118, 134, 0.438);
+  padding: 5px;
+  border-radius: 50%;
+}
 
 
-
-
-
-
+@media screen and (max-width: 1880px) {
+  
+}
 
 
 
