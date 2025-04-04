@@ -7,9 +7,13 @@
     padding: 0;
 }
 
+
+/************************** 1/3 *************************/
+
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 
 .prvi {
@@ -31,7 +35,7 @@ header {
 .prvi h1 {
     font-size: 4rem;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
-    color:black;
+    color: rgba(32, 30, 30, 0.973);
     font-weight: 700;
     font-size: 100px;
 }
@@ -60,7 +64,7 @@ header .pr-vi {
     background-position: bottom;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 110.5%;
     /* overflow: hidden; */
     position: absolute;
     /* clip: rect(50%, 50%,50%, 50%); */
@@ -68,20 +72,66 @@ header .pr-vi {
     clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
 }
 
+/**************** 2/3 *************************/
 
+aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
 
+aside .drugi {
+    display: grid;
+    background-image: url('./integration-run-master/img/img-left.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 50vh;
+    /* float: left; */
+     transform: translateY(-1.4rem);
+   
+}
 
+aside .dru-gi {
+    float: right;
+    padding-top: 5rem;
+    transform: translateX(-5rem);
+}
 
+.dru-gi h2,p,button {
+    padding: .1rem 0;
+    font-size: 1.55rem;
+}
 
+.dru-gi h2 {
+    transform: translateY(-5rem);
+    /* padding: 0; */
+    margin: 0;
+    padding-top: 3rem;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: rgba(32, 30, 30, 0.973);
+    font-weight: 700;
+    font-size: 60px;
+    
+}
 
+.dru-gi p {
+    font-size: 1.5rem;
+    color: rgb(167, 143, 167);
+    line-height: 1.7;
+    width: 95%;
+}
 
-
-
-
-
-
-
-
+.dru-gi button {
+    padding: 1rem 2rem;
+    /* background-color: #333; */
+    color: rgba(85, 77, 77, 0.863);
+    border: 1px solid rgb(167, 143, 167);
+    border-radius: 35px;
+    cursor: pointer;
+    margin:0;
+}
 
 
 
