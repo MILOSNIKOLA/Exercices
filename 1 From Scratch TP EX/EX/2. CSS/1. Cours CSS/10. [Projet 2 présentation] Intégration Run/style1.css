@@ -67,7 +67,7 @@ header .pr-vi {
     background-position: bottom;
     background-repeat: no-repeat;
     width: 100%;
-    height: 110.5%;
+    height: 113.85%;
     /* overflow: hidden; */
     position: absolute;
     /* clip: rect(50%, 50%,50%, 50%); */
@@ -199,48 +199,7 @@ aside .dru-gi {
 }
 
 /************** Form ******************/
-/* .for {
-    
-    /* grid-template-columns: 50% 50%; */
-    /*width: 100%;
-   
-    padding-top:5rem;
-    margin: 0 auto;
-}
 
-.h3 {
-    text-align: center;
-}
-
-.form {
-    
-}
-
-.form form {
-    display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
-    width: 300px;
-    grid-area: 
-    "text email"
-    "textarea textarea";
-    
-    
-}
-
-/* form input[type="text"],
-form input[type="email"],{
-    
-} */
-/*
-form input[type="text"] {
-    grid-area: text;
-}
-
-form input[type="email"] {
-    grid-area: email;
-} */
 
 .for {
     max-width: 700px;
@@ -330,3 +289,51 @@ form input[type="email"] {
     margin-top: 2rem;
 
 }
+
+/************ FOOTER *************/
+
+footer {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.icon i {
+    margin: 0 2rem;
+}
+
+.icon i img {
+    width: 20px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(167, 143, 167);
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
