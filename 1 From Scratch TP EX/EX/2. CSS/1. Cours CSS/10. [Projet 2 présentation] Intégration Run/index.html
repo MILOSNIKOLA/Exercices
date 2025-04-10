@@ -1,90 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Nanum+Gothic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style11.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <div class="prvi">
-            <h1>Run</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, 
-                Explicabo voluptatum iusto corporis aut nesciunt assumenda facere cumque, 
-                mollitia, asperiores maiores!</p>
-            <button>GET STARTED</button>
-        </div> 
-        <div class="pr-vi">
-            <!-- <img src="./integration-run-master/img/banner.jpg" alt="run"> -->
-           
-        </div>
-        
+<html lang="fr">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Run</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="assets/style/style.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div>
+        <h1>Run</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas rerum eveniet quidem non consectetur
+          repellendus
+          id sapiente ex recusandae sint.</p>
+        <a href="#" class="button">Get Started</a>
+      </div>
+    </div>
+    <div class="img-banner"></div>
+  </header>
+
+  <section class="section-1">
+    <div class="img"></div>
+    <div class="container">
+      <div>
+        <h2>Magna etiam feugiat</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel
+          massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium
+          massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+        <a href="#" class="button">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-2">
+    <div class="container">
+      <div>
+        <h2>Tempus adipiscing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel
+          massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium
+          massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+        <a href="#" class="button">Learn More</a>
+      </div>
+    </div>
+    <div class="img"></div>
+  </section>
+
+  <section class="contact">
+    <h2>Get in touch</h2>
+    <form method="post" action="#">
+      <div class="form-grid">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
         </div>
-    </header>
-    <aside> 
-        
-        <div class="drugi">
-            <!-- <img src="./integration-run-master/img/img-left.jpg" alt=""> -->
+        <div>
+          <label for="email">Email</label>
+          <input type="text" id="email" />
         </div>
-        <!-- <div class="ar"></div> -->
-        <div class="dru-gi">
-            <h2>Magna etiam feugiat</h2>
-            <p>Lorem ipsum dolor sit arnet, consectetur adipiscing elit. 
-                Morbi id ante sed ex Pharetra lacinia sit amet vel massa. 
-                Donec facilisis laoreet nulla eu bibendum. Stoga ut ex risus. 
-                Fusce lorem lectus, clairetra pretium massa el, hendrerit 
-                vestibulurn odio lorem ipsum dolor sit amet</p>
-            <button>GET STARTED</button>
+        <div class="textarea">
+          <label for="message">Message</label>
+          <textarea id="message"></textarea>
         </div>
-        
-    </aside>
-     <div class="arr">
-            
-        </div>
-    <aside class="aside">
-        <div class="tre-ci">
-            <h2>Tepmus adipiscing</h2>
-            <p>Lorem ipsum dolor sit arnet, consectetur adipiscing elit. 
-                Morbi id ante sed ex Pharetra lacinia sit amet vel massa. 
-                Donec facilisis laoreet nulla eu bibendum. Stoga ut ex risus. 
-                Fusce lorem lectus, clairetra pretium massa el, hendrerit 
-                vestibulurn odio lorem ipsum dolor sit amet</p>
-                <div class="treci">
-                    <!-- <img src="./integration-run-master/img/img-right.jpg" width="1000" alt=""> -->
-                </div>
-            <button>GET STARTED</button>
-        </div>
-        <div class="arrr">
-        <p></p>
-        </div>
-    </aside> 
-    
-        <div class="for">
-            <div class="h3">
-                <h3>get in touch</h3>
-            </div>
-            <div class="form">
-            <form action="">
-                <p>Name</p><input type="text" placeholder="">
-                    <p>Email</p><input type="email" placeholder="">
-                    <p>Message</p><textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
-            <button>SEND MESSAGE</button> 
-        </div>     
-        </div>
-    <footer>
-            <div class="icon">
-                <i class="fab fa-twitter"><img src="./integration-run-master/img-small/icons8-x-50.png" alt=""></i>
-                <i class="fab fa-facebook-f"><img src="./integration-run-master/img-small/icons8-facebook-f-5.png" alt=""></i>
-                <i class="fab fa-instagram"><img src="./integration-run-master/img-small/icons8-instagram-50.png" alt=""></i>
-                <i class="fab fa-linkedin-in"><img src="./integration-run-master/img-small/icons8-linkedin-50.png" alt=""></i>
-                <i class="fab fa-email"><img src="./integration-run-master/img-small/icons8-email-50.png" alt=""></i>
-            </div>
-        
-    </footer>
+      </div>
+      <input type="submit" class="button" value="Send Message" />
+    </form>
+  </section>
+
+  <footer>
+    <ul>
+      <li>
+        <a href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="far fa-envelope"></i>
+        </a>
+      </li>
+    </ul>
+
+  </footer>
+
+
 </body>
+
 </html>
