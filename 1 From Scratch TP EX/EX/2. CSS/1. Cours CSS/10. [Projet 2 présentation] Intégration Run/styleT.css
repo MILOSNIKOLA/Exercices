@@ -11,7 +11,7 @@
 }
 
 h1 {
-    font-size: 1.4rem;
+    font-size: 3.4rem;
     font-weight: 200;
 }
 
@@ -33,13 +33,36 @@ p {
     margin: 25px 0;
 }
 
-button {
+.button {
     border: 1px solid #ccc;
     background: transparent;
     border-radius: 50px;
     padding: 13px 30px;
     display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font: 700 .75rem "Source Code Pro", sans-serif;
+    /* transition: .3; */
 }
+
+.button:hover,
+footer a:hover {
+    /* background: skyblue; */
+    color: rgb(85, 132, 151);
+    transition: all 0.5s ease-in-out;
+    border: 1px solid skyblue;
+    border-radius: 35px;
+    box-shadow: 0 0 5px skyblue, 0 0 25px skyblue, 0 0 50px skyblue, 0 0 100px skyblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+}
+
 /* ********************************************** */
 
 body {
@@ -47,9 +70,15 @@ body {
     
 }
 
+header {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns:50% 50%;
+}
 
-
-
+.img-banner {
+    background: url(../integration-run-3fd9a784f6836fc3005e254260289a1f60ccb7d4/assets/img/banner.jpg) right/cover fixed;
+}
 
 
 
